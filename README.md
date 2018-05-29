@@ -80,7 +80,9 @@ Desktops
 | MFG              | Model                  | HWID         |
 |------------------|------------------------|--------------|
 | ASRock           | G31M-S                 | 53A47C01E2B6 |
+| ASUSTek Computer | All Series             | 21299B1F4635 |
 | ASUSTek Computer | F1A75-M LE             | 0DD8332C0CDD |
+| ASUSTek Computer | M4A78T-E               | 83CD211F5082 |
 | ASUSTek Computer | P8P67                  | 153751203A61 |
 | ASUSTek Computer | SABERTOOTH 990FX       | 3D77ED0B498A |
 | ASUSTek Computer | SABERTOOTH 990FX       | B015992EFDE5 |
