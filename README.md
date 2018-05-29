@@ -7,7 +7,7 @@ by Linux users at https://linux-hardware.org.
 Everyone can contribute to this repository by uploading probes of their computers
 by the hw-probe tool (https://github.com/linuxhw/hw-probe):
 
-    hw-probe -all -upload -dump-acpi
+    sudo hw-probe -all -upload -dump-acpi
 
 Contents
 --------
