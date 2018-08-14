@@ -5,7 +5,7 @@ This is a repository of decoded ACPI tables for various computers collected
 by Linux users at https://linux-hardware.org.
 
 Everyone can contribute to this repository by uploading probes of their computers
-by the hw-probe tool (https://github.com/linuxhw/hw-probe):
+by the [hw-probe](https://github.com/linuxhw/hw-probe) tool:
 
     sudo hw-probe -all -upload -dump-acpi
 
@@ -87,10 +87,12 @@ Desktops
 | ASUSTek Computer | SABERTOOTH 990FX       | 3D77ED0B498A |
 | ASUSTek Computer | SABERTOOTH 990FX       | B015992EFDE5 |
 | Acer             | Aspire R3600           | C85DE8E38D84 |
+| Acer             | Aspire Z3-615          | E37DB50E1157 |
 | Aquarius         | Aquarius Pro P30 S75   | 0485A3072F96 |
 | Aquarius         | Aquarius Pro P30 S75   | 9753F4AD3EFB |
 | Aquarius         | Aquarius Pro, Std, ... | C81391734654 |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
+| Gigabyte Tech... | Q87M-D2H               | 6166ADBA5434 |
 | Hewlett-Packard  | Compaq 6005 Pro MT PC  | 86BB28345D1D |
 | MSI              | MS-7721                | 3EF15301B047 |
 | MSI              | MS-7752                | 14FAD414B696 |
@@ -103,6 +105,7 @@ Servers
 
 | MFG              | Model                  | HWID         |
 |------------------|------------------------|--------------|
+| DEPO Computers   | Super Server           | 5ED617DD5961 |
 | Hewlett-Packard  | ProLiant DL380e Gen8   | CB05571909C8 |
 | STSS             | Flagman TP100.3        | 34DC8A4302D7 |
 
