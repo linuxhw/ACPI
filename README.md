@@ -33,6 +33,7 @@ Notebooks
 |------------------|------------------------|--------------|
 | ASUSTek Computer | 1215N                  | 9A77F30CC078 |
 | ASUSTek Computer | A3L                    | F71442C2DD56 |
+| ASUSTek Computer | E403NA                 | E3A7CFB90011 |
 | ASUSTek Computer | K54HR                  | CDCECF3994DD |
 | ASUSTek Computer | N53Jf                  | 72185E9A7C5E |
 | ASUSTek Computer | N53Ta                  | 44FD90565A2A |
@@ -42,7 +43,9 @@ Notebooks
 | Aava Mobile Oy   | INARI8-LTBN-1          | A658B5B6E0CB |
 | Acer             | Aspire E1-571G         | 56A1CBDE0299 |
 | Acer             | Aspire E1-571G         | 80E357275D08 |
+| Dell             | Inspiron 3558          | 7C3F03888987 |
 | Dell             | Latitude E6530         | 8B5EC6878A4B |
+| Dell             | Latitude E6540         | 478086798418 |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
 | Hewlett-Packard  | EliteBook 2740p        | 0A6CC5DD2EF6 |
@@ -53,6 +56,7 @@ Notebooks
 | Hewlett-Packard  | Stream 13              | ED889F5F2A86 |
 | Hewlett-Packard  | TouchSmart tx2         | 6909B67B540B |
 | Insyde           | BayTrail               | 9F287627613B |
+| Lenovo           | Flex 3-1480 80R3       | 005ABC827F1B |
 | Lenovo           | G570 20079             | 45D05063F068 |
 | Lenovo           | G570 20079             | 92B1F90D7EAE |
 | Lenovo           | IdeaPad U310           | 3AC887234B79 |
@@ -91,6 +95,8 @@ Desktops
 | Aquarius         | Aquarius Pro P30 S75   | 0485A3072F96 |
 | Aquarius         | Aquarius Pro P30 S75   | 9753F4AD3EFB |
 | Aquarius         | Aquarius Pro, Std, ... | C81391734654 |
+| Gigabyte Tech... | B75M-D3V               | 98E089E19203 |
+| Gigabyte Tech... | GA-78LMT-USB3          | E4D07F2A4E6F |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
 | Gigabyte Tech... | Q87M-D2H               | 6166ADBA5434 |
 | Hewlett-Packard  | Compaq 6005 Pro MT PC  | 86BB28345D1D |
@@ -105,6 +111,7 @@ Servers
 
 | MFG              | Model                  | HWID         |
 |------------------|------------------------|--------------|
+| AIC              | FB201-LX               | E9F0ABF1FB7A |
 | DEPO Computers   | Super Server           | 5ED617DD5961 |
 | Hewlett-Packard  | ProLiant DL380e Gen8   | CB05571909C8 |
 | STSS             | Flagman TP100.3        | 34DC8A4302D7 |
