@@ -48,6 +48,7 @@ Notebooks
 | Dell             | Latitude E6540         | 478086798418 |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
+| Hewlett-Packard  | ENVY x360 Convertib... | 92AD36EABAA5 |
 | Hewlett-Packard  | EliteBook 2740p        | 0A6CC5DD2EF6 |
 | Hewlett-Packard  | EliteBook 8740w        | 6EA92286C100 |
 | Hewlett-Packard  | EliteBook 8740w        | C619FE23190E |
@@ -74,6 +75,7 @@ Notebooks
 | Samsung Elect... | RF510-RF410-RF710      | 0D3B24930741 |
 | Samsung Elect... | RF510-RF410-RF710      | 5BEB13CF77EB |
 | Sony             | SVE1713S1RW            | 506CDC50E671 |
+| Timi             | TM1701                 | 6F3EF48DD098 |
 | Toshiba          | Satellite A135         | D67BA1A5ADD8 |
 | Toshiba          | Satellite Pro L630     | 2BCF481E15A0 |
 | Toshiba          | Satellite Pro L630     | E4A738095425 |
@@ -99,7 +101,9 @@ Desktops
 | Gigabyte Tech... | GA-78LMT-USB3          | E4D07F2A4E6F |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
 | Gigabyte Tech... | Q87M-D2H               | 6166ADBA5434 |
+| Hewlett-Packard  | 750-467c               | D213850B6974 |
 | Hewlett-Packard  | Compaq 6005 Pro MT PC  | 86BB28345D1D |
+| Hewlett-Packard  | EliteDesk 800 G1 SFF   | F13506CA489E |
 | MSI              | MS-7721                | 3EF15301B047 |
 | MSI              | MS-7752                | 14FAD414B696 |
 | TONK             | C31                    | 7F7E8D75C7FF |
