@@ -43,9 +43,12 @@ Notebooks
 | Aava Mobile Oy   | INARI8-LTBN-1          | A658B5B6E0CB |
 | Acer             | Aspire E1-571G         | 56A1CBDE0299 |
 | Acer             | Aspire E1-571G         | 80E357275D08 |
+| Apple            | MacBookPro14,3         | 91077C25D705 |
 | Dell             | Inspiron 3558          | 7C3F03888987 |
+| Dell             | Latitude E6520         | C019B771B42C |
 | Dell             | Latitude E6530         | 8B5EC6878A4B |
 | Dell             | Latitude E6540         | 478086798418 |
+| Hewlett-Packard  | 15                     | 07149FC6072A |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
 | Hewlett-Packard  | ENVY x360 Convertib... | 92AD36EABAA5 |
@@ -57,6 +60,7 @@ Notebooks
 | Hewlett-Packard  | Stream 13              | ED889F5F2A86 |
 | Hewlett-Packard  | TouchSmart tx2         | 6909B67B540B |
 | Insyde           | BayTrail               | 9F287627613B |
+| Lenovo           | Flex 2-15              | 8F84E14F5157 |
 | Lenovo           | Flex 3-1480 80R3       | 005ABC827F1B |
 | Lenovo           | G570 20079             | 45D05063F068 |
 | Lenovo           | G570 20079             | 92B1F90D7EAE |
@@ -90,6 +94,7 @@ Desktops
 | ASUSTek Computer | F1A75-M LE             | 0DD8332C0CDD |
 | ASUSTek Computer | M4A78T-E               | 83CD211F5082 |
 | ASUSTek Computer | P8P67                  | 153751203A61 |
+| ASUSTek Computer | PRIME B250M-PLUS       | 55D7B7DDD6EA |
 | ASUSTek Computer | SABERTOOTH 990FX       | 3D77ED0B498A |
 | ASUSTek Computer | SABERTOOTH 990FX       | B015992EFDE5 |
 | Acer             | Aspire R3600           | C85DE8E38D84 |
@@ -119,4 +124,5 @@ Servers
 | DEPO Computers   | Super Server           | 5ED617DD5961 |
 | Hewlett-Packard  | ProLiant DL380e Gen8   | CB05571909C8 |
 | STSS             | Flagman TP100.3        | 34DC8A4302D7 |
+| Supermicro       | X8DTN+-F               | 319567CDA949 |
 
