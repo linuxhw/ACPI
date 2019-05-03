@@ -48,6 +48,7 @@ Notebooks
 | Dell             | Latitude E6520         | C019B771B42C |
 | Dell             | Latitude E6530         | 8B5EC6878A4B |
 | Dell             | Latitude E6540         | 478086798418 |
+| Dell             | Precision 7530         | 5B887671E31F |
 | Hewlett-Packard  | 15                     | 07149FC6072A |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
@@ -64,8 +65,10 @@ Notebooks
 | Lenovo           | Flex 3-1480 80R3       | 005ABC827F1B |
 | Lenovo           | G570 20079             | 45D05063F068 |
 | Lenovo           | G570 20079             | 92B1F90D7EAE |
+| Lenovo           | IdeaPad 110-15IBR 80T7 | 378170405FFB |
 | Lenovo           | IdeaPad U310           | 3AC887234B79 |
 | Lenovo           | ThinkPad T61 76641FG   | 765F0725EA93 |
+| Lenovo           | ThinkPad X380 Yoga ... | 5EDC3F139B76 |
 | Lenovo           | ThinkPad X61 Tablet... | 175B115C38BD |
 | Lenovo           | ThinkPad X61 Tablet... | A54FD909734A |
 | MSI              | GT70                   | D4EFA09F0CFD |
