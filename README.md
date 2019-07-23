@@ -34,6 +34,7 @@ Notebooks
 | ASUSTek Computer | 1215N                  | 9A77F30CC078 |
 | ASUSTek Computer | A3L                    | F71442C2DD56 |
 | ASUSTek Computer | E403NA                 | E3A7CFB90011 |
+| ASUSTek Computer | G752VS                 | 2C3A54B9621B |
 | ASUSTek Computer | K54HR                  | CDCECF3994DD |
 | ASUSTek Computer | N53Jf                  | 72185E9A7C5E |
 | ASUSTek Computer | N53Ta                  | 44FD90565A2A |
@@ -86,6 +87,7 @@ Notebooks
 | Toshiba          | Satellite A135         | D67BA1A5ADD8 |
 | Toshiba          | Satellite Pro L630     | 2BCF481E15A0 |
 | Toshiba          | Satellite Pro L630     | E4A738095425 |
+| Toshiba          | TECRA A50-A            | 36303D77C8F0 |
 
 Desktops
 --------
@@ -97,7 +99,9 @@ Desktops
 | ASUSTek Computer | F1A75-M LE             | 0DD8332C0CDD |
 | ASUSTek Computer | M4A78T-E               | 83CD211F5082 |
 | ASUSTek Computer | P8P67                  | 153751203A61 |
+| ASUSTek Computer | PRIME A320M-K          | 7A97D933DB40 |
 | ASUSTek Computer | PRIME B250M-PLUS       | 55D7B7DDD6EA |
+| ASUSTek Computer | PRIME X370-PRO         | A169FD97AB0E |
 | ASUSTek Computer | SABERTOOTH 990FX       | 3D77ED0B498A |
 | ASUSTek Computer | SABERTOOTH 990FX       | B015992EFDE5 |
 | Acer             | Aspire R3600           | C85DE8E38D84 |
@@ -105,6 +109,8 @@ Desktops
 | Aquarius         | Aquarius Pro P30 S75   | 0485A3072F96 |
 | Aquarius         | Aquarius Pro P30 S75   | 9753F4AD3EFB |
 | Aquarius         | Aquarius Pro, Std, ... | C81391734654 |
+| Biostar          | TB250-BTC PRO          | 0DD393D67EFC |
+| Gigabyte Tech... | B450M DS3H             | D9E9E66D46A4 |
 | Gigabyte Tech... | B75M-D3V               | 98E089E19203 |
 | Gigabyte Tech... | GA-78LMT-USB3          | E4D07F2A4E6F |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
