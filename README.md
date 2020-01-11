@@ -58,10 +58,8 @@ Notebooks
 | Dell             | Precision 7530         | 5B887671E31F |
 | Hewlett-Packard  | 15                     | 07149FC6072A |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
-| Hewlett-Packard  | Compaq Presario C700   | 87280F1568B5 |
 | Hewlett-Packard  | ENVY m6                | 4A3F47F3A0D9 |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
-| Hewlett-Packard  | ENVY x360 Convertib... | 92AD36EABAA5 |
 | Hewlett-Packard  | EliteBook 2740p        | 0A6CC5DD2EF6 |
 | Hewlett-Packard  | EliteBook 8740w        | 6EA92286C100 |
 | Hewlett-Packard  | EliteBook 8740w        | C619FE23190E |
@@ -73,10 +71,8 @@ Notebooks
 | Hewlett-Packard  | TouchSmart tx2         | 6909B67B540B |
 | Insyde           | BayTrail               | 9F287627613B |
 | Lenovo           | Flex 2-15              | 8F84E14F5157 |
-| Lenovo           | Flex 3-1480 80R3       | 005ABC827F1B |
 | Lenovo           | G570 20079             | 45D05063F068 |
 | Lenovo           | G570 20079             | 92B1F90D7EAE |
-| Lenovo           | IdeaPad 110-15IBR 80T7 | 378170405FFB |
 | Lenovo           | IdeaPad 310-15IKB 80TV | B9544046A48A |
 | Lenovo           | IdeaPad U310           | 3AC887234B79 |
 | Lenovo           | ThinkPad Edge E431 ... | 6D85F40A9B08 |
@@ -94,7 +90,6 @@ Notebooks
 | MSI              | MS-N031                | 237F541314EF |
 | MSI              | PR200                  | 94CECEDC956C |
 | MSI              | X460-X460DX            | 7AA60F771207 |
-| Prestigio        | Smartbook PSB116A      | 7F9328C6F971 |
 | Samsung Elect... | 300V3A-300V4A-300V5... | 35CC56EF66E3 |
 | Samsung Elect... | 305U1A                 | 09E2C5E73434 |
 | Samsung Elect... | 355V4C-355V4X-355V5... | 51CDAFB26356 |
@@ -136,13 +131,10 @@ Desktops
 | Biostar          | TB250-BTC PRO          | 0DD393D67EFC |
 | Gigabyte Tech... | B450M DS3H             | D9E9E66D46A4 |
 | Gigabyte Tech... | B75M-D3V               | 98E089E19203 |
-| Gigabyte Tech... | GA-78LMT-USB3          | E4D07F2A4E6F |
 | Gigabyte Tech... | H270-HD3               | 7698BC6E9003 |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
-| Gigabyte Tech... | Q87M-D2H               | 6166ADBA5434 |
 | Gigabyte Tech... | X570 AORUS PRO         | D33A09A909D4 |
 | Gigabyte Tech... | Z170X-Gaming 5         | 3F59130A5FF7 |
-| Gigabyte Tech... | Z68M-D2H               | ECAEA7D4C10F |
 | Gigabyte Tech... | Z87-HD3                | 6B00753B50AA |
 | Hewlett-Packard  | 750-467c               | D213850B6974 |
 | Hewlett-Packard  | Compaq 6005 Pro MT PC  | 86BB28345D1D |
