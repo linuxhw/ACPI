@@ -80,8 +80,11 @@ Notebooks
 | Lenovo           | IdeaPad 310-15IKB 80TV | B9544046A48A |
 | Lenovo           | IdeaPad U310           | 3AC887234B79 |
 | Lenovo           | ThinkPad Edge E431 ... | 6D85F40A9B08 |
+| Lenovo           | ThinkPad T470 W10DG... | 54A59AE22AFF |
 | Lenovo           | ThinkPad T61 76641FG   | 765F0725EA93 |
 | Lenovo           | ThinkPad T61p 64575KU  | 11FB59AAE306 |
+| Lenovo           | ThinkPad X1 Carbon ... | BE3AACE7B6D7 |
+| Lenovo           | ThinkPad X230 2325A60  | AE4563D1F6CF |
 | Lenovo           | ThinkPad X380 Yoga ... | 5EDC3F139B76 |
 | Lenovo           | ThinkPad X61 Tablet... | 175B115C38BD |
 | Lenovo           | ThinkPad X61 Tablet... | A54FD909734A |
@@ -137,6 +140,7 @@ Desktops
 | Gigabyte Tech... | H270-HD3               | 7698BC6E9003 |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
 | Gigabyte Tech... | Q87M-D2H               | 6166ADBA5434 |
+| Gigabyte Tech... | X570 AORUS PRO         | D33A09A909D4 |
 | Gigabyte Tech... | Z170X-Gaming 5         | 3F59130A5FF7 |
 | Gigabyte Tech... | Z68M-D2H               | ECAEA7D4C10F |
 | Gigabyte Tech... | Z87-HD3                | 6B00753B50AA |
@@ -145,8 +149,10 @@ Desktops
 | Hewlett-Packard  | Compaq dc5800 Small... | B5AE0C22424E |
 | Hewlett-Packard  | EliteDesk 800 G1 SFF   | F13506CA489E |
 | Intel            | DG965LV AAD36275-501   | F0588ABD2042 |
+| MSI              | MS-7519                | 4067500F99BB |
 | MSI              | MS-7721                | 3EF15301B047 |
 | MSI              | MS-7752                | 14FAD414B696 |
+| Supermicro       | X8SIL                  | 40AECBFF4573 |
 | TONK             | C31                    | 7F7E8D75C7FF |
 | TONK             | TN1402                 | ABC6298CB633 |
 | ZOTAC            | NM10                   | 27F12A855946 |
