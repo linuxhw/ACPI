@@ -45,6 +45,7 @@ Notebooks
 | Aava Mobile Oy   | INARI8-LTBN-1          | A658B5B6E0CB |
 | Acer             | Aspire E1-571G         | 56A1CBDE0299 |
 | Acer             | Aspire E1-571G         | 80E357275D08 |
+| Acer             | Aspire E5-571          | FE8D2745B442 |
 | Acer             | Aspire E5-571G         | D9DF65E3962C |
 | Acer             | Nitro AN515-42         | 7D6CB7ACB520 |
 | Apple            | MacBookPro14,3         | 91077C25D705 |
@@ -58,12 +59,14 @@ Notebooks
 | Dell             | Precision 7530         | 5B887671E31F |
 | Hewlett-Packard  | 15                     | 07149FC6072A |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
+| Hewlett-Packard  | ENVY TS 15             | 3B3FD352A709 |
 | Hewlett-Packard  | ENVY m6                | 4A3F47F3A0D9 |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
 | Hewlett-Packard  | EliteBook 2740p        | 0A6CC5DD2EF6 |
 | Hewlett-Packard  | EliteBook 8740w        | 6EA92286C100 |
 | Hewlett-Packard  | EliteBook 8740w        | C619FE23190E |
 | Hewlett-Packard  | G62                    | D4B22D617BFD |
+| Hewlett-Packard  | Laptop 15-db0xxx       | 532B72E8E7AC |
 | Hewlett-Packard  | Pavilion dv8           | D8B9EB76B074 |
 | Hewlett-Packard  | ProBook 4540s          | F9464A10DAC3 |
 | Hewlett-Packard  | ProBook 470 G0         | 7206C3577DFF |
@@ -79,6 +82,7 @@ Notebooks
 | Lenovo           | ThinkPad T470 W10DG... | 54A59AE22AFF |
 | Lenovo           | ThinkPad T61 76641FG   | 765F0725EA93 |
 | Lenovo           | ThinkPad T61p 64575KU  | 11FB59AAE306 |
+| Lenovo           | ThinkPad W510 4875W17  | 822D8852D7EB |
 | Lenovo           | ThinkPad X1 Carbon ... | BE3AACE7B6D7 |
 | Lenovo           | ThinkPad X230 2325A60  | AE4563D1F6CF |
 | Lenovo           | ThinkPad X380 Yoga ... | 5EDC3F139B76 |
@@ -140,6 +144,7 @@ Desktops
 | Hewlett-Packard  | Compaq 6005 Pro MT PC  | 86BB28345D1D |
 | Hewlett-Packard  | Compaq dc5800 Small... | B5AE0C22424E |
 | Hewlett-Packard  | EliteDesk 800 G1 SFF   | F13506CA489E |
+| Hewlett-Packard  | GU620AA-ABE m9080.es   | 7C75A10C1DDC |
 | Intel            | DG965LV AAD36275-501   | F0588ABD2042 |
 | MSI              | MS-7519                | 4067500F99BB |
 | MSI              | MS-7721                | 3EF15301B047 |

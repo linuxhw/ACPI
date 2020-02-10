@@ -8,43 +8,41 @@ Copyright (c) 2000 - 2019 Intel Corporation
                               Id        TableId     RevisionId  Name     Revision
  _________  __________  ____  ________  __________  __________  _______  __________
 
- 01)  DSDT  0x0001BF42  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 02)  FACS  0x00000040  0x02
- 03)  FACP  0x000000F4  0x05  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 04)  UEFI  0x00000236  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 05)  UEFI  0x00000042  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 06)  SSDT  0x000004C8  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 07)  SSDT  0x00000046  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 08)  TPM2  0x00000034  0x03  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 09)  POAT  0x00000055  0x03  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 10)  SSDT  0x000030F8  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 11)  ASF!  0x000000A5  0x20  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 12)  ASPT  0x00000034  0x07  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 13)  BOOT  0x00000028  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 14)  DBGP  0x00000034  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 15)  HPET  0x00000038  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 16)  APIC  0x000000BC  0x03  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 17)  MCFG  0x0000003C  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 18)  LPIT  0x00000094  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 19)  SSDT  0x0000029F  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 20)  SSDT  0x00000346  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 21)  SSDT  0x00000E41  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 22)  SSDT  0x0000051E  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 23)  DBGP  0x00000034  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 24)  DBG2  0x00000054  0x00  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 01)  APIC  0x000000BC  0x03  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 02)  ASF!  0x000000A5  0x20  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 03)  ASPT  0x00000034  0x07  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 04)  BOOT  0x00000028  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 05)  DBG2  0x00000054  0x00  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 06)  DMAR  0x000000A8  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 07)  DSDT  0x0001BF42  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 08)  FACP  0x0000010C  0x05  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 09)  FACS  0x00000040  0x02
+ 10)  FPDT  0x00000044  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 11)  HPET  0x00000038  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 12)  MCFG  0x0000003C  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 13)  LPIT  0x00000094  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 14)  POAT  0x00000055  0x03  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 15)  TPM2  0x00000034  0x03  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 16)  DBGP  0x00000034  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 17)  DBGP  0x00000034  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 18)  SSDT  0x000004C8  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 19)  SSDT  0x00000046  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 20)  SSDT  0x000030F8  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 21)  SSDT  0x0000029F  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 22)  SSDT  0x00000346  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 23)  SSDT  0x00000E41  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 24)  SSDT  0x0000051E  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
  25)  SSDT  0x00001062  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
  26)  SSDT  0x00000EE0  0x02  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 27)  SSDT  0x00003462  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 28)  DMAR  0x000000A8  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 29)  FPDT  0x00000044  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 30)  BGRT  0x00000038  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
- 31)  XSDT  0x00000104  0x01  "LENOVO"  "CB-01   "  0x00000001  "    "   0x01000013
- 32)  RSDP  0x00000024  0x02  "LENOVO"
+ 27)  UEFI  0x00000236  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 28)  UEFI  0x00000042  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 29)  SSDT  0x00003462  0x01  "LENOVO"  "CB-01   "  0x00000001  "ACPI"   0x00040000
+ 30)  SSDT  0x00000400  0x02  "PmRef "  "Cpu0Cst "  0x00003001  "INTL"   0x20160422
+ 31)  SSDT  0x000006F6  0x02  "PmRef "  "Cpu0Ist "  0x00003000  "INTL"   0x20160422
+ 32)  SSDT  0x0000065C  0x02  "PmRef "  "ApIst   "  0x00003000  "INTL"   0x20160422
  33)  SSDT  0x0000018A  0x02  "PmRef "  "ApCst   "  0x00003000  "INTL"   0x20160422
- 34)  SSDT  0x00000400  0x02  "PmRef "  "Cpu0Cst "  0x00003001  "INTL"   0x20160422
- 35)  SSDT  0x0000065C  0x02  "PmRef "  "ApIst   "  0x00003000  "INTL"   0x20160422
 
-Found 35 ACPI tables in /root/HW_PROBE/LATEST/hw.info/logs/acpidump
+Found 33 ACPI tables in /root/HW_PROBE/LATEST/hw.info/logs/acpidump
 
 APIC
 ----
@@ -385,35 +383,6 @@ Raw Table Data: Length 52 (0x34)
     0030: 00 00 00 00                                      // ....
 
 
-BGRT
-----
-[000h 0000   4]                    Signature : "BGRT"    [Boot Graphics Resource Table]
-[004h 0004   4]                 Table Length : 00000038
-[008h 0008   1]                     Revision : 01
-[009h 0009   1]                     Checksum : 62
-[00Ah 0010   6]                       Oem ID : "LENOVO"
-[010h 0016   8]                 Oem Table ID : "CB-01   "
-[018h 0024   4]                 Oem Revision : 00000001
-[01Ch 0028   4]              Asl Compiler ID : "ACPI"
-[020h 0032   4]        Asl Compiler Revision : 00040000
-
-[024h 0036   2]                      Version : 0001
-[026h 0038   1]       Status (decoded below) : 00
-                                   Displayed : 0
-                          Orientation Offset : 0
-[027h 0039   1]                   Image Type : 00
-[028h 0040   8]                Image Address : 000000006BFC6000
-[030h 0048   4]                Image OffsetX : 00000240
-[034h 0052   4]                Image OffsetY : 000000C4
-
-Raw Table Data: Length 56 (0x38)
-
-    0000: 42 47 52 54 38 00 00 00 01 62 4C 45 4E 4F 56 4F  // BGRT8....bLENOVO
-    0010: 43 42 2D 30 31 20 20 20 01 00 00 00 41 43 50 49  // CB-01   ....ACPI
-    0020: 00 00 04 00 01 00 00 00 00 60 FC 6B 00 00 00 00  // .........`.k....
-    0030: 40 02 00 00 C4 00 00 00                          // @.......
-
-
 BOOT
 ----
 [000h 0000   4]                    Signature : "BOOT"    [Simple Boot Flag Table]
@@ -521,7 +490,7 @@ DBGP2
 [000h 0000   4]                    Signature : "DBGP"    [Debug Port table]
 [004h 0004   4]                 Table Length : 00000034
 [008h 0008   1]                     Revision : 01
-[009h 0009   1]                     Checksum : 32
+[009h 0009   1]                     Checksum : 42
 [00Ah 0010   6]                       Oem ID : "LENOVO"
 [010h 0016   8]                 Oem Table ID : "CB-01   "
 [018h 0024   4]                 Oem Revision : 00000001
@@ -529,7 +498,7 @@ DBGP2
 [020h 0032   4]        Asl Compiler Revision : 00040000
 
 [024h 0036   1]               Interface Type : 00
-[025h 0037   3]                     Reserved : 3D8B48
+[025h 0037   3]                     Reserved : 000000
 
 [028h 0040  12]          Debug Port Register : [Generic Address Structure]
 [028h 0040   1]                     Space ID : 01 [SystemIO]
@@ -541,9 +510,9 @@ DBGP2
 
 Raw Table Data: Length 52 (0x34)
 
-    0000: 44 42 47 50 34 00 00 00 01 32 4C 45 4E 4F 56 4F  // DBGP4....2LENOVO
+    0000: 44 42 47 50 34 00 00 00 01 42 4C 45 4E 4F 56 4F  // DBGP4....BLENOVO
     0010: 43 42 2D 30 31 20 20 20 01 00 00 00 41 43 50 49  // CB-01   ....ACPI
-    0020: 00 00 04 00 00 48 8B 3D 01 08 00 00 F8 03 00 00  // .....H.=........
+    0020: 00 00 04 00 00 00 00 00 01 08 00 00 F8 03 00 00  // ................
     0030: 00 00 00 00                                      // ....
 
 
@@ -658,7 +627,7 @@ Raw Table Data: Length 168 (0xA8)
 DSDT
 ----
 Firmware Error (ACPI): Could not resolve symbol [^GFX0.CLID], AE_NOT_FOUND (20190703/dswload-496)
-Firmware Error (ACPI): Could not resolve symbol [^GFX0.CLID], AE_NOT_FOUND (20190703/dswload2-477)
+Firmware Error (ACPI): Could not resolve symbol [^GFX0.CLID], AE_NOT_FOUND (20190703/dswload2-476)
 /*
  * Intel ACPI Component Architecture
  * AML/ASL+ Disassembler version 20190703 (64-bit version)
@@ -666,7 +635,7 @@ Firmware Error (ACPI): Could not resolve symbol [^GFX0.CLID], AE_NOT_FOUND (2019
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of dsdt.dat, Thu Nov 14 22:00:16 2019
+ * Disassembly of dsdt.dat, Thu Jan 23 19:32:04 2020
  *
  * Original Table Header:
  *     Signature        "DSDT"
@@ -28412,9 +28381,9 @@ DefinitionBlock ("", "DSDT", 2, "LENOVO", "CB-01   ", 0x00000001)
 FACP
 ----
 [000h 0000   4]                    Signature : "FACP"    [Fixed ACPI Description Table (FADT)]
-[004h 0004   4]                 Table Length : 000000F4
+[004h 0004   4]                 Table Length : 0000010C
 [008h 0008   1]                     Revision : 05
-[009h 0009   1]                     Checksum : 2D     /* Incorrect checksum, should be 90 */
+[009h 0009   1]                     Checksum : 2D
 [00Ah 0010   6]                       Oem ID : "LENOVO"
 [010h 0016   8]                 Oem Table ID : "CB-01   "
 [018h 0024   4]                 Oem Revision : 00000001
@@ -28560,11 +28529,25 @@ FACP
 [0ECh 0236   8]                      Address : 0000000000000000
 
 
-// ACPI Warning: FADT revision 5 does not match length: found F4 expected 10C
+[0F4h 0244  12]       Sleep Control Register : [Generic Address Structure]
+[0F4h 0244   1]                     Space ID : 01 [SystemIO]
+[0F5h 0245   1]                    Bit Width : 08
+[0F6h 0246   1]                   Bit Offset : 00
+[0F7h 0247   1]         Encoded Access Width : 01 [Byte Access:8]
+[0F8h 0248   8]                      Address : 0000000000001805
 
-Raw Table Data: Length 244 (0xF4)
+[100h 0256  12]        Sleep Status Register : [Generic Address Structure]
+[100h 0256   1]                     Space ID : 01 [SystemIO]
+[101h 0257   1]                    Bit Width : 08
+[102h 0258   1]                   Bit Offset : 00
+[103h 0259   1]         Encoded Access Width : 01 [Byte Access:8]
+[104h 0260   8]                      Address : 0000000000001801
 
-    0000: 46 41 43 50 F4 00 00 00 05 2D 4C 45 4E 4F 56 4F  // FACP.....-LENOVO
+/**** ACPI table terminates in the middle of a data structure! (dump table) */
+
+Raw Table Data: Length 268 (0x10C)
+
+    0000: 46 41 43 50 0C 01 00 00 05 2D 4C 45 4E 4F 56 4F  // FACP.....-LENOVO
     0010: 43 42 2D 30 31 20 20 20 01 00 00 00 41 43 50 49  // CB-01   ....ACPI
     0020: 00 00 04 00 00 90 E5 7C 00 F0 EC 7C 00 02 09 00  // .......|...|....
     0030: B2 00 00 00 A0 A1 F2 00 00 18 00 00 00 00 00 00  // ................
@@ -28579,14 +28562,15 @@ Raw Table Data: Length 244 (0xF4)
     00C0: 00 00 00 00 01 08 00 01 50 18 00 00 00 00 00 00  // ........P.......
     00D0: 01 20 00 03 08 18 00 00 00 00 00 00 01 00 00 01  // . ..............
     00E0: 80 18 00 00 00 00 00 00 00 00 00 01 00 00 00 00  // ................
-    00F0: 00 00 00 00                                      // ....
+    00F0: 00 00 00 00 01 08 00 01 05 18 00 00 00 00 00 00  // ................
+    0100: 01 08 00 01 01 18 00 00 00 00 00 00              // ............
 
 
 FACS
 ----
 [000h 0000   4]                    Signature : "FACS"
 [004h 0004   4]                       Length : 00000040
-[008h 0008   4]           Hardware Signature : FBA81E43
+[008h 0008   4]           Hardware Signature : FBA81E44
 [00Ch 0012   4]    32 Firmware Waking Vector : 00000000
 [010h 0016   4]                  Global Lock : 00000000
 [014h 0020   4]        Flags (decoded below) : 00000000
@@ -28600,7 +28584,7 @@ FACS
 
 Raw Table Data: Length 64 (0x40)
 
-    0000: 46 41 43 53 40 00 00 00 43 1E A8 FB 00 00 00 00  // FACS@...C.......
+    0000: 46 41 43 53 40 00 00 00 44 1E A8 FB 00 00 00 00  // FACS@...D.......
     0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
     0020: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
     0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
@@ -31089,78 +31073,6 @@ DefinitionBlock ("", "SSDT", 1, "LENOVO", "CB-01   ", 0x00000001)
 
 SSDT11
 ------
-DefinitionBlock ("", "SSDT", 2, "PmRef", "ApCst", 0x00003000)
-{
-    External (_PR_.CPU0._CST, UnknownObj)
-    External (_PR_.CPU1, DeviceObj)
-    External (_PR_.CPU2, DeviceObj)
-    External (_PR_.CPU3, DeviceObj)
-    External (_PR_.CPU4, DeviceObj)
-    External (_PR_.CPU5, DeviceObj)
-    External (_PR_.CPU6, DeviceObj)
-    External (_PR_.CPU7, DeviceObj)
-
-    Scope (\_PR.CPU1)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-
-    Scope (\_PR.CPU2)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-
-    Scope (\_PR.CPU3)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-
-    Scope (\_PR.CPU4)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-
-    Scope (\_PR.CPU5)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-
-    Scope (\_PR.CPU6)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-
-    Scope (\_PR.CPU7)
-    {
-        Method (_CST, 0, NotSerialized)  // _CST: C-States
-        {
-            Return (\_PR.CPU0._CST) /* External reference */
-        }
-    }
-}
-
-
-
-SSDT12
-------
 DefinitionBlock ("", "SSDT", 2, "PmRef", "Cpu0Cst", 0x00003001)
 {
     External (_PR_.CPU0, DeviceObj)
@@ -31366,6 +31278,535 @@ DefinitionBlock ("", "SSDT", 2, "PmRef", "Cpu0Cst", 0x00003001)
                 Return (C1ST) /* \_PR_.CPU0.C1ST */
             }
         }
+    }
+}
+
+
+
+SSDT12
+------
+DefinitionBlock ("", "SSDT", 2, "PmRef", "Cpu0Ist", 0x00003000)
+{
+    External (_PR_.CFGD, FieldUnitObj)
+    External (_PR_.CPPC, FieldUnitObj)
+    External (_PR_.CPU0, DeviceObj)
+    External (_SB_.OSCP, IntObj)
+    External (PDC0, IntObj)
+    External (TCNT, FieldUnitObj)
+
+    Scope (\_PR.CPU0)
+    {
+        Method (_PPC, 0, NotSerialized)  // _PPC: Performance Present Capabilities
+        {
+            Return (\_PR.CPPC) /* External reference */
+        }
+
+        Name (_PCT, Package (0x02)  // _PCT: Performance Control
+        {
+            ResourceTemplate ()
+            {
+                Register (FFixedHW, 
+                    0x00,               // Bit Width
+                    0x00,               // Bit Offset
+                    0x0000000000000000, // Address
+                    ,)
+            }, 
+
+            ResourceTemplate ()
+            {
+                Register (FFixedHW, 
+                    0x00,               // Bit Width
+                    0x00,               // Bit Offset
+                    0x0000000000000000, // Address
+                    ,)
+            }
+        })
+        Method (_PSS, 0, NotSerialized)  // _PSS: Performance Supported States
+        {
+            If ((\_SB.OSCP & 0x0400))
+            {
+                Return (TPSS) /* \_PR_.CPU0.TPSS */
+            }
+            Else
+            {
+                Return (LPSS) /* \_PR_.CPU0.LPSS */
+            }
+        }
+
+        Name (LPSS, Package (0x10)
+        {
+            Package (0x06)
+            {
+                0x00000A8D, 
+                0x00003A98, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001D00, 
+                0x00001D00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000A8C, 
+                0x00003541, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001B00, 
+                0x00001B00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000A28, 
+                0x00003261, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001A00, 
+                0x00001A00
+            }, 
+
+            Package (0x06)
+            {
+                0x000009C4, 
+                0x0000301E, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001900, 
+                0x00001900
+            }, 
+
+            Package (0x06)
+            {
+                0x00000960, 
+                0x00002D58, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001800, 
+                0x00001800
+            }, 
+
+            Package (0x06)
+            {
+                0x00000898, 
+                0x00002884, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001600, 
+                0x00001600
+            }, 
+
+            Package (0x06)
+            {
+                0x000007D0, 
+                0x000023DE, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001400, 
+                0x00001400
+            }, 
+
+            Package (0x06)
+            {
+                0x00000708, 
+                0x00001FED, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001200, 
+                0x00001200
+            }, 
+
+            Package (0x06)
+            {
+                0x00000640, 
+                0x00001BA3, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001000, 
+                0x00001000
+            }, 
+
+            Package (0x06)
+            {
+                0x000005DC, 
+                0x00001950, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000F00, 
+                0x00000F00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000514, 
+                0x0000154D, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000D00, 
+                0x00000D00
+            }, 
+
+            Package (0x06)
+            {
+                0x0000044C, 
+                0x00001178, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000B00, 
+                0x00000B00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000320, 
+                0x00000C44, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000800, 
+                0x00000800
+            }, 
+
+            Package (0x06)
+            {
+                0x000002BC, 
+                0x00000AC4, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000700, 
+                0x00000700
+            }, 
+
+            Package (0x06)
+            {
+                0x00000258, 
+                0x000008DB, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000600, 
+                0x00000600
+            }, 
+
+            Package (0x06)
+            {
+                0x00000190, 
+                0x0000059B, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000400, 
+                0x00000400
+            }
+        })
+        Name (TPSS, Package (0x1B)
+        {
+            Package (0x06)
+            {
+                0x00000B55, 
+                0x00003A98, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00002300, 
+                0x00002300
+            }, 
+
+            Package (0x06)
+            {
+                0x00000B54, 
+                0x00003A98, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001D00, 
+                0x00001D00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000AF0, 
+                0x0000379C, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001C00, 
+                0x00001C00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000A8C, 
+                0x00003541, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001B00, 
+                0x00001B00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000A28, 
+                0x00003261, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001A00, 
+                0x00001A00
+            }, 
+
+            Package (0x06)
+            {
+                0x000009C4, 
+                0x0000301E, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001900, 
+                0x00001900
+            }, 
+
+            Package (0x06)
+            {
+                0x00000960, 
+                0x00002D58, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001800, 
+                0x00001800
+            }, 
+
+            Package (0x06)
+            {
+                0x000008FC, 
+                0x00002B2F, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001700, 
+                0x00001700
+            }, 
+
+            Package (0x06)
+            {
+                0x00000898, 
+                0x00002884, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001600, 
+                0x00001600
+            }, 
+
+            Package (0x06)
+            {
+                0x00000834, 
+                0x0000266F, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001500, 
+                0x00001500
+            }, 
+
+            Package (0x06)
+            {
+                0x000007D0, 
+                0x000023DE, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001400, 
+                0x00001400
+            }, 
+
+            Package (0x06)
+            {
+                0x0000076C, 
+                0x000021E0, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001300, 
+                0x00001300
+            }, 
+
+            Package (0x06)
+            {
+                0x00000708, 
+                0x00001FED, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001200, 
+                0x00001200
+            }, 
+
+            Package (0x06)
+            {
+                0x000006A4, 
+                0x00001D81, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001100, 
+                0x00001100
+            }, 
+
+            Package (0x06)
+            {
+                0x00000640, 
+                0x00001BA3, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00001000, 
+                0x00001000
+            }, 
+
+            Package (0x06)
+            {
+                0x000005DC, 
+                0x00001950, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000F00, 
+                0x00000F00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000578, 
+                0x00001788, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000E00, 
+                0x00000E00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000514, 
+                0x0000154D, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000D00, 
+                0x00000D00
+            }, 
+
+            Package (0x06)
+            {
+                0x000004B0, 
+                0x0000139B, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000C00, 
+                0x00000C00
+            }, 
+
+            Package (0x06)
+            {
+                0x0000044C, 
+                0x00001178, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000B00, 
+                0x00000B00
+            }, 
+
+            Package (0x06)
+            {
+                0x000003E8, 
+                0x00000FD9, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000A00, 
+                0x00000A00
+            }, 
+
+            Package (0x06)
+            {
+                0x00000384, 
+                0x00000E44, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000900, 
+                0x00000900
+            }, 
+
+            Package (0x06)
+            {
+                0x00000320, 
+                0x00000C44, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000800, 
+                0x00000800
+            }, 
+
+            Package (0x06)
+            {
+                0x000002BC, 
+                0x00000AC4, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000700, 
+                0x00000700
+            }, 
+
+            Package (0x06)
+            {
+                0x00000258, 
+                0x000008DB, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000600, 
+                0x00000600
+            }, 
+
+            Package (0x06)
+            {
+                0x000001F4, 
+                0x0000076D, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000500, 
+                0x00000500
+            }, 
+
+            Package (0x06)
+            {
+                0x00000190, 
+                0x0000059B, 
+                0x0000000A, 
+                0x0000000A, 
+                0x00000400, 
+                0x00000400
+            }
+        })
+        Name (PSDF, Zero)
+        Method (_PSD, 0, NotSerialized)  // _PSD: Power State Dependencies
+        {
+            If (!PSDF)
+            {
+                DerefOf (HPSD [Zero]) [0x04] = TCNT /* External reference */
+                DerefOf (SPSD [Zero]) [0x04] = TCNT /* External reference */
+                PSDF = Ones
+            }
+
+            If ((PDC0 & 0x0800))
+            {
+                Return (HPSD) /* \_PR_.CPU0.HPSD */
+            }
+
+            Return (SPSD) /* \_PR_.CPU0.SPSD */
+        }
+
+        Name (HPSD, Package (0x01)
+        {
+            Package (0x05)
+            {
+                0x05, 
+                Zero, 
+                Zero, 
+                0xFE, 
+                0x80
+            }
+        })
+        Name (SPSD, Package (0x01)
+        {
+            Package (0x05)
+            {
+                0x05, 
+                Zero, 
+                Zero, 
+                0xFC, 
+                0x80
+            }
+        })
     }
 }
 
@@ -31800,6 +32241,78 @@ DefinitionBlock ("", "SSDT", 2, "PmRef", "ApIst", 0x00003000)
                 0x80
             }
         })
+    }
+}
+
+
+
+SSDT14
+------
+DefinitionBlock ("", "SSDT", 2, "PmRef", "ApCst", 0x00003000)
+{
+    External (_PR_.CPU0._CST, UnknownObj)
+    External (_PR_.CPU1, DeviceObj)
+    External (_PR_.CPU2, DeviceObj)
+    External (_PR_.CPU3, DeviceObj)
+    External (_PR_.CPU4, DeviceObj)
+    External (_PR_.CPU5, DeviceObj)
+    External (_PR_.CPU6, DeviceObj)
+    External (_PR_.CPU7, DeviceObj)
+
+    Scope (\_PR.CPU1)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
+    }
+
+    Scope (\_PR.CPU2)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
+    }
+
+    Scope (\_PR.CPU3)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
+    }
+
+    Scope (\_PR.CPU4)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
+    }
+
+    Scope (\_PR.CPU5)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
+    }
+
+    Scope (\_PR.CPU6)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
+    }
+
+    Scope (\_PR.CPU7)
+    {
+        Method (_CST, 0, NotSerialized)  // _CST: C-States
+        {
+            Return (\_PR.CPU0._CST) /* External reference */
+        }
     }
 }
 
@@ -36124,13 +36637,13 @@ DefinitionBlock ("", "SSDT", 2, "LENOVO", "CB-01   ", 0x00000001)
             0x7C67EDD8, 
             0x0000018A, 
             "CPU0HWP ", 
-            0x6CF07E58, 
+            0x6CEDBDD8, 
             0x00000115, 
             "APHWP   ", 
-            0x6CF08B18, 
+            0x6CEE5898, 
             0x00000197, 
             "HWPLVT  ", 
-            0x6CF06DD8, 
+            0x6CED8DD8, 
             0x000001A4
         })
         Name (\PDC0, 0x80000000)
@@ -36886,67 +37399,5 @@ Raw Table Data: Length 66 (0x42)
     0020: 00 00 04 00 E2 D8 8E C6 C6 9D BD 4C 9D 94 DB 65  // ...........L...e
     0030: AC C5 C3 32 36 00 01 00 00 00 00 50 E5 7C 00 00  // ...26......P.|..
     0040: 00 00                                            // ..
-
-
-XSDT
-----
-[000h 0000   4]                    Signature : "XSDT"    [Extended System Description Table]
-[004h 0004   4]                 Table Length : 00000104
-[008h 0008   1]                     Revision : 01
-[009h 0009   1]                     Checksum : 77
-[00Ah 0010   6]                       Oem ID : "LENOVO"
-[010h 0016   8]                 Oem Table ID : "CB-01   "
-[018h 0024   4]                 Oem Revision : 00000001
-[01Ch 0028   4]              Asl Compiler ID : "    "
-[020h 0032   4]        Asl Compiler Revision : 01000013
-
-[024h 0036   8]       ACPI Table Address   0 : 000000007CEEE000
-[02Ch 0044   8]       ACPI Table Address   1 : 000000007CEFC000
-[034h 0052   8]       ACPI Table Address   2 : 000000007CEFB000
-[03Ch 0060   8]       ACPI Table Address   3 : 000000007CEFA000
-[044h 0068   8]       ACPI Table Address   4 : 000000007CEF9000
-[04Ch 0076   8]       ACPI Table Address   5 : 000000007CEF8000
-[054h 0084   8]       ACPI Table Address   6 : 000000007CEF7000
-[05Ch 0092   8]       ACPI Table Address   7 : 000000007CEF3000
-[064h 0100   8]       ACPI Table Address   8 : 000000007CEF2000
-[06Ch 0108   8]       ACPI Table Address   9 : 000000007CEF1000
-[074h 0116   8]       ACPI Table Address  10 : 000000007CEF0000
-[07Ch 0124   8]       ACPI Table Address  11 : 000000007CEEF000
-[084h 0132   8]       ACPI Table Address  12 : 000000007CEED000
-[08Ch 0140   8]       ACPI Table Address  13 : 000000007CEEC000
-[094h 0148   8]       ACPI Table Address  14 : 000000007CEEB000
-[09Ch 0156   8]       ACPI Table Address  15 : 000000007CECE000
-[0A4h 0164   8]       ACPI Table Address  16 : 000000007CECD000
-[0ACh 0172   8]       ACPI Table Address  17 : 000000007CECC000
-[0B4h 0180   8]       ACPI Table Address  18 : 000000007CECB000
-[0BCh 0188   8]       ACPI Table Address  19 : 000000007CECA000
-[0C4h 0196   8]       ACPI Table Address  20 : 000000007CEC8000
-[0CCh 0204   8]       ACPI Table Address  21 : 000000007CEC7000
-[0D4h 0212   8]       ACPI Table Address  22 : 000000007CEC5000
-[0DCh 0220   8]       ACPI Table Address  23 : 000000007CEC4000
-[0E4h 0228   8]       ACPI Table Address  24 : 000000007CEC0000
-[0ECh 0236   8]       ACPI Table Address  25 : 000000007CEBF000
-[0F4h 0244   8]       ACPI Table Address  26 : 000000007CEBE000
-[0FCh 0252   8]       ACPI Table Address  27 : 000000007CEBD000
-
-Raw Table Data: Length 260 (0x104)
-
-    0000: 58 53 44 54 04 01 00 00 01 77 4C 45 4E 4F 56 4F  // XSDT.....wLENOVO
-    0010: 43 42 2D 30 31 20 20 20 01 00 00 00 20 20 20 20  // CB-01   ....    
-    0020: 13 00 00 01 00 E0 EE 7C 00 00 00 00 00 C0 EF 7C  // .......|.......|
-    0030: 00 00 00 00 00 B0 EF 7C 00 00 00 00 00 A0 EF 7C  // .......|.......|
-    0040: 00 00 00 00 00 90 EF 7C 00 00 00 00 00 80 EF 7C  // .......|.......|
-    0050: 00 00 00 00 00 70 EF 7C 00 00 00 00 00 30 EF 7C  // .....p.|.....0.|
-    0060: 00 00 00 00 00 20 EF 7C 00 00 00 00 00 10 EF 7C  // ..... .|.......|
-    0070: 00 00 00 00 00 00 EF 7C 00 00 00 00 00 F0 EE 7C  // .......|.......|
-    0080: 00 00 00 00 00 D0 EE 7C 00 00 00 00 00 C0 EE 7C  // .......|.......|
-    0090: 00 00 00 00 00 B0 EE 7C 00 00 00 00 00 E0 EC 7C  // .......|.......|
-    00A0: 00 00 00 00 00 D0 EC 7C 00 00 00 00 00 C0 EC 7C  // .......|.......|
-    00B0: 00 00 00 00 00 B0 EC 7C 00 00 00 00 00 A0 EC 7C  // .......|.......|
-    00C0: 00 00 00 00 00 80 EC 7C 00 00 00 00 00 70 EC 7C  // .......|.....p.|
-    00D0: 00 00 00 00 00 50 EC 7C 00 00 00 00 00 40 EC 7C  // .....P.|.....@.|
-    00E0: 00 00 00 00 00 00 EC 7C 00 00 00 00 00 F0 EB 7C  // .......|.......|
-    00F0: 00 00 00 00 00 E0 EB 7C 00 00 00 00 00 D0 EB 7C  // .......|.......|
-    0100: 00 00 00 00                                      // ....
 
 

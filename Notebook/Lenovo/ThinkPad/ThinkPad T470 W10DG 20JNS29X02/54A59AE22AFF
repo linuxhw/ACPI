@@ -45,7 +45,7 @@ Copyright (c) 2000 - 2019 Intel Corporation
  35)  SSDT  0x00000D14  0x02  "PmRef "  "ApIst   "  0x00003000  "INTL"   0x20160527
  36)  SSDT  0x000000BA  0x02  "PmRef "  "Cpu0Hwp "  0x00003000  "INTL"   0x20160527
 
-Found 36 ACPI tables in /root/HW_PROBE/LATEST/hw.info/logs/acpidump
+Found 36 ACPI tables in acpidump
 
 APIC
 ----
@@ -31138,7 +31138,7 @@ FACS
 ----
 [000h 0000   4]                    Signature : "FACS"
 [004h 0004   4]                       Length : 00000040
-[008h 0008   4]           Hardware Signature : 0000244F
+[008h 0008   4]           Hardware Signature : 000024DF
 [00Ch 0012   4]    32 Firmware Waking Vector : 00000000
 [010h 0016   4]                  Global Lock : 00000000
 [014h 0020   4]        Flags (decoded below) : 00000000
@@ -31152,7 +31152,7 @@ FACS
 
 Raw Table Data: Length 64 (0x40)
 
-    0000: 46 41 43 53 40 00 00 00 4F 24 00 00 00 00 00 00  // FACS@...O$......
+    0000: 46 41 43 53 40 00 00 00 DF 24 00 00 00 00 00 00  // FACS@....$......
     0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
     0020: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
     0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
