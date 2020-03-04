@@ -48,34 +48,44 @@ Notebooks
 | Acer             | Aspire E5-571          | FE8D2745B442 |
 | Acer             | Aspire E5-571G         | D9DF65E3962C |
 | Acer             | Nitro AN515-42         | 7D6CB7ACB520 |
+| Alienware        | 17 R5                  | 2B5491E1A559 |
 | Apple            | MacBookPro14,3         | 91077C25D705 |
+| Avell High Pe... | C75 RTX MUV-G1750 R... | B4CC55E338B5 |
 | BBEN             | z10                    | 65E372FCAFD3 |
+| CCE              | Capella & IbexPeak-... | 47908F284309 |
 | Dell             | Inspiron 3558          | 7C3F03888987 |
 | Dell             | Latitude E5450         | E1BA902CF2E6 |
 | Dell             | Latitude E6520         | C019B771B42C |
 | Dell             | Latitude E6530         | 8B5EC6878A4B |
 | Dell             | Latitude E6540         | 478086798418 |
+| Dell             | Latitude E7470         | D4D1BF2C15BB |
 | Dell             | Precision 5540         | 33C46A09AA00 |
 | Dell             | Precision 7530         | 5B887671E31F |
+| Dell             | XPS 13 7390            | 6E5EDD6F0EBC |
 | Hewlett-Packard  | 15                     | 07149FC6072A |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
 | Hewlett-Packard  | ENVY TS 15             | 3B3FD352A709 |
 | Hewlett-Packard  | ENVY m6                | 4A3F47F3A0D9 |
 | Hewlett-Packard  | ENVY m6                | 4EB247E5B835 |
 | Hewlett-Packard  | EliteBook 2740p        | 0A6CC5DD2EF6 |
+| Hewlett-Packard  | EliteBook 820 G4       | 5CBF54885D83 |
 | Hewlett-Packard  | EliteBook 8740w        | 6EA92286C100 |
 | Hewlett-Packard  | EliteBook 8740w        | C619FE23190E |
+| Hewlett-Packard  | EliteBook Folio 9470m  | 524B6B1AD490 |
 | Hewlett-Packard  | G62                    | D4B22D617BFD |
+| Hewlett-Packard  | Laptop 14-cf0xxx       | 42F2CB5F9E38 |
 | Hewlett-Packard  | Laptop 15-db0xxx       | 532B72E8E7AC |
 | Hewlett-Packard  | Pavilion dv8           | D8B9EB76B074 |
 | Hewlett-Packard  | ProBook 4540s          | F9464A10DAC3 |
 | Hewlett-Packard  | ProBook 470 G0         | 7206C3577DFF |
 | Hewlett-Packard  | Stream 13              | ED889F5F2A86 |
 | Hewlett-Packard  | TouchSmart tx2         | 6909B67B540B |
+| IT Channel Pty   | NH50_70RH              | 3A881F598779 |
 | Insyde           | BayTrail               | 9F287627613B |
 | Lenovo           | Flex 2-15              | 8F84E14F5157 |
 | Lenovo           | G570 20079             | 45D05063F068 |
 | Lenovo           | G570 20079             | 92B1F90D7EAE |
+| Lenovo           | G710 20252             | CD846FB97BC3 |
 | Lenovo           | IdeaPad 310-15IKB 80TV | B9544046A48A |
 | Lenovo           | IdeaPad U310           | 3AC887234B79 |
 | Lenovo           | ThinkPad Edge E431 ... | 6D85F40A9B08 |
@@ -83,6 +93,7 @@ Notebooks
 | Lenovo           | ThinkPad T61 76641FG   | 765F0725EA93 |
 | Lenovo           | ThinkPad T61p 64575KU  | 11FB59AAE306 |
 | Lenovo           | ThinkPad W510 4875W17  | 822D8852D7EB |
+| Lenovo           | ThinkPad X1 Carbon ... | 66976DD8FE3D |
 | Lenovo           | ThinkPad X1 Carbon ... | BE3AACE7B6D7 |
 | Lenovo           | ThinkPad X230 2325A60  | AE4563D1F6CF |
 | Lenovo           | ThinkPad X380 Yoga ... | 5EDC3F139B76 |
@@ -94,6 +105,8 @@ Notebooks
 | MSI              | MS-N031                | 237F541314EF |
 | MSI              | PR200                  | 94CECEDC956C |
 | MSI              | X460-X460DX            | 7AA60F771207 |
+| Notebook         | N8xEJEK                | 336D5712545D |
+| Razer            | Blade                  | F55394D068BE |
 | Samsung Elect... | 300V3A-300V4A-300V5... | 35CC56EF66E3 |
 | Samsung Elect... | 305U1A                 | 09E2C5E73434 |
 | Samsung Elect... | 355V4C-355V4X-355V5... | 51CDAFB26356 |
@@ -103,6 +116,7 @@ Notebooks
 | Sony             | SVE1713S1RW            | 506CDC50E671 |
 | Timi             | TM1701                 | 6F3EF48DD098 |
 | Toshiba          | Satellite A135         | D67BA1A5ADD8 |
+| Toshiba          | Satellite L655         | 5DFEE87972AA |
 | Toshiba          | Satellite Pro L630     | 2BCF481E15A0 |
 | Toshiba          | Satellite Pro L630     | E4A738095425 |
 | Toshiba          | TECRA A50-A            | 36303D77C8F0 |
@@ -127,6 +141,7 @@ Desktops
 | ASUSTek Computer | PRIME X370-PRO         | A169FD97AB0E |
 | ASUSTek Computer | SABERTOOTH 990FX       | 3D77ED0B498A |
 | ASUSTek Computer | SABERTOOTH 990FX       | B015992EFDE5 |
+| ASUSTek Computer | Z170-A                 | 829C11128B18 |
 | Acer             | Aspire R3600           | C85DE8E38D84 |
 | Acer             | Aspire Z3-615          | E37DB50E1157 |
 | Aquarius         | Aquarius Pro P30 S75   | 0485A3072F96 |
@@ -139,16 +154,22 @@ Desktops
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
 | Gigabyte Tech... | X570 AORUS PRO         | D33A09A909D4 |
 | Gigabyte Tech... | Z170X-Gaming 5         | 3F59130A5FF7 |
+| Gigabyte Tech... | Z270N-WIFI             | C5AACAD1CD45 |
+| Gigabyte Tech... | Z390 I AORUS PRO WIFI  | F80EFC3E557E |
 | Gigabyte Tech... | Z87-HD3                | 6B00753B50AA |
 | Hewlett-Packard  | 750-467c               | D213850B6974 |
 | Hewlett-Packard  | Compaq 6005 Pro MT PC  | 86BB28345D1D |
 | Hewlett-Packard  | Compaq dc5800 Small... | B5AE0C22424E |
 | Hewlett-Packard  | EliteDesk 800 G1 SFF   | F13506CA489E |
 | Hewlett-Packard  | GU620AA-ABE m9080.es   | 7C75A10C1DDC |
+| Hewlett-Packard  | Z400 Workstation       | FF7C21B8CB39 |
+| Hewlett-Packard  | h8-1080sc              | 25250FD435E2 |
 | Intel            | DG965LV AAD36275-501   | F0588ABD2042 |
 | MSI              | MS-7519                | 4067500F99BB |
 | MSI              | MS-7721                | 3EF15301B047 |
 | MSI              | MS-7752                | 14FAD414B696 |
+| MSI              | MS-7B19                | 0FE3C97F624E |
+| MSI              | MS-7B78                | E18238CFE532 |
 | Supermicro       | X8SIL                  | 40AECBFF4573 |
 | TONK             | C31                    | 7F7E8D75C7FF |
 | TONK             | TN1402                 | ABC6298CB633 |
