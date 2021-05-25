@@ -37,10 +37,17 @@ Notebooks
 | ASUSTek Computer | G752VL                 | FC552E246162 |
 | ASUSTek Computer | G752VS                 | 2C3A54B9621B |
 | ASUSTek Computer | K53BY                  | BE1217B3A172 |
+| ASUSTek Computer | K53SC                  | E1C17D978CC0 |
 | ASUSTek Computer | K54HR                  | CDCECF3994DD |
 | ASUSTek Computer | N53Jf                  | 72185E9A7C5E |
+| ASUSTek Computer | N53SM                  | A8E934323803 |
 | ASUSTek Computer | N53Ta                  | 44FD90565A2A |
+| ASUSTek Computer | TUF Gaming FX505DU_... | 762913DF1149 |
+| ASUSTek Computer | VivoBook S15 X510UF    | 769926118FBF |
+| ASUSTek Computer | VivoBook_ASUSLaptop... | 0F1460CA682D |
 | ASUSTek Computer | X200CA                 | 8CF325A2BCD9 |
+| ASUSTek Computer | X550CL                 | 077F35AD6398 |
+| ASUSTek Computer | X555LF                 | 5105F6252B34 |
 | ASUSTek Computer | X580VD                 | FFAE72813849 |
 | ASUSTek Computer | X71SL                  | C5769FF2BEDC |
 | ASUSTek Computer | X750JB                 | F58754409DC7 |
@@ -63,8 +70,11 @@ Notebooks
 | Dell             | G3 3579                | 28F1D7BB6F35 |
 | Dell             | Inspiron 3558          | 7C3F03888987 |
 | Dell             | Inspiron 7577          | 73C193FCFFD6 |
+| Dell             | Inspiron N7110         | 6D14EA36F01F |
 | Dell             | Latitude E5450         | E1BA902CF2E6 |
 | Dell             | Latitude E5520         | E746086B8F59 |
+| Dell             | Latitude E6330         | 7A07FAD5D5F8 |
+| Dell             | Latitude E6420         | 77CC03B14BD5 |
 | Dell             | Latitude E6520         | C019B771B42C |
 | Dell             | Latitude E6530         | 8B5EC6878A4B |
 | Dell             | Latitude E6540         | 478086798418 |
@@ -72,9 +82,14 @@ Notebooks
 | Dell             | Precision 5540         | 33C46A09AA00 |
 | Dell             | Precision 7530         | 5B887671E31F |
 | Dell             | Precision 7710         | 145D17B24DF6 |
+| Dell             | Precision M4500        | 6952A10726AB |
+| Dell             | Vostro 5471            | 3346E9979100 |
 | Dell             | XPS 13 7390            | 6E5EDD6F0EBC |
 | Dell             | XPS 13 9360            | 31C80E9937FE |
 | Dell             | XPS 15 7590            | FCAA93EB64E7 |
+| Dell             | XPS 15 9500            | 0EF135BA6BB4 |
+| HUAWEI           | KLVL-WXX9              | EC3A5551C690 |
+| HUAWEI           | NBLK-WAX9X             | 742F023DAEF2 |
 | Hewlett-Packard  | 15                     | 07149FC6072A |
 | Hewlett-Packard  | Casablanca H710        | 680636B34D17 |
 | Hewlett-Packard  | Compaq 6730b           | 795F37601A0A |
@@ -84,6 +99,7 @@ Notebooks
 | Hewlett-Packard  | EliteBook 2740p        | 0A6CC5DD2EF6 |
 | Hewlett-Packard  | EliteBook 6930p        | D4ACF28F4822 |
 | Hewlett-Packard  | EliteBook 820 G4       | 5CBF54885D83 |
+| Hewlett-Packard  | EliteBook 8540p        | 55FB3FEC2E80 |
 | Hewlett-Packard  | EliteBook 8740w        | 6EA92286C100 |
 | Hewlett-Packard  | EliteBook 8740w        | C619FE23190E |
 | Hewlett-Packard  | EliteBook Folio 9470m  | 524B6B1AD490 |
@@ -111,8 +127,15 @@ Notebooks
 | Lenovo           | G710 20252             | CD846FB97BC3 |
 | Lenovo           | IdeaPad 310-15IKB 80TV | B9544046A48A |
 | Lenovo           | IdeaPad 330S-14IKB ... | 3060C8F822F9 |
+| Lenovo           | IdeaPad 5 15ARE05 81YQ | 929BE1EA74BF |
+| Lenovo           | IdeaPad S145-15IWL ... | F428DF8127B0 |
 | Lenovo           | IdeaPad U310           | 3AC887234B79 |
+| Lenovo           | IdeaPad Z580           | 9659C6CA8765 |
+| Lenovo           | Legion Y540-15IRH-P... | 6658FB40979F |
+| Lenovo           | Legion Y7000 81FW      | 814C5DAC1BEE |
 | Lenovo           | ThinkPad 11e 3rd Ge... | 2A3A2DBF3FD4 |
+| Lenovo           | ThinkPad E15 Gen 2 ... | 188EB681251A |
+| Lenovo           | ThinkPad E495 20NEC... | 5D25BEE9F5FA |
 | Lenovo           | ThinkPad E595 20NFC... | 26FEFDA4DE0C |
 | Lenovo           | ThinkPad Edge E431 ... | 6D85F40A9B08 |
 | Lenovo           | ThinkPad Mini10 350... | EAC15D3F8438 |
@@ -134,7 +157,9 @@ Notebooks
 | Lenovo           | ThinkPad X61 Tablet... | A54FD909734A |
 | Lenovo           | ThinkPad qqqqS2E       | D9DB756A61FD |
 | Lenovo           | XiaoXin-15ARE 2020 ... | 6FCEB8CB0FC2 |
+| MSI              | CX61 2PC               | 95B5F9954570 |
 | MSI              | GE60 0NC-GE60 0ND      | D2F5133B920A |
+| MSI              | GE60 2OC\2OD\2OE       | AA6F5CF6EC4D |
 | MSI              | GP63 Leopard 8RD       | 52757605F366 |
 | MSI              | GT70                   | 90552E3B1017 |
 | MSI              | GT70                   | D4EFA09F0CFD |
@@ -143,7 +168,9 @@ Notebooks
 | MSI              | PR200                  | 94CECEDC956C |
 | MSI              | X460-X460DX            | 7AA60F771207 |
 | Notebook         | N8xEJEK                | 336D5712545D |
+| PC Specialist    | NS50MU                 | 30E58AFD506A |
 | Razer            | Blade                  | F55394D068BE |
+| Samsung Elect... | 300E4A-300E5A-300E7... | 722E7575F4DF |
 | Samsung Elect... | 300V3A-300V4A-300V5... | 35CC56EF66E3 |
 | Samsung Elect... | 305U1A                 | 09E2C5E73434 |
 | Samsung Elect... | 355V4C-355V4X-355V5... | 51CDAFB26356 |
@@ -151,10 +178,12 @@ Notebooks
 | Samsung Elect... | RF510-RF410-RF710      | 0D3B24930741 |
 | Samsung Elect... | RF510-RF410-RF710      | 5BEB13CF77EB |
 | Sony             | SVE1713S1RW            | 506CDC50E671 |
+| TUXEDO           | Pulse 15 Gen1          | F512FA6A22F0 |
 | Timi             | TM1701                 | 6F3EF48DD098 |
 | Toshiba          | Satellite A135         | D67BA1A5ADD8 |
 | Toshiba          | Satellite C70D-B       | D0292BFAFD2C |
 | Toshiba          | Satellite L655         | 5DFEE87972AA |
+| Toshiba          | Satellite L850         | D864DF1B0926 |
 | Toshiba          | Satellite P500         | EA4A81982518 |
 | Toshiba          | Satellite Pro L630     | 2BCF481E15A0 |
 | Toshiba          | Satellite Pro L630     | E4A738095425 |
@@ -166,10 +195,14 @@ Desktops
 | MFG              | Model                  | HWID         |
 |------------------|------------------------|--------------|
 | ASRock           | 870 Extreme3           | 96943D290A28 |
+| ASRock           | B365M Pro4-F           | 3ED58AB6F5A2 |
 | ASRock           | B450 Pro4              | 2B7468FF1136 |
+| ASRock           | B450M Pro4             | 9CDD2E1ABE37 |
 | ASRock           | G31M-S                 | 53A47C01E2B6 |
+| ASRock           | H77M                   | B9EDF74B73FF |
 | ASRock           | X370 Gaming X          | FD61EDF83841 |
 | ASRock           | X570 Steel Legend      | BDEF664E9D74 |
+| ASRock           | X570 Taichi            | 439DCF38AE7B |
 | ASRock           | Z170 Extreme4          | FBF904E4434D |
 | ASRock           | Z87 Extreme6           | 4D7703C3D3CC |
 | ASRock           | Z87 Pro3               | F270C31E7682 |
@@ -185,19 +218,26 @@ Desktops
 | ASUSTek Computer | Maximus VIII FORMULA   | ED4EDE81937F |
 | ASUSTek Computer | P4P800                 | 92967C173382 |
 | ASUSTek Computer | P5GC-MX                | 84CD51FC834B |
+| ASUSTek Computer | P5QL PRO               | 772A7DDD8BC2 |
 | ASUSTek Computer | P5VD2-VM               | 9610A2E3CA3D |
+| ASUSTek Computer | P8H61-M LX R2.0        | 919695431AB5 |
 | ASUSTek Computer | P8H67-M                | D4F93141130B |
 | ASUSTek Computer | P8P67                  | 153751203A61 |
 | ASUSTek Computer | PRIME A320M-K          | 7A97D933DB40 |
 | ASUSTek Computer | PRIME B250M-PLUS       | 55D7B7DDD6EA |
+| ASUSTek Computer | PRIME B450M-A II       | 076CCB6076ED |
 | ASUSTek Computer | PRIME H270-PLUS        | F5F6D462DE08 |
 | ASUSTek Computer | PRIME H310T            | 7C60E775AD2D |
 | ASUSTek Computer | PRIME X370-PRO         | 22F59A67504C |
 | ASUSTek Computer | PRIME X370-PRO         | A169FD97AB0E |
+| ASUSTek Computer | ROG Maximus XI FORMULA | 40D9F9C25C94 |
 | ASUSTek Computer | ROG Maximus XI FORMULA | 5E84C606C2ED |
+| ASUSTek Computer | ROG STRIX X370-F GA... | 9A3503578D93 |
 | ASUSTek Computer | ROG STRIX X570-E GA... | 1C1934A994B8 |
+| ASUSTek Computer | ROG ZENITH II EXTRE... | BF6A37F4A7D0 |
 | ASUSTek Computer | SABERTOOTH 990FX       | 3D77ED0B498A |
 | ASUSTek Computer | SABERTOOTH 990FX       | B015992EFDE5 |
+| ASUSTek Computer | TUF GAMING X570-PLUS   | FFE351BD703D |
 | ASUSTek Computer | TUF X470-PLUS GAMING   | FA691F349B4D |
 | ASUSTek Computer | Z170-A                 | 8251618FD9B2 |
 | ASUSTek Computer | Z170-A                 | 829C11128B18 |
@@ -209,14 +249,18 @@ Desktops
 | Biostar          | TB250-BTC PRO          | 0DD393D67EFC |
 | Dell             | Inspiron 530           | DEF2DEF61AED |
 | Dell             | OptiPlex 3020M         | 5B206DC9512C |
+| Dell             | Precision T3610        | 072875B334CD |
 | Dell             | Precision Tower 5810   | 998589835EA1 |
+| EVGA             | X299 MICRO             | 4B645993A72D |
 | Gigabyte Tech... | 990XA-UD3              | 16D86A6F85C2 |
+| Gigabyte Tech... | B450 AORUS ELITE       | B712E77C8664 |
 | Gigabyte Tech... | B450M DS3H             | D9E9E66D46A4 |
 | Gigabyte Tech... | B75M-D3V               | 98E089E19203 |
 | Gigabyte Tech... | F2A78M-HD2             | 42BA815263DC |
 | Gigabyte Tech... | GA-MA78LMT-US2H        | 883557B73AAA |
 | Gigabyte Tech... | H270-HD3               | 7698BC6E9003 |
 | Gigabyte Tech... | Q87M-D2H               | 4A407DB4786C |
+| Gigabyte Tech... | X299 UD4               | AD9BA0C2F08F |
 | Gigabyte Tech... | X470 AORUS ULTRA GA... | 43F7753102C9 |
 | Gigabyte Tech... | X570 AORUS PRO         | D33A09A909D4 |
 | Gigabyte Tech... | Z170X-Gaming 5         | 3F59130A5FF7 |
@@ -234,6 +278,8 @@ Desktops
 | Hewlett-Packard  | h8-1080sc              | 25250FD435E2 |
 | Intel            | DG965LV AAD36275-501   | 9EEB4575F468 |
 | Intel            | DG965LV AAD36275-501   | F0588ABD2042 |
+| Lenovo           | ThinkCentre M800 10... | F935B8431F8F |
+| Lenovo           | ThinkCentre M800 10... | 0E606A2AA43D |
 | MSI              | MS-7519                | 4067500F99BB |
 | MSI              | MS-7721                | 3EF15301B047 |
 | MSI              | MS-7752                | 14FAD414B696 |
@@ -242,10 +288,12 @@ Desktops
 | MSI              | MS-7B78                | E18238CFE532 |
 | MSI              | MS-7B79                | 58CCA16AFBB8 |
 | MSI              | MS-7C35                | CC63EF2F9155 |
+| MSI              | MS-7C84                | 8AEC9430CA40 |
 | Supermicro       | X7DB8                  | 22C25EDFF9A3 |
 | Supermicro       | X8SIL                  | 40AECBFF4573 |
 | TONK             | C31                    | 7F7E8D75C7FF |
 | TONK             | TN1402                 | ABC6298CB633 |
+| VIA Technologies | P4M266A-8235           | D2BD34E8B558 |
 | ZOTAC            | NM10                   | 27F12A855946 |
 
 Servers
@@ -260,6 +308,7 @@ Servers
 | STSS             | Flagman TP100.3        | 34DC8A4302D7 |
 | Supermicro       | H8DGU                  | 57ED146F2C3C |
 | Supermicro       | H8QG6                  | 28567EC2EFB1 |
+| Supermicro       | H8QG6                  | 58E82626C3C5 |
 | Supermicro       | X8DTN+-F               | 319567CDA949 |
 | Supermicro       | X9DRD-7LN4F-X9DRD-EF   | E23334E6B08A |
 
