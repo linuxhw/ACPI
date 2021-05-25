@@ -1,0 +1,31 @@
+
+Intel ACPI Component Architecture
+ACPI Binary Table Extraction Utility version 20180105
+Copyright (c) 2000 - 2018 Intel Corporation
+
+
+ Signature  Length    Version Oem       Oem         Oem         Compiler Compiler
+                              Id        TableId     RevisionId  Name     Revision
+ _________  __________  ____  ________  __________  __________  _______  __________
+
+ 01)  FACS  0x00000040  0x00
+ 02)  SSDT  0x00001806  0x01  "NvdReN"  "vdTabl  "  0x49000010  "NT  "   0x4B102009
+ 03)  MCFG  0x0000003C  0x01  "DELL S"  "NDYBRDG "  0x4D062220  "SF  "   0x00000000
+ 04)  APIC  0x000000CC  0x02  "DELL C"  "BX3     "  0x4D062220  "SF  "   0x00000001
+ 05)  SLIC  0x00000176  0x03  "DELL C"  "BX3     "  0x4D062220  "SF  "   0x00000001
+ 06)  SSDT  0x00000804  0x01  "PmRefC"  "pu0Ist  "  0x49000030  "NT  "   0x4F102009
+ 07)  BOOT  0x00000028  0x01  "DELL C"  "BX3     "  0x41062220  "MI  "   0x00F30001
+ 08)  DSDT  0x0000885D  0x02  "INT43S"  "YSFexxx "  0x49000010  "NT  "   0x1A142009
+ 09)  FACS  0x00000040  0x00
+ 10)  SSDT  0x00000996  0x01  "PmRefC"  "puPm    "  0x49000030  "NT  "   0x46102009
+ 11)  DMAR  0x000000B0  0x01  "INTELS"  "NB      "  0x49000000  "NT  "   0x01230000
+ 12)  FACP  0x000000F4  0x04  "DELL C"  "BX3     "  0x4D062220  "SF  "   0x4E400001
+ 13)  SSDT  0x000002F9  0x01  "DELLTT"  "PM      "  0x49000030  "NT  "   0x44102009
+ 14)  TCPA  0x00000032  0x02  "      "  "        "  0x00000000  "    "   0x00000000
+ 15)  HPET  0x00000038  0x01  "A M I "  "PCHHPET "  0x41062220  "MI  "   0xA7010000
+ 16)  SSDT  0x00000119  0x01  "PmRefA"  "pCst    "  0x49000030  "NT  "   0x22102009
+ 17)  SSDT  0x00000727  0x01  "PmRefC"  "pu0Cst  "  0x49000030  "NT  "   0x42102009
+ 18)  SSDT  0x00000303  0x01  "PmRefA"  "pIst    "  0x49000030  "NT  "   0x48102009
+
+Found 18 ACPI tables in acpidump
+
