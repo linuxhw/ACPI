@@ -1,6 +1,6 @@
 
 Intel ACPI Component Architecture
-ACPI Binary Table Extraction Utility version 20210930
+ACPI Binary Table Extraction Utility version 20211217
 Copyright (c) 2000 - 2021 Intel Corporation
 
 
@@ -11729,11 +11729,10 @@ MSDM
 [01Ch 0028   4]              Asl Compiler ID : "ASUS"
 [020h 0032   4]        Asl Compiler Revision : 00000001
 
-[024h 0036  49] Software Licensing Structure : \
-    4D 53 44 4D 55 00 00 00 03 25 5F 41 53 55 53 5F \
-    4E 6F 74 65 62 6F 6F 6B 09 20 07 01 41 53 55 53 \
-    01 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00 \
-    00 
+[024h 0036  49] Software Licensing Structure : 4D 53 44 4D 55 00 00 00 03 25 5F 41 53 55 53 5F /* MSDMU....%_ASUS_ */\
+/* 034h 0052  16 */                            4E 6F 74 65 62 6F 6F 6B 09 20 07 01 41 53 55 53 /* Notebook. ..ASUS */\
+/* 044h 0068  16 */                            01 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00 /* ................ */\
+/* 054h 0084   1 */                            00                                              /* . */\
 
 Raw Table Data: Length 85 (0x55)
 
