@@ -9,13 +9,19 @@ by the [hw-probe](https://github.com/linuxhw/hw-probe) tool:
 
     sudo -E hw-probe -all -upload -dump-acpi
 
+Total reports: 507.
+
 Contents
 --------
 
-1. [ About     ](#about)
-2. [ Notebooks ](#notebooks)
-3. [ Desktops  ](#desktops)
-4. [ Servers   ](#servers)
+1. [ About        ](#about)
+2. [ Servers      ](#servers)
+3. [ Desktops     ](#desktops)
+4. [ All In Ones  ](#all-in-ones)
+5. [ Mini PCs     ](#mini-pcs)
+6. [ Notebooks    ](#notebooks)
+7. [ Convertibles ](#convertibles)
+8. [ Tablets      ](#tablets)
 
 About
 -----
@@ -25,6 +31,218 @@ The structure of the directory is the following:
     {TYPE}/{VENDOR}/{MODEL PREFIX}/{MODEL}/{HWID}
 
     ( e.g. Notebook/Lenovo/G570/G570 20079/87FB42D5B9E2 )
+
+Servers
+-------
+
+| MFG              | Model                  | HWID |
+|------------------|------------------------|------|
+| AIC              | FB201-LX               | [E9F0ABF1FB7A](<Server/AIC/FB201/FB201-LX/E9F0ABF1FB7A>) |
+| DEPO Computers   | Super Server           | [5ED617DD5961](<Server/DEPO Computers/Super/Super Server/5ED617DD5961>) |
+| DEPO Computers   | Super Server           | [F84E17B9619B](<Server/DEPO Computers/Super/Super Server/F84E17B9619B>) |
+| Fujitsu          | PRIMERGY               | [41B1E7A57925](<Server/Fujitsu/PRIMERGY/PRIMERGY/41B1E7A57925>) |
+| Hewlett-Packard  | ProLiant DL165 G7      | [1979FBF2D488](<Server/Hewlett-Packard/ProLiant/ProLiant DL165 G7/1979FBF2D488>) |
+| Hewlett-Packard  | ProLiant DL380e Gen8   | [CB05571909C8](<Server/Hewlett-Packard/ProLiant/ProLiant DL380e Gen8/CB05571909C8>) |
+| Intel            | ArcherCity             | [356135E81941](<Server/Intel/ArcherCity/ArcherCity/356135E81941>) |
+| Quanta           | QuantaMicro X10E-9N    | [01ACEA39AAB2](<Server/Quanta/QuantaMicro/QuantaMicro X10E-9N/01ACEA39AAB2>) |
+| STSS             | Flagman TP100.3        | [34DC8A4302D7](<Server/STSS/Flagman/Flagman TP100.3/34DC8A4302D7>) |
+| Supermicro       | H8DGU                  | [57ED146F2C3C](<Server/Supermicro/H8/H8DGU/57ED146F2C3C>) |
+| Supermicro       | H8QG6                  | [28567EC2EFB1](<Server/Supermicro/H8/H8QG6/28567EC2EFB1>) |
+| Supermicro       | H8QG6                  | [58E82626C3C5](<Server/Supermicro/H8/H8QG6/58E82626C3C5>) |
+| Supermicro       | X8DTN+-F               | [319567CDA949](<Server/Supermicro/X8/X8DTN+-F/319567CDA949>) |
+| Supermicro       | X9DRD-7LN4F-X9DRD-EF   | [E23334E6B08A](<Server/Supermicro/X9/X9DRD-7LN4F-X9DRD-EF/E23334E6B08A>) |
+
+Desktops
+--------
+
+| MFG              | Model                  | HWID |
+|------------------|------------------------|------|
+| ASRock           | 870 Extreme3           | [96943D290A28](<Desktop/ASRock/870/870 Extreme3/96943D290A28>) |
+| ASRock           | AB350 Pro4             | [801BFE599A30](<Desktop/ASRock/AB350/AB350 Pro4/801BFE599A30>) |
+| ASRock           | B365M Pro4-F           | [3ED58AB6F5A2](<Desktop/ASRock/B365M/B365M Pro4-F/3ED58AB6F5A2>) |
+| ASRock           | B450 Pro4              | [2B7468FF1136](<Desktop/ASRock/B450/B450 Pro4/2B7468FF1136>) |
+| ASRock           | B450M Pro4             | [9CDD2E1ABE37](<Desktop/ASRock/B450M/B450M Pro4/9CDD2E1ABE37>) |
+| ASRock           | B550M Pro4             | [7C9D8C3C9F5E](<Desktop/ASRock/B550M/B550M Pro4/7C9D8C3C9F5E>) |
+| ASRock           | B650E PG Riptide WiFi  | [5E17E2E424CB](<Desktop/ASRock/B650E/B650E PG Riptide WiFi/5E17E2E424CB>) |
+| ASRock           | G31M-S                 | [53A47C01E2B6](<Desktop/ASRock/G31/G31M-S/53A47C01E2B6>) |
+| ASRock           | H77M                   | [B9EDF74B73FF](<Desktop/ASRock/H77/H77M/B9EDF74B73FF>) |
+| ASRock           | X370 Gaming X          | [FD61EDF83841](<Desktop/ASRock/X370/X370 Gaming X/FD61EDF83841>) |
+| ASRock           | X370 Pro4              | [D168CDF2391B](<Desktop/ASRock/X370/X370 Pro4/D168CDF2391B>) |
+| ASRock           | X399 Taichi            | [AB101543D5E5](<Desktop/ASRock/X399/X399 Taichi/AB101543D5E5>) |
+| ASRock           | X470 Master SLI        | [718DBA7A68D6](<Desktop/ASRock/X470/X470 Master SLI/718DBA7A68D6>) |
+| ASRock           | X570 Steel Legend      | [BDEF664E9D74](<Desktop/ASRock/X570/X570 Steel Legend/BDEF664E9D74>) |
+| ASRock           | X570 Taichi            | [439DCF38AE7B](<Desktop/ASRock/X570/X570 Taichi/439DCF38AE7B>) |
+| ASRock           | X570 Taichi            | [B565CA745AAF](<Desktop/ASRock/X570/X570 Taichi/B565CA745AAF>) |
+| ASRock           | Z170 Extreme4          | [FBF904E4434D](<Desktop/ASRock/Z170/Z170 Extreme4/FBF904E4434D>) |
+| ASRock           | Z87 Extreme6           | [4D7703C3D3CC](<Desktop/ASRock/Z87/Z87 Extreme6/4D7703C3D3CC>) |
+| ASRock           | Z87 Pro3               | [F270C31E7682](<Desktop/ASRock/Z87/Z87 Pro3/F270C31E7682>) |
+| ASUSTek Computer | A68HM-K                | [17747204732B](<Desktop/ASUSTek Computer/A68/A68HM-K/17747204732B>) |
+| ASUSTek Computer | All Series             | [21299B1F4635](<Desktop/ASUSTek Computer/All/All Series/21299B1F4635>) |
+| ASUSTek Computer | All Series             | [6B158AE6BD79](<Desktop/ASUSTek Computer/All/All Series/6B158AE6BD79>) |
+| ASUSTek Computer | All Series             | [BEB9F4663954](<Desktop/ASUSTek Computer/All/All Series/BEB9F4663954>) |
+| ASUSTek Computer | CM6870                 | [C045CC8FC0B4](<Desktop/ASUSTek Computer/CM/CM6870/C045CC8FC0B4>) |
+| ASUSTek Computer | F1A75-M LE             | [0DD8332C0CDD](<Desktop/ASUSTek Computer/F1A75-M/F1A75-M LE/0DD8332C0CDD>) |
+| ASUSTek Computer | H110M-A-M.2            | [C8AF5B504787](<Desktop/ASUSTek Computer/H110/H110M-A-M.2/C8AF5B504787>) |
+| ASUSTek Computer | K30AD_M31AD_M51AD      | [7403924D239F](<Desktop/ASUSTek Computer/K30/K30AD_M31AD_M51AD/7403924D239F>) |
+| ASUSTek Computer | M2NPV-VM               | [01FB14E3CB98](<Desktop/ASUSTek Computer/M2/M2NPV-VM/01FB14E3CB98>) |
+| ASUSTek Computer | M4A78T-E               | [83CD211F5082](<Desktop/ASUSTek Computer/M4/M4A78T-E/83CD211F5082>) |
+| ASUSTek Computer | M4A88TD-V EVO-USB3     | [822ED952E415](<Desktop/ASUSTek Computer/M4A88TD-V/M4A88TD-V EVO-USB3/822ED952E415>) |
+| ASUSTek Computer | M5A78L-M PLUS-USB3     | [1429FA6A44BB](<Desktop/ASUSTek Computer/M5A78L-M/M5A78L-M PLUS-USB3/1429FA6A44BB>) |
+| ASUSTek Computer | M5A88-M                | [B5844611EE06](<Desktop/ASUSTek Computer/M5/M5A88-M/B5844611EE06>) |
+| ASUSTek Computer | Maximus VIII FORMULA   | [ED4EDE81937F](<Desktop/ASUSTek Computer/Maximus/Maximus VIII FORMULA/ED4EDE81937F>) |
+| ASUSTek Computer | P4P800                 | [92967C173382](<Desktop/ASUSTek Computer/P4/P4P800/92967C173382>) |
+| ASUSTek Computer | P5GC-MX                | [84CD51FC834B](<Desktop/ASUSTek Computer/P5/P5GC-MX/84CD51FC834B>) |
+| ASUSTek Computer | P5Q-EM                 | [C27BD13101D2](<Desktop/ASUSTek Computer/P5/P5Q-EM/C27BD13101D2>) |
+| ASUSTek Computer | P5QL PRO               | [772A7DDD8BC2](<Desktop/ASUSTek Computer/P5QL/P5QL PRO/772A7DDD8BC2>) |
+| ASUSTek Computer | P5VD2-VM               | [9610A2E3CA3D](<Desktop/ASUSTek Computer/P5/P5VD2-VM/9610A2E3CA3D>) |
+| ASUSTek Computer | P8H61-M LX R2.0        | [919695431AB5](<Desktop/ASUSTek Computer/P8H61-M/P8H61-M LX R2.0/919695431AB5>) |
+| ASUSTek Computer | P8H67-M                | [D4F93141130B](<Desktop/ASUSTek Computer/P8/P8H67-M/D4F93141130B>) |
+| ASUSTek Computer | P8P67                  | [153751203A61](<Desktop/ASUSTek Computer/P8/P8P67/153751203A61>) |
+| ASUSTek Computer | PRIME A320M-K          | [56EC98641976](<Desktop/ASUSTek Computer/PRIME/PRIME A320M-K/56EC98641976>) |
+| ASUSTek Computer | PRIME A320M-K          | [7A97D933DB40](<Desktop/ASUSTek Computer/PRIME/PRIME A320M-K/7A97D933DB40>) |
+| ASUSTek Computer | PRIME B250M-PLUS       | [55D7B7DDD6EA](<Desktop/ASUSTek Computer/PRIME/PRIME B250M-PLUS/55D7B7DDD6EA>) |
+| ASUSTek Computer | PRIME B350M-E          | [C6029FAF836E](<Desktop/ASUSTek Computer/PRIME/PRIME B350M-E/C6029FAF836E>) |
+| ASUSTek Computer | PRIME B450M-A II       | [076CCB6076ED](<Desktop/ASUSTek Computer/PRIME/PRIME B450M-A II/076CCB6076ED>) |
+| ASUSTek Computer | PRIME B550-PLUS        | [A7BCABE66EA7](<Desktop/ASUSTek Computer/PRIME/PRIME B550-PLUS/A7BCABE66EA7>) |
+| ASUSTek Computer | PRIME B660-PLUS D4     | [9B142B25D938](<Desktop/ASUSTek Computer/PRIME/PRIME B660-PLUS D4/9B142B25D938>) |
+| ASUSTek Computer | PRIME H270-PLUS        | [F5F6D462DE08](<Desktop/ASUSTek Computer/PRIME/PRIME H270-PLUS/F5F6D462DE08>) |
+| ASUSTek Computer | PRIME H310T            | [7C60E775AD2D](<Desktop/ASUSTek Computer/PRIME/PRIME H310T/7C60E775AD2D>) |
+| ASUSTek Computer | PRIME X370-PRO         | [22F59A67504C](<Desktop/ASUSTek Computer/PRIME/PRIME X370-PRO/22F59A67504C>) |
+| ASUSTek Computer | PRIME X370-PRO         | [A169FD97AB0E](<Desktop/ASUSTek Computer/PRIME/PRIME X370-PRO/A169FD97AB0E>) |
+| ASUSTek Computer | PRIME X399-A           | [73EDB0DDFF0E](<Desktop/ASUSTek Computer/PRIME/PRIME X399-A/73EDB0DDFF0E>) |
+| ASUSTek Computer | PRIME Z390-P           | [842B84D25492](<Desktop/ASUSTek Computer/PRIME/PRIME Z390-P/842B84D25492>) |
+| ASUSTek Computer | PRIME Z590M-PLUS       | [01CB5FB8471F](<Desktop/ASUSTek Computer/PRIME/PRIME Z590M-PLUS/01CB5FB8471F>) |
+| ASUSTek Computer | PRIME Z690-P           | [71656898DEBA](<Desktop/ASUSTek Computer/PRIME/PRIME Z690-P/71656898DEBA>) |
+| ASUSTek Computer | ROG CROSSHAIR VII HERO | [B8C16A683E5F](<Desktop/ASUSTek Computer/ROG/ROG CROSSHAIR VII HERO/B8C16A683E5F>) |
+| ASUSTek Computer | ROG Maximus XI FORMULA | [40D9F9C25C94](<Desktop/ASUSTek Computer/ROG/ROG Maximus XI FORMULA/40D9F9C25C94>) |
+| ASUSTek Computer | ROG Maximus XI FORMULA | [5E84C606C2ED](<Desktop/ASUSTek Computer/ROG/ROG Maximus XI FORMULA/5E84C606C2ED>) |
+| ASUSTek Computer | ROG STRIX B550-A GA... | [2A3464A3CAF2](<Desktop/ASUSTek Computer/ROG/ROG STRIX B550-A GAMING/2A3464A3CAF2>) |
+| ASUSTek Computer | ROG STRIX B650E-E G... | [155BCB0E54DA](<Desktop/ASUSTek Computer/ROG/ROG STRIX B650E-E GAMING WIFI/155BCB0E54DA>) |
+| ASUSTek Computer | ROG STRIX B650E-E G... | [F6A4EC50A721](<Desktop/ASUSTek Computer/ROG/ROG STRIX B650E-E GAMING WIFI/F6A4EC50A721>) |
+| ASUSTek Computer | ROG STRIX X370-F GA... | [9A3503578D93](<Desktop/ASUSTek Computer/ROG/ROG STRIX X370-F GAMING/9A3503578D93>) |
+| ASUSTek Computer | ROG STRIX X570-E GA... | [1C1934A994B8](<Desktop/ASUSTek Computer/ROG/ROG STRIX X570-E GAMING/1C1934A994B8>) |
+| ASUSTek Computer | ROG ZENITH II EXTRE... | [BF6A37F4A7D0](<Desktop/ASUSTek Computer/ROG/ROG ZENITH II EXTREME ALPHA/BF6A37F4A7D0>) |
+| ASUSTek Computer | SABERTOOTH 990FX       | [3D77ED0B498A](<Desktop/ASUSTek Computer/SABERTOOTH/SABERTOOTH 990FX/3D77ED0B498A>) |
+| ASUSTek Computer | SABERTOOTH 990FX       | [B015992EFDE5](<Desktop/ASUSTek Computer/SABERTOOTH/SABERTOOTH 990FX/B015992EFDE5>) |
+| ASUSTek Computer | STRIX Z270E GAMING     | [40BA5E949A86](<Desktop/ASUSTek Computer/STRIX/STRIX Z270E GAMING/40BA5E949A86>) |
+| ASUSTek Computer | TUF GAMING X570-PLUS   | [FFE351BD703D](<Desktop/ASUSTek Computer/TUF/TUF GAMING X570-PLUS/FFE351BD703D>) |
+| ASUSTek Computer | TUF Gaming B550M-PLUS  | [4212F03F1D44](<Desktop/ASUSTek Computer/TUF/TUF Gaming B550M-PLUS/4212F03F1D44>) |
+| ASUSTek Computer | TUF Gaming B550M-PLUS  | [5F9A1C76D918](<Desktop/ASUSTek Computer/TUF/TUF Gaming B550M-PLUS/5F9A1C76D918>) |
+| ASUSTek Computer | TUF X470-PLUS GAMING   | [FA691F349B4D](<Desktop/ASUSTek Computer/TUF/TUF X470-PLUS GAMING/FA691F349B4D>) |
+| ASUSTek Computer | Z170-A                 | [8251618FD9B2](<Desktop/ASUSTek Computer/Z170/Z170-A/8251618FD9B2>) |
+| ASUSTek Computer | Z170-A                 | [829C11128B18](<Desktop/ASUSTek Computer/Z170/Z170-A/829C11128B18>) |
+| ASUSTek Computer | Z170I PRO GAMING       | [14F5F0DD90FF](<Desktop/ASUSTek Computer/Z170I/Z170I PRO GAMING/14F5F0DD90FF>) |
+| Acer             | Aspire R3600           | [C85DE8E38D84](<Desktop/Acer/Aspire/Aspire R3600/C85DE8E38D84>) |
+| Acer             | Aspire Z3-615          | [E37DB50E1157](<Desktop/Acer/Aspire/Aspire Z3-615/E37DB50E1157>) |
+| Aquarius         | Aquarius Pro P30 S75   | [0485A3072F96](<Desktop/Aquarius/Aquarius/Aquarius Pro P30 S75/0485A3072F96>) |
+| Aquarius         | Aquarius Pro P30 S75   | [9753F4AD3EFB](<Desktop/Aquarius/Aquarius/Aquarius Pro P30 S75/9753F4AD3EFB>) |
+| Aquarius         | Aquarius Pro, Std, ... | [C81391734654](<Desktop/Aquarius/Aquarius/Aquarius Pro, Std, Elt Series/C81391734654>) |
+| Biostar          | TB250-BTC              | [1421A6055406](<Desktop/Biostar/TB250/TB250-BTC/1421A6055406>) |
+| Biostar          | TB250-BTC PRO          | [0DD393D67EFC](<Desktop/Biostar/TB250-BTC/TB250-BTC PRO/0DD393D67EFC>) |
+| Dell             | G5 5090                | [67C667DAE80A](<Desktop/Dell/G5/G5 5090/67C667DAE80A>) |
+| Dell             | Inspiron 530           | [DEF2DEF61AED](<Desktop/Dell/Inspiron/Inspiron 530/DEF2DEF61AED>) |
+| Dell             | OptiPlex 3020M         | [5B206DC9512C](<Desktop/Dell/OptiPlex/OptiPlex 3020M/5B206DC9512C>) |
+| Dell             | Precision T3600        | [0B35AA5C5E30](<Desktop/Dell/Precision/Precision T3600/0B35AA5C5E30>) |
+| Dell             | Precision T3610        | [072875B334CD](<Desktop/Dell/Precision/Precision T3610/072875B334CD>) |
+| Dell             | Precision Tower 5810   | [998589835EA1](<Desktop/Dell/Precision/Precision Tower 5810/998589835EA1>) |
+| Dell             | Precision WorkStati... | [428B8D25DDA9](<Desktop/Dell/Precision/Precision WorkStation T7500/428B8D25DDA9>) |
+| Dell             | XPS 8940               | [9B79A7439313](<Desktop/Dell/XPS/XPS 8940/9B79A7439313>) |
+| EVGA             | 140-SS-E177            | [564CE2E4142A](<Desktop/EVGA/140/140-SS-E177/564CE2E4142A>) |
+| EVGA             | X299 MICRO             | [4B645993A72D](<Desktop/EVGA/X299/X299 MICRO/4B645993A72D>) |
+| Fujitsu          | D3401-H2 S26361-D34... | [4F893DF2FBAF](<Desktop/Fujitsu/D3401-H2/D3401-H2 S26361-D3401-H2/4F893DF2FBAF>) |
+| Gigabyte Tech... | 970A-DS3P              | [AC2460ABC374](<Desktop/Gigabyte Technology/970/970A-DS3P/AC2460ABC374>) |
+| Gigabyte Tech... | 990XA-UD3              | [16D86A6F85C2](<Desktop/Gigabyte Technology/990/990XA-UD3/16D86A6F85C2>) |
+| Gigabyte Tech... | A320M-S2H              | [7CFE191333A8](<Desktop/Gigabyte Technology/A320/A320M-S2H/7CFE191333A8>) |
+| Gigabyte Tech... | B450 AORUS ELITE       | [B712E77C8664](<Desktop/Gigabyte Technology/B450/B450 AORUS ELITE/B712E77C8664>) |
+| Gigabyte Tech... | B450 AORUS PRO WIFI    | [E6A2A5F585F9](<Desktop/Gigabyte Technology/B450/B450 AORUS PRO WIFI/E6A2A5F585F9>) |
+| Gigabyte Tech... | B450M DS3H             | [D9E9E66D46A4](<Desktop/Gigabyte Technology/B450M/B450M DS3H/D9E9E66D46A4>) |
+| Gigabyte Tech... | B550 AORUS ELITE AX V2 | [FF5CAB9F5A9A](<Desktop/Gigabyte Technology/B550/B550 AORUS ELITE AX V2/FF5CAB9F5A9A>) |
+| Gigabyte Tech... | B550 AORUS PRO V2      | [25E5EF251D0E](<Desktop/Gigabyte Technology/B550/B550 AORUS PRO V2/25E5EF251D0E>) |
+| Gigabyte Tech... | B75M-D3V               | [98E089E19203](<Desktop/Gigabyte Technology/B75/B75M-D3V/98E089E19203>) |
+| Gigabyte Tech... | EX58-UD5               | [DF2F64A5D6CA](<Desktop/Gigabyte Technology/EX58/EX58-UD5/DF2F64A5D6CA>) |
+| Gigabyte Tech... | F2A78M-HD2             | [42BA815263DC](<Desktop/Gigabyte Technology/F2/F2A78M-HD2/42BA815263DC>) |
+| Gigabyte Tech... | GA-MA785GM-US2H        | [75CF50C321BE](<Desktop/Gigabyte Technology/GA-MA785/GA-MA785GM-US2H/75CF50C321BE>) |
+| Gigabyte Tech... | GA-MA78LMT-US2H        | [883557B73AAA](<Desktop/Gigabyte Technology/GA-MA78/GA-MA78LMT-US2H/883557B73AAA>) |
+| Gigabyte Tech... | H270-HD3               | [7698BC6E9003](<Desktop/Gigabyte Technology/H270/H270-HD3/7698BC6E9003>) |
+| Gigabyte Tech... | Q87M-D2H               | [4A407DB4786C](<Desktop/Gigabyte Technology/Q87/Q87M-D2H/4A407DB4786C>) |
+| Gigabyte Tech... | X299 UD4               | [AD9BA0C2F08F](<Desktop/Gigabyte Technology/X299/X299 UD4/AD9BA0C2F08F>) |
+| Gigabyte Tech... | X470 AORUS ULTRA GA... | [2C61CC5352DF](<Desktop/Gigabyte Technology/X470/X470 AORUS ULTRA GAMING/2C61CC5352DF>) |
+| Gigabyte Tech... | X470 AORUS ULTRA GA... | [43F7753102C9](<Desktop/Gigabyte Technology/X470/X470 AORUS ULTRA GAMING/43F7753102C9>) |
+| Gigabyte Tech... | X570 AORUS MASTER      | [DBD6D480B744](<Desktop/Gigabyte Technology/X570/X570 AORUS MASTER/DBD6D480B744>) |
+| Gigabyte Tech... | X570 AORUS PRO         | [D33A09A909D4](<Desktop/Gigabyte Technology/X570/X570 AORUS PRO/D33A09A909D4>) |
+| Gigabyte Tech... | X79-UP4                | [E9921195B1EB](<Desktop/Gigabyte Technology/X79/X79-UP4/E9921195B1EB>) |
+| Gigabyte Tech... | X99-UD4-CF             | [9CCEADC5569A](<Desktop/Gigabyte Technology/X99/X99-UD4-CF/9CCEADC5569A>) |
+| Gigabyte Tech... | Z170X-Gaming 5         | [3F59130A5FF7](<Desktop/Gigabyte Technology/Z170X-Gaming/Z170X-Gaming 5/3F59130A5FF7>) |
+| Gigabyte Tech... | Z270N-WIFI             | [C5AACAD1CD45](<Desktop/Gigabyte Technology/Z270/Z270N-WIFI/C5AACAD1CD45>) |
+| Gigabyte Tech... | Z390 I AORUS PRO WIFI  | [F80EFC3E557E](<Desktop/Gigabyte Technology/Z390/Z390 I AORUS PRO WIFI/F80EFC3E557E>) |
+| Gigabyte Tech... | Z87-HD3                | [6B00753B50AA](<Desktop/Gigabyte Technology/Z87/Z87-HD3/6B00753B50AA>) |
+| Gigabyte Tech... | Z97-HD3                | [ED0E75619B10](<Desktop/Gigabyte Technology/Z97/Z97-HD3/ED0E75619B10>) |
+| Hewlett-Packard  | 450-a100ns             | [C9D5E5E25DCF](<Desktop/Hewlett-Packard/450/450-a100ns/C9D5E5E25DCF>) |
+| Hewlett-Packard  | 750-467c               | [D213850B6974](<Desktop/Hewlett-Packard/750/750-467c/D213850B6974>) |
+| Hewlett-Packard  | Compaq 6005 Pro MT PC  | [86BB28345D1D](<Desktop/Hewlett-Packard/Compaq/Compaq 6005 Pro MT PC/86BB28345D1D>) |
+| Hewlett-Packard  | Compaq 8100 Elite S... | [AB6EADEE22B9](<Desktop/Hewlett-Packard/Compaq/Compaq 8100 Elite SFF PC/AB6EADEE22B9>) |
+| Hewlett-Packard  | Compaq dc5800 Small... | [B5AE0C22424E](<Desktop/Hewlett-Packard/Compaq/Compaq dc5800 Small Form Factor/B5AE0C22424E>) |
+| Hewlett-Packard  | EliteDesk 800 G1 SFF   | [F13506CA489E](<Desktop/Hewlett-Packard/EliteDesk/EliteDesk 800 G1 SFF/F13506CA489E>) |
+| Hewlett-Packard  | GU620AA-ABE m9080.es   | [7C75A10C1DDC](<Desktop/Hewlett-Packard/GU620AA-ABE/GU620AA-ABE m9080.es/7C75A10C1DDC>) |
+| Hewlett-Packard  | Z220 CMT Workstation   | [9D0DFEFB9E7C](<Desktop/Hewlett-Packard/Z220/Z220 CMT Workstation/9D0DFEFB9E7C>) |
+| Hewlett-Packard  | Z400 Workstation       | [FF7C21B8CB39](<Desktop/Hewlett-Packard/Z400/Z400 Workstation/FF7C21B8CB39>) |
+| Hewlett-Packard  | h8-1080sc              | [25250FD435E2](<Desktop/Hewlett-Packard/h8/h8-1080sc/25250FD435E2>) |
+| Huanan           | H97-ZD3 V2.0           | [DA97878B0519](<Desktop/Huanan/H97-ZD3/H97-ZD3 V2.0/DA97878B0519>) |
+| Intel            | DG965LV AAD36275-501   | [9EEB4575F468](<Desktop/Intel/DG965LV/DG965LV AAD36275-501/9EEB4575F468>) |
+| Intel            | DG965LV AAD36275-501   | [F0588ABD2042](<Desktop/Intel/DG965LV/DG965LV AAD36275-501/F0588ABD2042>) |
+| Lenovo           | ThinkCentre E73 10D... | [CB64EEDF666A](<Desktop/Lenovo/ThinkCentre/ThinkCentre E73 10DS000TUK/CB64EEDF666A>) |
+| Lenovo           | ThinkCentre M710q 1... | [57EC640B0AFD](<Desktop/Lenovo/ThinkCentre/ThinkCentre M710q 10MR0009US/57EC640B0AFD>) |
+| Lenovo           | ThinkCentre M800 10... | [F935B8431F8F](<Desktop/Lenovo/ThinkCentre/ThinkCentre M800 10FW0004CA/F935B8431F8F>) |
+| Lenovo           | ThinkCentre M800 10... | [0E606A2AA43D](<Desktop/Lenovo/ThinkCentre/ThinkCentre M800 10FW0004US/0E606A2AA43D>) |
+| MSI              | MS-7519                | [4067500F99BB](<Desktop/MSI/MS/MS-7519/4067500F99BB>) |
+| MSI              | MS-7721                | [3EF15301B047](<Desktop/MSI/MS/MS-7721/3EF15301B047>) |
+| MSI              | MS-7752                | [14FAD414B696](<Desktop/MSI/MS/MS-7752/14FAD414B696>) |
+| MSI              | MS-7817                | [FA7197F212CA](<Desktop/MSI/MS/MS-7817/FA7197F212CA>) |
+| MSI              | MS-7885                | [A386B4BDC94D](<Desktop/MSI/MS/MS-7885/A386B4BDC94D>) |
+| MSI              | MS-7A38                | [53B5D217D45C](<Desktop/MSI/MS-7/MS-7A38/53B5D217D45C>) |
+| MSI              | MS-7A71                | [0A6AE3A8428C](<Desktop/MSI/MS-7/MS-7A71/0A6AE3A8428C>) |
+| MSI              | MS-7B19                | [0FE3C97F624E](<Desktop/MSI/MS-7/MS-7B19/0FE3C97F624E>) |
+| MSI              | MS-7B78                | [E18238CFE532](<Desktop/MSI/MS-7/MS-7B78/E18238CFE532>) |
+| MSI              | MS-7B79                | [58CCA16AFBB8](<Desktop/MSI/MS-7/MS-7B79/58CCA16AFBB8>) |
+| MSI              | MS-7C02                | [E7F57A01752D](<Desktop/MSI/MS-7/MS-7C02/E7F57A01752D>) |
+| MSI              | MS-7C35                | [CC63EF2F9155](<Desktop/MSI/MS-7/MS-7C35/CC63EF2F9155>) |
+| MSI              | MS-7C37                | [129E9638DC76](<Desktop/MSI/MS-7/MS-7C37/129E9638DC76>) |
+| MSI              | MS-7C37                | [872109368CDD](<Desktop/MSI/MS-7/MS-7C37/872109368CDD>) |
+| MSI              | MS-7C84                | [8AEC9430CA40](<Desktop/MSI/MS-7/MS-7C84/8AEC9430CA40>) |
+| MSI              | MS-7D22                | [EFE8F101CE6E](<Desktop/MSI/MS-7/MS-7D22/EFE8F101CE6E>) |
+| MSI              | MS-7D23                | [4DB8A3EFBF0B](<Desktop/MSI/MS-7/MS-7D23/4DB8A3EFBF0B>) |
+| MSI              | MS-7D70                | [AFD239798CB7](<Desktop/MSI/MS-7/MS-7D70/AFD239798CB7>) |
+| Others           | Others                 | [FBC02BEEE3C4](<Desktop/Others/Others/Others/FBC02BEEE3C4>) |
+| Supermicro       | X7DB8                  | [22C25EDFF9A3](<Desktop/Supermicro/X7/X7DB8/22C25EDFF9A3>) |
+| Supermicro       | X8SIL                  | [40AECBFF4573](<Desktop/Supermicro/X8/X8SIL/40AECBFF4573>) |
+| TONK             | C31                    | [7F7E8D75C7FF](<Desktop/TONK/C/C31/7F7E8D75C7FF>) |
+| TONK             | TN1402                 | [ABC6298CB633](<Desktop/TONK/TN/TN1402/ABC6298CB633>) |
+| TSINGHUA TONG... | E500                   | [58972BD24BF4](<Desktop/TSINGHUA TONGFANG COMPUTER/E/E500/58972BD24BF4>) |
+| VIA Technologies | P4M266A-8235           | [D2BD34E8B558](<Desktop/VIA Technologies/P4/P4M266A-8235/D2BD34E8B558>) |
+| ZOTAC            | NM10                   | [27F12A855946](<Desktop/ZOTAC/NM/NM10/27F12A855946>) |
+
+All In Ones
+-----------
+
+| MFG              | Model                  | HWID |
+|------------------|------------------------|------|
+| Acer             | Aspire Z3-715          | [9F6A5601CE04](<All In One/Acer/Aspire/Aspire Z3-715/9F6A5601CE04>) |
+| Acidanthera      | iMac17,1               | [1414BFD2B4B8](<All In One/Acidanthera/iMac17/iMac17,1/1414BFD2B4B8>) |
+| Apple            | iMac11,3               | [9C99E007509B](<All In One/Apple/iMac11/iMac11,3/9C99E007509B>) |
+| Apple            | iMac12,2               | [521204017BE2](<All In One/Apple/iMac12/iMac12,2/521204017BE2>) |
+| Apple            | iMac8,1                | [D19176E847E3](<All In One/Apple/iMac8/iMac8,1/D19176E847E3>) |
+| Dell             | Inspiron One 2310      | [5F83FBD970E4](<All In One/Dell/Inspiron/Inspiron One 2310/5F83FBD970E4>) |
+
+Mini Pcs
+--------
+
+| MFG              | Model                  | HWID |
+|------------------|------------------------|------|
+| AMI              | Aptio CRB              | [259F9FDD46E2](<Mini Pc/AMI/Aptio/Aptio CRB/259F9FDD46E2>) |
+| ASUSTek Computer | MINIPC PN50            | [8F8267FBEFAB](<Mini Pc/ASUSTek Computer/MINIPC/MINIPC PN50/8F8267FBEFAB>) |
+| ASUSTek Computer | MINIPC PN51            | [601482F8255B](<Mini Pc/ASUSTek Computer/MINIPC/MINIPC PN51/601482F8255B>) |
+| Apple            | Macmini6,2             | [11618970C18C](<Mini Pc/Apple/Macmini6/Macmini6,2/11618970C18C>) |
+| congatec         | conga-MA5 B.2          | [127575E26FEC](<Mini Pc/congatec/conga-MA5/conga-MA5 B.2/127575E26FEC>) |
 
 Notebooks
 ---------
@@ -68,6 +286,7 @@ Notebooks
 | Aava Mobile Oy   | INARI8-LTBN-1          | [A658B5B6E0CB](<Notebook/Aava Mobile Oy/INARI8/INARI8-LTBN-1/A658B5B6E0CB>) |
 | Acer             | Aspire 5750G           | [1C75B68B6F9E](<Notebook/Acer/Aspire/Aspire 5750G/1C75B68B6F9E>) |
 | Acer             | Aspire 6930G           | [BD521A6A498E](<Notebook/Acer/Aspire/Aspire 6930G/BD521A6A498E>) |
+| Acer             | Aspire A114-31         | [569B1397EEB1](<Notebook/Acer/Aspire/Aspire A114-31/569B1397EEB1>) |
 | Acer             | Aspire A315-41         | [E273887C5E08](<Notebook/Acer/Aspire/Aspire A315-41/E273887C5E08>) |
 | Acer             | Aspire A315-42G        | [DC953747E73F](<Notebook/Acer/Aspire/Aspire A315-42G/DC953747E73F>) |
 | Acer             | Aspire A517-51G        | [044F21EE45C9](<Notebook/Acer/Aspire/Aspire A517-51G/044F21EE45C9>) |
@@ -81,10 +300,12 @@ Notebooks
 | Acer             | Nitro AN515-42         | [7D6CB7ACB520](<Notebook/Acer/Nitro/Nitro AN515-42/7D6CB7ACB520>) |
 | Acer             | Nitro AN515-52         | [C3964EC65A6E](<Notebook/Acer/Nitro/Nitro AN515-52/C3964EC65A6E>) |
 | Acer             | Peppy                  | [77DD53F16CF4](<Notebook/Acer/Peppy/Peppy/77DD53F16CF4>) |
+| Acer             | Swift SF314-43         | [9E594C0A2F6E](<Notebook/Acer/Swift/Swift SF314-43/9E594C0A2F6E>) |
 | Alienware        | 17 R5                  | [2B5491E1A559](<Notebook/Alienware/17/17 R5/2B5491E1A559>) |
 | Alienware        | M17xR4                 | [470F99A8C527](<Notebook/Alienware/M17/M17xR4/470F99A8C527>) |
 | Apple            | MacBookPro12,1         | [A236F4DD9072](<Notebook/Apple/MacBookPro12/MacBookPro12,1/A236F4DD9072>) |
 | Apple            | MacBookPro14,3         | [91077C25D705](<Notebook/Apple/MacBookPro14/MacBookPro14,3/91077C25D705>) |
+| Avell High Pe... | A70 MOB                | [16859F37F144](<Notebook/Avell High Performance/A70/A70 MOB/16859F37F144>) |
 | Avell High Pe... | C75 RTX MUV-G1750 R... | [B4CC55E338B5](<Notebook/Avell High Performance/C75/C75 RTX MUV-G1750 RTX MUV/B4CC55E338B5>) |
 | BBEN             | z10                    | [65E372FCAFD3](<Notebook/BBEN/z/z10/65E372FCAFD3>) |
 | CCE              | Capella & IbexPeak-... | [47908F284309](<Notebook/CCE/Capella/Capella & IbexPeak-M Chipset/47908F284309>) |
@@ -98,9 +319,12 @@ Notebooks
 | Dell             | Latitude 3590          | [D10A9696B4DB](<Notebook/Dell/Latitude/Latitude 3590/D10A9696B4DB>) |
 | Dell             | Latitude 5480          | [3A39526FD3E9](<Notebook/Dell/Latitude/Latitude 5480/3A39526FD3E9>) |
 | Dell             | Latitude 5511          | [A37FB9368F2A](<Notebook/Dell/Latitude/Latitude 5511/A37FB9368F2A>) |
+| Dell             | Latitude 5521          | [C82728E65A3D](<Notebook/Dell/Latitude/Latitude 5521/C82728E65A3D>) |
+| Dell             | Latitude 7370          | [59F5A718F329](<Notebook/Dell/Latitude/Latitude 7370/59F5A718F329>) |
 | Dell             | Latitude 7420          | [3834AF24A903](<Notebook/Dell/Latitude/Latitude 7420/3834AF24A903>) |
 | Dell             | Latitude 7420          | [8DAF8BDBF9D8](<Notebook/Dell/Latitude/Latitude 7420/8DAF8BDBF9D8>) |
 | Dell             | Latitude 7480          | [21DFEFB52BB5](<Notebook/Dell/Latitude/Latitude 7480/21DFEFB52BB5>) |
+| Dell             | Latitude 9420          | [8A77983183EB](<Notebook/Dell/Latitude/Latitude 9420/8A77983183EB>) |
 | Dell             | Latitude E5420         | [655F45A6514E](<Notebook/Dell/Latitude/Latitude E5420/655F45A6514E>) |
 | Dell             | Latitude E5450         | [E1BA902CF2E6](<Notebook/Dell/Latitude/Latitude E5450/E1BA902CF2E6>) |
 | Dell             | Latitude E5520         | [E746086B8F59](<Notebook/Dell/Latitude/Latitude E5520/E746086B8F59>) |
@@ -124,8 +348,10 @@ Notebooks
 | Dell             | XPS 15 9500            | [0EF135BA6BB4](<Notebook/Dell/XPS/XPS 15 9500/0EF135BA6BB4>) |
 | Dell             | XPS 15 9570            | [7298D35A1731](<Notebook/Dell/XPS/XPS 15 9570/7298D35A1731>) |
 | Dell             | XPS L501X              | [9F185E57291E](<Notebook/Dell/XPS/XPS L501X/9F185E57291E>) |
+| Emdoor           | AG958                  | [0A50182C308B](<Notebook/Emdoor/AG/AG958/0A50182C308B>) |
 | Fujitsu          | LIFEBOOK U938          | [71F4D08280F4](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK U938/71F4D08280F4>) |
 | Gigabyte Tech... | AORUS 15G KB           | [A7DC3F8318A8](<Notebook/Gigabyte Technology/AORUS/AORUS 15G KB/A7DC3F8318A8>) |
+| HUAWEI           | CREF-XX                | [651E7E8E95D2](<Notebook/HUAWEI/CREF-XX/CREF-XX/651E7E8E95D2>) |
 | HUAWEI           | KLVL-WXX9              | [EC3A5551C690](<Notebook/HUAWEI/KLVL-WXX/KLVL-WXX9/EC3A5551C690>) |
 | HUAWEI           | KLVL-WXXW              | [75C30DF145FB](<Notebook/HUAWEI/KLVL-WXXW/KLVL-WXXW/75C30DF145FB>) |
 | HUAWEI           | NBLK-WAX9X             | [742F023DAEF2](<Notebook/HUAWEI/NBLK-WAX9/NBLK-WAX9X/742F023DAEF2>) |
@@ -152,7 +378,9 @@ Notebooks
 | Hewlett-Packard  | G42                    | [A1AAA80A9E8E](<Notebook/Hewlett-Packard/G/G42/A1AAA80A9E8E>) |
 | Hewlett-Packard  | G62                    | [D4B22D617BFD](<Notebook/Hewlett-Packard/G/G62/D4B22D617BFD>) |
 | Hewlett-Packard  | Laptop 14-cf0xxx       | [42F2CB5F9E38](<Notebook/Hewlett-Packard/Laptop/Laptop 14-cf0xxx/42F2CB5F9E38>) |
+| Hewlett-Packard  | Laptop 14-fq0xxx       | [BBDBF973C913](<Notebook/Hewlett-Packard/Laptop/Laptop 14-fq0xxx/BBDBF973C913>) |
 | Hewlett-Packard  | Laptop 15-db0xxx       | [532B72E8E7AC](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/532B72E8E7AC>) |
+| Hewlett-Packard  | Laptop 15s-eq1xxx      | [5E0F355D1A34](<Notebook/Hewlett-Packard/Laptop/Laptop 15s-eq1xxx/5E0F355D1A34>) |
 | Hewlett-Packard  | Mini 5101              | [D143AED9806A](<Notebook/Hewlett-Packard/Mini/Mini 5101/D143AED9806A>) |
 | Hewlett-Packard  | OMEN Laptop 15-en0xxx  | [53ADDB862BBA](<Notebook/Hewlett-Packard/OMEN/OMEN Laptop 15-en0xxx/53ADDB862BBA>) |
 | Hewlett-Packard  | Pavilion Aero Lapto... | [08BBC0E3A256](<Notebook/Hewlett-Packard/Pavilion/Pavilion Aero Laptop 13-be0xxx/08BBC0E3A256>) |
@@ -161,6 +389,8 @@ Notebooks
 | Hewlett-Packard  | Pavilion Laptop 15-... | [593206380A86](<Notebook/Hewlett-Packard/Pavilion/Pavilion Laptop 15-cw0xxx/593206380A86>) |
 | Hewlett-Packard  | Pavilion Notebook      | [45CC6121C541](<Notebook/Hewlett-Packard/Pavilion/Pavilion Notebook/45CC6121C541>) |
 | Hewlett-Packard  | Pavilion dv8           | [D8B9EB76B074](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv8/D8B9EB76B074>) |
+| Hewlett-Packard  | Pavilion g6            | [704FAFDEB09B](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/704FAFDEB09B>) |
+| Hewlett-Packard  | Pavilion g6            | [CC63B52FDAD0](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/CC63B52FDAD0>) |
 | Hewlett-Packard  | Pavilion x2 Detachable | [5850EA215153](<Notebook/Hewlett-Packard/Pavilion/Pavilion x2 Detachable/5850EA215153>) |
 | Hewlett-Packard  | ProBook 4540s          | [F9464A10DAC3](<Notebook/Hewlett-Packard/ProBook/ProBook 4540s/F9464A10DAC3>) |
 | Hewlett-Packard  | ProBook 470 G0         | [7206C3577DFF](<Notebook/Hewlett-Packard/ProBook/ProBook 470 G0/7206C3577DFF>) |
@@ -188,6 +418,7 @@ Notebooks
 | Lenovo           | IdeaPad 5 15ARE05 81YQ | [2424AE05AF5B](<Notebook/Lenovo/IdeaPad/IdeaPad 5 15ARE05 81YQ/2424AE05AF5B>) |
 | Lenovo           | IdeaPad 5 15ARE05 81YQ | [929BE1EA74BF](<Notebook/Lenovo/IdeaPad/IdeaPad 5 15ARE05 81YQ/929BE1EA74BF>) |
 | Lenovo           | IdeaPad 5-15ARE05 81YQ | [523800B45365](<Notebook/Lenovo/IdeaPad/IdeaPad 5-15ARE05 81YQ/523800B45365>) |
+| Lenovo           | IdeaPad 710S-13ISK ... | [F29621040FDC](<Notebook/Lenovo/IdeaPad/IdeaPad 710S-13ISK 80SW/F29621040FDC>) |
 | Lenovo           | IdeaPad L340-15IRH ... | [5B5E032BF08D](<Notebook/Lenovo/IdeaPad/IdeaPad L340-15IRH Gaming 81LK/5B5E032BF08D>) |
 | Lenovo           | IdeaPad S145-15IWL ... | [F428DF8127B0](<Notebook/Lenovo/IdeaPad/IdeaPad S145-15IWL 81S9/F428DF8127B0>) |
 | Lenovo           | IdeaPad U310           | [3AC887234B79](<Notebook/Lenovo/IdeaPad/IdeaPad U310/3AC887234B79>) |
@@ -207,6 +438,7 @@ Notebooks
 | Lenovo           | ThinkPad L15 Gen 2 ... | [CCA34DA7A4E9](<Notebook/Lenovo/ThinkPad/ThinkPad L15 Gen 2 20X4S27200/CCA34DA7A4E9>) |
 | Lenovo           | ThinkPad Mini10 350... | [EAC15D3F8438](<Notebook/Lenovo/ThinkPad/ThinkPad Mini10 3507A31/EAC15D3F8438>) |
 | Lenovo           | ThinkPad P1 Gen 4i ... | [4012A98BFAA3](<Notebook/Lenovo/ThinkPad/ThinkPad P1 Gen 4i 20Y4S0KS00/4012A98BFAA3>) |
+| Lenovo           | ThinkPad P15s Gen 2... | [C49AF6F23385](<Notebook/Lenovo/ThinkPad/ThinkPad P15s Gen 2i 20W6001VUS/C49AF6F23385>) |
 | Lenovo           | ThinkPad P52 20M9CT... | [7F49922756AE](<Notebook/Lenovo/ThinkPad/ThinkPad P52 20M9CTO1WW/7F49922756AE>) |
 | Lenovo           | ThinkPad T14s Gen 1... | [35B0F227248A](<Notebook/Lenovo/ThinkPad/ThinkPad T14s Gen 1 20T1S2WF00/35B0F227248A>) |
 | Lenovo           | ThinkPad T410 2522W5D  | [1C0315195E84](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2522W5D/1C0315195E84>) |
@@ -226,7 +458,10 @@ Notebooks
 | Lenovo           | ThinkPad X1 Carbon ... | [66976DD8FE3D](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 5th 20HQS3DV00/66976DD8FE3D>) |
 | Lenovo           | ThinkPad X1 Carbon ... | [BE3AACE7B6D7](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 6th 20KHCTO1WW/BE3AACE7B6D7>) |
 | Lenovo           | ThinkPad X1 Carbon ... | [282408B7FDEC](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon Gen 8 20UAS89500/282408B7FDEC>) |
+| Lenovo           | ThinkPad X1 Carbon ... | [C06A0E31B5D6](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon Gen 9 20XW007YPB/C06A0E31B5D6>) |
 | Lenovo           | ThinkPad X230 2325A60  | [AE4563D1F6CF](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2325A60/AE4563D1F6CF>) |
+| Lenovo           | ThinkPad X230 2325CS6  | [3AD6E42A6F1F](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2325CS6/3AD6E42A6F1F>) |
+| Lenovo           | ThinkPad X230 2333BR3  | [C1DACB9DD49B](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2333BR3/C1DACB9DD49B>) |
 | Lenovo           | ThinkPad X380 Yoga ... | [5EDC3F139B76](<Notebook/Lenovo/ThinkPad/ThinkPad X380 Yoga 20LJ000VMS/5EDC3F139B76>) |
 | Lenovo           | ThinkPad X61 Tablet... | [175B115C38BD](<Notebook/Lenovo/ThinkPad/ThinkPad X61 Tablet 7762WSF/175B115C38BD>) |
 | Lenovo           | ThinkPad X61 Tablet... | [A54FD909734A](<Notebook/Lenovo/ThinkPad/ThinkPad X61 Tablet 776796U/A54FD909734A>) |
@@ -267,6 +502,7 @@ Notebooks
 | Sony             | SVE1713S1RW            | [506CDC50E671](<Notebook/Sony/SVE1713/SVE1713S1RW/506CDC50E671>) |
 | Sony             | SVS1512U1RW            | [58482FAA3885](<Notebook/Sony/SVS1512/SVS1512U1RW/58482FAA3885>) |
 | Sony             | VPCEB3PGX              | [AD47034F7981](<Notebook/Sony/VPCEB3/VPCEB3PGX/AD47034F7981>) |
+| System76         | Pangolin               | [4F5C02C371C7](<Notebook/System76/Pangolin/Pangolin/4F5C02C371C7>) |
 | TUXEDO           | Pulse 15 Gen1          | [F512FA6A22F0](<Notebook/TUXEDO/Pulse/Pulse 15 Gen1/F512FA6A22F0>) |
 | Teclast          | F15Plus 2              | [5D2F5E56BCAB](<Notebook/Teclast/F15Plus/F15Plus 2/5D2F5E56BCAB>) |
 | Timi             | RedmiBook Pro 15S      | [3509D1F696E7](<Notebook/Timi/RedmiBook/RedmiBook Pro 15S/3509D1F696E7>) |
@@ -286,179 +522,6 @@ Notebooks
 | Valve            | Jupiter                | [D98C04F8D964](<Notebook/Valve/Jupiter/Jupiter/D98C04F8D964>) |
 | ilife            | S806                   | [7AF027A015B2](<Notebook/ilife/S/S806/7AF027A015B2>) |
 
-Desktops
---------
-
-| MFG              | Model                  | HWID |
-|------------------|------------------------|------|
-| ASRock           | 870 Extreme3           | [96943D290A28](<Desktop/ASRock/870/870 Extreme3/96943D290A28>) |
-| ASRock           | B365M Pro4-F           | [3ED58AB6F5A2](<Desktop/ASRock/B365M/B365M Pro4-F/3ED58AB6F5A2>) |
-| ASRock           | B450 Pro4              | [2B7468FF1136](<Desktop/ASRock/B450/B450 Pro4/2B7468FF1136>) |
-| ASRock           | B450M Pro4             | [9CDD2E1ABE37](<Desktop/ASRock/B450M/B450M Pro4/9CDD2E1ABE37>) |
-| ASRock           | B650E PG Riptide WiFi  | [5E17E2E424CB](<Desktop/ASRock/B650E/B650E PG Riptide WiFi/5E17E2E424CB>) |
-| ASRock           | G31M-S                 | [53A47C01E2B6](<Desktop/ASRock/G31/G31M-S/53A47C01E2B6>) |
-| ASRock           | H77M                   | [B9EDF74B73FF](<Desktop/ASRock/H77/H77M/B9EDF74B73FF>) |
-| ASRock           | X370 Gaming X          | [FD61EDF83841](<Desktop/ASRock/X370/X370 Gaming X/FD61EDF83841>) |
-| ASRock           | X370 Pro4              | [D168CDF2391B](<Desktop/ASRock/X370/X370 Pro4/D168CDF2391B>) |
-| ASRock           | X399 Taichi            | [AB101543D5E5](<Desktop/ASRock/X399/X399 Taichi/AB101543D5E5>) |
-| ASRock           | X570 Steel Legend      | [BDEF664E9D74](<Desktop/ASRock/X570/X570 Steel Legend/BDEF664E9D74>) |
-| ASRock           | X570 Taichi            | [439DCF38AE7B](<Desktop/ASRock/X570/X570 Taichi/439DCF38AE7B>) |
-| ASRock           | X570 Taichi            | [B565CA745AAF](<Desktop/ASRock/X570/X570 Taichi/B565CA745AAF>) |
-| ASRock           | Z170 Extreme4          | [FBF904E4434D](<Desktop/ASRock/Z170/Z170 Extreme4/FBF904E4434D>) |
-| ASRock           | Z87 Extreme6           | [4D7703C3D3CC](<Desktop/ASRock/Z87/Z87 Extreme6/4D7703C3D3CC>) |
-| ASRock           | Z87 Pro3               | [F270C31E7682](<Desktop/ASRock/Z87/Z87 Pro3/F270C31E7682>) |
-| ASUSTek Computer | A68HM-K                | [17747204732B](<Desktop/ASUSTek Computer/A68/A68HM-K/17747204732B>) |
-| ASUSTek Computer | All Series             | [21299B1F4635](<Desktop/ASUSTek Computer/All/All Series/21299B1F4635>) |
-| ASUSTek Computer | All Series             | [6B158AE6BD79](<Desktop/ASUSTek Computer/All/All Series/6B158AE6BD79>) |
-| ASUSTek Computer | All Series             | [BEB9F4663954](<Desktop/ASUSTek Computer/All/All Series/BEB9F4663954>) |
-| ASUSTek Computer | F1A75-M LE             | [0DD8332C0CDD](<Desktop/ASUSTek Computer/F1A75-M/F1A75-M LE/0DD8332C0CDD>) |
-| ASUSTek Computer | H110M-A-M.2            | [C8AF5B504787](<Desktop/ASUSTek Computer/H110/H110M-A-M.2/C8AF5B504787>) |
-| ASUSTek Computer | K30AD_M31AD_M51AD      | [7403924D239F](<Desktop/ASUSTek Computer/K30/K30AD_M31AD_M51AD/7403924D239F>) |
-| ASUSTek Computer | M2NPV-VM               | [01FB14E3CB98](<Desktop/ASUSTek Computer/M2/M2NPV-VM/01FB14E3CB98>) |
-| ASUSTek Computer | M4A78T-E               | [83CD211F5082](<Desktop/ASUSTek Computer/M4/M4A78T-E/83CD211F5082>) |
-| ASUSTek Computer | M4A88TD-V EVO-USB3     | [822ED952E415](<Desktop/ASUSTek Computer/M4A88TD-V/M4A88TD-V EVO-USB3/822ED952E415>) |
-| ASUSTek Computer | M5A78L-M PLUS-USB3     | [1429FA6A44BB](<Desktop/ASUSTek Computer/M5A78L-M/M5A78L-M PLUS-USB3/1429FA6A44BB>) |
-| ASUSTek Computer | M5A88-M                | [B5844611EE06](<Desktop/ASUSTek Computer/M5/M5A88-M/B5844611EE06>) |
-| ASUSTek Computer | Maximus VIII FORMULA   | [ED4EDE81937F](<Desktop/ASUSTek Computer/Maximus/Maximus VIII FORMULA/ED4EDE81937F>) |
-| ASUSTek Computer | P4P800                 | [92967C173382](<Desktop/ASUSTek Computer/P4/P4P800/92967C173382>) |
-| ASUSTek Computer | P5GC-MX                | [84CD51FC834B](<Desktop/ASUSTek Computer/P5/P5GC-MX/84CD51FC834B>) |
-| ASUSTek Computer | P5Q-EM                 | [C27BD13101D2](<Desktop/ASUSTek Computer/P5/P5Q-EM/C27BD13101D2>) |
-| ASUSTek Computer | P5QL PRO               | [772A7DDD8BC2](<Desktop/ASUSTek Computer/P5QL/P5QL PRO/772A7DDD8BC2>) |
-| ASUSTek Computer | P5VD2-VM               | [9610A2E3CA3D](<Desktop/ASUSTek Computer/P5/P5VD2-VM/9610A2E3CA3D>) |
-| ASUSTek Computer | P8H61-M LX R2.0        | [919695431AB5](<Desktop/ASUSTek Computer/P8H61-M/P8H61-M LX R2.0/919695431AB5>) |
-| ASUSTek Computer | P8H67-M                | [D4F93141130B](<Desktop/ASUSTek Computer/P8/P8H67-M/D4F93141130B>) |
-| ASUSTek Computer | P8P67                  | [153751203A61](<Desktop/ASUSTek Computer/P8/P8P67/153751203A61>) |
-| ASUSTek Computer | PRIME A320M-K          | [7A97D933DB40](<Desktop/ASUSTek Computer/PRIME/PRIME A320M-K/7A97D933DB40>) |
-| ASUSTek Computer | PRIME B250M-PLUS       | [55D7B7DDD6EA](<Desktop/ASUSTek Computer/PRIME/PRIME B250M-PLUS/55D7B7DDD6EA>) |
-| ASUSTek Computer | PRIME B350M-E          | [C6029FAF836E](<Desktop/ASUSTek Computer/PRIME/PRIME B350M-E/C6029FAF836E>) |
-| ASUSTek Computer | PRIME B450M-A II       | [076CCB6076ED](<Desktop/ASUSTek Computer/PRIME/PRIME B450M-A II/076CCB6076ED>) |
-| ASUSTek Computer | PRIME B550-PLUS        | [A7BCABE66EA7](<Desktop/ASUSTek Computer/PRIME/PRIME B550-PLUS/A7BCABE66EA7>) |
-| ASUSTek Computer | PRIME B660-PLUS D4     | [9B142B25D938](<Desktop/ASUSTek Computer/PRIME/PRIME B660-PLUS D4/9B142B25D938>) |
-| ASUSTek Computer | PRIME H270-PLUS        | [F5F6D462DE08](<Desktop/ASUSTek Computer/PRIME/PRIME H270-PLUS/F5F6D462DE08>) |
-| ASUSTek Computer | PRIME H310T            | [7C60E775AD2D](<Desktop/ASUSTek Computer/PRIME/PRIME H310T/7C60E775AD2D>) |
-| ASUSTek Computer | PRIME X370-PRO         | [22F59A67504C](<Desktop/ASUSTek Computer/PRIME/PRIME X370-PRO/22F59A67504C>) |
-| ASUSTek Computer | PRIME X370-PRO         | [A169FD97AB0E](<Desktop/ASUSTek Computer/PRIME/PRIME X370-PRO/A169FD97AB0E>) |
-| ASUSTek Computer | PRIME X399-A           | [73EDB0DDFF0E](<Desktop/ASUSTek Computer/PRIME/PRIME X399-A/73EDB0DDFF0E>) |
-| ASUSTek Computer | PRIME Z390-P           | [842B84D25492](<Desktop/ASUSTek Computer/PRIME/PRIME Z390-P/842B84D25492>) |
-| ASUSTek Computer | PRIME Z590M-PLUS       | [01CB5FB8471F](<Desktop/ASUSTek Computer/PRIME/PRIME Z590M-PLUS/01CB5FB8471F>) |
-| ASUSTek Computer | ROG Maximus XI FORMULA | [40D9F9C25C94](<Desktop/ASUSTek Computer/ROG/ROG Maximus XI FORMULA/40D9F9C25C94>) |
-| ASUSTek Computer | ROG Maximus XI FORMULA | [5E84C606C2ED](<Desktop/ASUSTek Computer/ROG/ROG Maximus XI FORMULA/5E84C606C2ED>) |
-| ASUSTek Computer | ROG STRIX B550-A GA... | [2A3464A3CAF2](<Desktop/ASUSTek Computer/ROG/ROG STRIX B550-A GAMING/2A3464A3CAF2>) |
-| ASUSTek Computer | ROG STRIX B650E-E G... | [155BCB0E54DA](<Desktop/ASUSTek Computer/ROG/ROG STRIX B650E-E GAMING WIFI/155BCB0E54DA>) |
-| ASUSTek Computer | ROG STRIX X370-F GA... | [9A3503578D93](<Desktop/ASUSTek Computer/ROG/ROG STRIX X370-F GAMING/9A3503578D93>) |
-| ASUSTek Computer | ROG STRIX X570-E GA... | [1C1934A994B8](<Desktop/ASUSTek Computer/ROG/ROG STRIX X570-E GAMING/1C1934A994B8>) |
-| ASUSTek Computer | ROG ZENITH II EXTRE... | [BF6A37F4A7D0](<Desktop/ASUSTek Computer/ROG/ROG ZENITH II EXTREME ALPHA/BF6A37F4A7D0>) |
-| ASUSTek Computer | SABERTOOTH 990FX       | [3D77ED0B498A](<Desktop/ASUSTek Computer/SABERTOOTH/SABERTOOTH 990FX/3D77ED0B498A>) |
-| ASUSTek Computer | SABERTOOTH 990FX       | [B015992EFDE5](<Desktop/ASUSTek Computer/SABERTOOTH/SABERTOOTH 990FX/B015992EFDE5>) |
-| ASUSTek Computer | STRIX Z270E GAMING     | [40BA5E949A86](<Desktop/ASUSTek Computer/STRIX/STRIX Z270E GAMING/40BA5E949A86>) |
-| ASUSTek Computer | TUF GAMING X570-PLUS   | [FFE351BD703D](<Desktop/ASUSTek Computer/TUF/TUF GAMING X570-PLUS/FFE351BD703D>) |
-| ASUSTek Computer | TUF X470-PLUS GAMING   | [FA691F349B4D](<Desktop/ASUSTek Computer/TUF/TUF X470-PLUS GAMING/FA691F349B4D>) |
-| ASUSTek Computer | Z170-A                 | [8251618FD9B2](<Desktop/ASUSTek Computer/Z170/Z170-A/8251618FD9B2>) |
-| ASUSTek Computer | Z170-A                 | [829C11128B18](<Desktop/ASUSTek Computer/Z170/Z170-A/829C11128B18>) |
-| ASUSTek Computer | Z170I PRO GAMING       | [14F5F0DD90FF](<Desktop/ASUSTek Computer/Z170I/Z170I PRO GAMING/14F5F0DD90FF>) |
-| Acer             | Aspire R3600           | [C85DE8E38D84](<Desktop/Acer/Aspire/Aspire R3600/C85DE8E38D84>) |
-| Acer             | Aspire Z3-615          | [E37DB50E1157](<Desktop/Acer/Aspire/Aspire Z3-615/E37DB50E1157>) |
-| Aquarius         | Aquarius Pro P30 S75   | [0485A3072F96](<Desktop/Aquarius/Aquarius/Aquarius Pro P30 S75/0485A3072F96>) |
-| Aquarius         | Aquarius Pro P30 S75   | [9753F4AD3EFB](<Desktop/Aquarius/Aquarius/Aquarius Pro P30 S75/9753F4AD3EFB>) |
-| Aquarius         | Aquarius Pro, Std, ... | [C81391734654](<Desktop/Aquarius/Aquarius/Aquarius Pro, Std, Elt Series/C81391734654>) |
-| Biostar          | TB250-BTC              | [1421A6055406](<Desktop/Biostar/TB250/TB250-BTC/1421A6055406>) |
-| Biostar          | TB250-BTC PRO          | [0DD393D67EFC](<Desktop/Biostar/TB250-BTC/TB250-BTC PRO/0DD393D67EFC>) |
-| Dell             | G5 5090                | [67C667DAE80A](<Desktop/Dell/G5/G5 5090/67C667DAE80A>) |
-| Dell             | Inspiron 530           | [DEF2DEF61AED](<Desktop/Dell/Inspiron/Inspiron 530/DEF2DEF61AED>) |
-| Dell             | OptiPlex 3020M         | [5B206DC9512C](<Desktop/Dell/OptiPlex/OptiPlex 3020M/5B206DC9512C>) |
-| Dell             | Precision T3600        | [0B35AA5C5E30](<Desktop/Dell/Precision/Precision T3600/0B35AA5C5E30>) |
-| Dell             | Precision T3610        | [072875B334CD](<Desktop/Dell/Precision/Precision T3610/072875B334CD>) |
-| Dell             | Precision Tower 5810   | [998589835EA1](<Desktop/Dell/Precision/Precision Tower 5810/998589835EA1>) |
-| Dell             | Precision WorkStati... | [428B8D25DDA9](<Desktop/Dell/Precision/Precision WorkStation T7500/428B8D25DDA9>) |
-| Dell             | XPS 8940               | [9B79A7439313](<Desktop/Dell/XPS/XPS 8940/9B79A7439313>) |
-| EVGA             | 140-SS-E177            | [564CE2E4142A](<Desktop/EVGA/140/140-SS-E177/564CE2E4142A>) |
-| EVGA             | X299 MICRO             | [4B645993A72D](<Desktop/EVGA/X299/X299 MICRO/4B645993A72D>) |
-| Gigabyte Tech... | 970A-DS3P              | [AC2460ABC374](<Desktop/Gigabyte Technology/970/970A-DS3P/AC2460ABC374>) |
-| Gigabyte Tech... | 990XA-UD3              | [16D86A6F85C2](<Desktop/Gigabyte Technology/990/990XA-UD3/16D86A6F85C2>) |
-| Gigabyte Tech... | A320M-S2H              | [7CFE191333A8](<Desktop/Gigabyte Technology/A320/A320M-S2H/7CFE191333A8>) |
-| Gigabyte Tech... | B450 AORUS ELITE       | [B712E77C8664](<Desktop/Gigabyte Technology/B450/B450 AORUS ELITE/B712E77C8664>) |
-| Gigabyte Tech... | B450 AORUS PRO WIFI    | [E6A2A5F585F9](<Desktop/Gigabyte Technology/B450/B450 AORUS PRO WIFI/E6A2A5F585F9>) |
-| Gigabyte Tech... | B450M DS3H             | [D9E9E66D46A4](<Desktop/Gigabyte Technology/B450M/B450M DS3H/D9E9E66D46A4>) |
-| Gigabyte Tech... | B550 AORUS ELITE AX V2 | [FF5CAB9F5A9A](<Desktop/Gigabyte Technology/B550/B550 AORUS ELITE AX V2/FF5CAB9F5A9A>) |
-| Gigabyte Tech... | B550 AORUS PRO V2      | [25E5EF251D0E](<Desktop/Gigabyte Technology/B550/B550 AORUS PRO V2/25E5EF251D0E>) |
-| Gigabyte Tech... | B75M-D3V               | [98E089E19203](<Desktop/Gigabyte Technology/B75/B75M-D3V/98E089E19203>) |
-| Gigabyte Tech... | EX58-UD5               | [DF2F64A5D6CA](<Desktop/Gigabyte Technology/EX58/EX58-UD5/DF2F64A5D6CA>) |
-| Gigabyte Tech... | F2A78M-HD2             | [42BA815263DC](<Desktop/Gigabyte Technology/F2/F2A78M-HD2/42BA815263DC>) |
-| Gigabyte Tech... | GA-MA78LMT-US2H        | [883557B73AAA](<Desktop/Gigabyte Technology/GA-MA78/GA-MA78LMT-US2H/883557B73AAA>) |
-| Gigabyte Tech... | H270-HD3               | [7698BC6E9003](<Desktop/Gigabyte Technology/H270/H270-HD3/7698BC6E9003>) |
-| Gigabyte Tech... | Q87M-D2H               | [4A407DB4786C](<Desktop/Gigabyte Technology/Q87/Q87M-D2H/4A407DB4786C>) |
-| Gigabyte Tech... | X299 UD4               | [AD9BA0C2F08F](<Desktop/Gigabyte Technology/X299/X299 UD4/AD9BA0C2F08F>) |
-| Gigabyte Tech... | X470 AORUS ULTRA GA... | [2C61CC5352DF](<Desktop/Gigabyte Technology/X470/X470 AORUS ULTRA GAMING/2C61CC5352DF>) |
-| Gigabyte Tech... | X470 AORUS ULTRA GA... | [43F7753102C9](<Desktop/Gigabyte Technology/X470/X470 AORUS ULTRA GAMING/43F7753102C9>) |
-| Gigabyte Tech... | X570 AORUS MASTER      | [DBD6D480B744](<Desktop/Gigabyte Technology/X570/X570 AORUS MASTER/DBD6D480B744>) |
-| Gigabyte Tech... | X570 AORUS PRO         | [D33A09A909D4](<Desktop/Gigabyte Technology/X570/X570 AORUS PRO/D33A09A909D4>) |
-| Gigabyte Tech... | X79-UP4                | [E9921195B1EB](<Desktop/Gigabyte Technology/X79/X79-UP4/E9921195B1EB>) |
-| Gigabyte Tech... | X99-UD4-CF             | [9CCEADC5569A](<Desktop/Gigabyte Technology/X99/X99-UD4-CF/9CCEADC5569A>) |
-| Gigabyte Tech... | Z170X-Gaming 5         | [3F59130A5FF7](<Desktop/Gigabyte Technology/Z170X-Gaming/Z170X-Gaming 5/3F59130A5FF7>) |
-| Gigabyte Tech... | Z270N-WIFI             | [C5AACAD1CD45](<Desktop/Gigabyte Technology/Z270/Z270N-WIFI/C5AACAD1CD45>) |
-| Gigabyte Tech... | Z390 I AORUS PRO WIFI  | [F80EFC3E557E](<Desktop/Gigabyte Technology/Z390/Z390 I AORUS PRO WIFI/F80EFC3E557E>) |
-| Gigabyte Tech... | Z87-HD3                | [6B00753B50AA](<Desktop/Gigabyte Technology/Z87/Z87-HD3/6B00753B50AA>) |
-| Gigabyte Tech... | Z97-HD3                | [ED0E75619B10](<Desktop/Gigabyte Technology/Z97/Z97-HD3/ED0E75619B10>) |
-| Hewlett-Packard  | 450-a100ns             | [C9D5E5E25DCF](<Desktop/Hewlett-Packard/450/450-a100ns/C9D5E5E25DCF>) |
-| Hewlett-Packard  | 750-467c               | [D213850B6974](<Desktop/Hewlett-Packard/750/750-467c/D213850B6974>) |
-| Hewlett-Packard  | Compaq 6005 Pro MT PC  | [86BB28345D1D](<Desktop/Hewlett-Packard/Compaq/Compaq 6005 Pro MT PC/86BB28345D1D>) |
-| Hewlett-Packard  | Compaq 8100 Elite S... | [AB6EADEE22B9](<Desktop/Hewlett-Packard/Compaq/Compaq 8100 Elite SFF PC/AB6EADEE22B9>) |
-| Hewlett-Packard  | Compaq dc5800 Small... | [B5AE0C22424E](<Desktop/Hewlett-Packard/Compaq/Compaq dc5800 Small Form Factor/B5AE0C22424E>) |
-| Hewlett-Packard  | EliteDesk 800 G1 SFF   | [F13506CA489E](<Desktop/Hewlett-Packard/EliteDesk/EliteDesk 800 G1 SFF/F13506CA489E>) |
-| Hewlett-Packard  | GU620AA-ABE m9080.es   | [7C75A10C1DDC](<Desktop/Hewlett-Packard/GU620AA-ABE/GU620AA-ABE m9080.es/7C75A10C1DDC>) |
-| Hewlett-Packard  | Z220 CMT Workstation   | [9D0DFEFB9E7C](<Desktop/Hewlett-Packard/Z220/Z220 CMT Workstation/9D0DFEFB9E7C>) |
-| Hewlett-Packard  | Z400 Workstation       | [FF7C21B8CB39](<Desktop/Hewlett-Packard/Z400/Z400 Workstation/FF7C21B8CB39>) |
-| Hewlett-Packard  | h8-1080sc              | [25250FD435E2](<Desktop/Hewlett-Packard/h8/h8-1080sc/25250FD435E2>) |
-| Huanan           | H97-ZD3 V2.0           | [DA97878B0519](<Desktop/Huanan/H97-ZD3/H97-ZD3 V2.0/DA97878B0519>) |
-| Intel            | DG965LV AAD36275-501   | [9EEB4575F468](<Desktop/Intel/DG965LV/DG965LV AAD36275-501/9EEB4575F468>) |
-| Intel            | DG965LV AAD36275-501   | [F0588ABD2042](<Desktop/Intel/DG965LV/DG965LV AAD36275-501/F0588ABD2042>) |
-| Lenovo           | ThinkCentre E73 10D... | [CB64EEDF666A](<Desktop/Lenovo/ThinkCentre/ThinkCentre E73 10DS000TUK/CB64EEDF666A>) |
-| Lenovo           | ThinkCentre M710q 1... | [57EC640B0AFD](<Desktop/Lenovo/ThinkCentre/ThinkCentre M710q 10MR0009US/57EC640B0AFD>) |
-| Lenovo           | ThinkCentre M800 10... | [F935B8431F8F](<Desktop/Lenovo/ThinkCentre/ThinkCentre M800 10FW0004CA/F935B8431F8F>) |
-| Lenovo           | ThinkCentre M800 10... | [0E606A2AA43D](<Desktop/Lenovo/ThinkCentre/ThinkCentre M800 10FW0004US/0E606A2AA43D>) |
-| MSI              | MS-7519                | [4067500F99BB](<Desktop/MSI/MS/MS-7519/4067500F99BB>) |
-| MSI              | MS-7721                | [3EF15301B047](<Desktop/MSI/MS/MS-7721/3EF15301B047>) |
-| MSI              | MS-7752                | [14FAD414B696](<Desktop/MSI/MS/MS-7752/14FAD414B696>) |
-| MSI              | MS-7A38                | [53B5D217D45C](<Desktop/MSI/MS-7/MS-7A38/53B5D217D45C>) |
-| MSI              | MS-7A71                | [0A6AE3A8428C](<Desktop/MSI/MS-7/MS-7A71/0A6AE3A8428C>) |
-| MSI              | MS-7B19                | [0FE3C97F624E](<Desktop/MSI/MS-7/MS-7B19/0FE3C97F624E>) |
-| MSI              | MS-7B78                | [E18238CFE532](<Desktop/MSI/MS-7/MS-7B78/E18238CFE532>) |
-| MSI              | MS-7B79                | [58CCA16AFBB8](<Desktop/MSI/MS-7/MS-7B79/58CCA16AFBB8>) |
-| MSI              | MS-7C02                | [E7F57A01752D](<Desktop/MSI/MS-7/MS-7C02/E7F57A01752D>) |
-| MSI              | MS-7C35                | [CC63EF2F9155](<Desktop/MSI/MS-7/MS-7C35/CC63EF2F9155>) |
-| MSI              | MS-7C37                | [129E9638DC76](<Desktop/MSI/MS-7/MS-7C37/129E9638DC76>) |
-| MSI              | MS-7C37                | [872109368CDD](<Desktop/MSI/MS-7/MS-7C37/872109368CDD>) |
-| MSI              | MS-7C84                | [8AEC9430CA40](<Desktop/MSI/MS-7/MS-7C84/8AEC9430CA40>) |
-| MSI              | MS-7D22                | [EFE8F101CE6E](<Desktop/MSI/MS-7/MS-7D22/EFE8F101CE6E>) |
-| MSI              | MS-7D23                | [4DB8A3EFBF0B](<Desktop/MSI/MS-7/MS-7D23/4DB8A3EFBF0B>) |
-| Others           | Others                 | [FBC02BEEE3C4](<Desktop/Others/Others/Others/FBC02BEEE3C4>) |
-| Supermicro       | X7DB8                  | [22C25EDFF9A3](<Desktop/Supermicro/X7/X7DB8/22C25EDFF9A3>) |
-| Supermicro       | X8SIL                  | [40AECBFF4573](<Desktop/Supermicro/X8/X8SIL/40AECBFF4573>) |
-| TONK             | C31                    | [7F7E8D75C7FF](<Desktop/TONK/C/C31/7F7E8D75C7FF>) |
-| TONK             | TN1402                 | [ABC6298CB633](<Desktop/TONK/TN/TN1402/ABC6298CB633>) |
-| TSINGHUA TONG... | E500                   | [58972BD24BF4](<Desktop/TSINGHUA TONGFANG COMPUTER/E/E500/58972BD24BF4>) |
-| VIA Technologies | P4M266A-8235           | [D2BD34E8B558](<Desktop/VIA Technologies/P4/P4M266A-8235/D2BD34E8B558>) |
-| ZOTAC            | NM10                   | [27F12A855946](<Desktop/ZOTAC/NM/NM10/27F12A855946>) |
-
-Servers
--------
-
-| MFG              | Model                  | HWID |
-|------------------|------------------------|------|
-| AIC              | FB201-LX               | [E9F0ABF1FB7A](<Server/AIC/FB201/FB201-LX/E9F0ABF1FB7A>) |
-| DEPO Computers   | Super Server           | [5ED617DD5961](<Server/DEPO Computers/Super/Super Server/5ED617DD5961>) |
-| DEPO Computers   | Super Server           | [F84E17B9619B](<Server/DEPO Computers/Super/Super Server/F84E17B9619B>) |
-| Fujitsu          | PRIMERGY               | [41B1E7A57925](<Server/Fujitsu/PRIMERGY/PRIMERGY/41B1E7A57925>) |
-| Hewlett-Packard  | ProLiant DL165 G7      | [1979FBF2D488](<Server/Hewlett-Packard/ProLiant/ProLiant DL165 G7/1979FBF2D488>) |
-| Hewlett-Packard  | ProLiant DL380e Gen8   | [CB05571909C8](<Server/Hewlett-Packard/ProLiant/ProLiant DL380e Gen8/CB05571909C8>) |
-| Intel            | ArcherCity             | [356135E81941](<Server/Intel/ArcherCity/ArcherCity/356135E81941>) |
-| STSS             | Flagman TP100.3        | [34DC8A4302D7](<Server/STSS/Flagman/Flagman TP100.3/34DC8A4302D7>) |
-| Supermicro       | H8DGU                  | [57ED146F2C3C](<Server/Supermicro/H8/H8DGU/57ED146F2C3C>) |
-| Supermicro       | H8QG6                  | [28567EC2EFB1](<Server/Supermicro/H8/H8QG6/28567EC2EFB1>) |
-| Supermicro       | H8QG6                  | [58E82626C3C5](<Server/Supermicro/H8/H8QG6/58E82626C3C5>) |
-| Supermicro       | X8DTN+-F               | [319567CDA949](<Server/Supermicro/X8/X8DTN+-F/319567CDA949>) |
-| Supermicro       | X9DRD-7LN4F-X9DRD-EF   | [E23334E6B08A](<Server/Supermicro/X9/X9DRD-7LN4F-X9DRD-EF/E23334E6B08A>) |
-
 Convertibles
 ------------
 
@@ -471,8 +534,20 @@ Convertibles
 | Hewlett-Packard  | ENVY x360 Convertib... | [1B4452685D60](<Convertible/Hewlett-Packard/ENVY/ENVY x360 Convertible 13-ay1xxx/1B4452685D60>) |
 | Hewlett-Packard  | ENVY x360 Convertib... | [6FE4CE9270F1](<Convertible/Hewlett-Packard/ENVY/ENVY x360 Convertible 15-dr1xxx/6FE4CE9270F1>) |
 | Hewlett-Packard  | ENVY x360 Convertib... | [37392FED5D2E](<Convertible/Hewlett-Packard/ENVY/ENVY x360 Convertible 15-ee0xxx/37392FED5D2E>) |
+| Lenovo           | 13w Yoga 82S1          | [60A19B2806BE](<Convertible/Lenovo/13w/13w Yoga 82S1/60A19B2806BE>) |
 | Lenovo           | IdeaPadFlex 5 14ITL... | [9192B985B108](<Convertible/Lenovo/IdeaPadFlex/IdeaPadFlex 5 14ITL05 82HS/9192B985B108>) |
 | Lenovo           | Yoga 6 13ALC6 82ND     | [4B89F57A5AA6](<Convertible/Lenovo/Yoga/Yoga 6 13ALC6 82ND/4B89F57A5AA6>) |
 | Lenovo           | Yoga 7 14ARB7 82QF     | [F1C26F90A9A2](<Convertible/Lenovo/Yoga/Yoga 7 14ARB7 82QF/F1C26F90A9A2>) |
 | Lenovo           | Yoga C640-13IML 81UE   | [91A793680B40](<Convertible/Lenovo/Yoga/Yoga C640-13IML 81UE/91A793680B40>) |
+
+Tablets
+-------
+
+| MFG              | Model                  | HWID |
+|------------------|------------------------|------|
+| Hewlett-Packard  | Pavilion x2 Detachable | [3FE302D11C0A](<Tablet/Hewlett-Packard/Pavilion/Pavilion x2 Detachable/3FE302D11C0A>) |
+| Lenovo           | MIIX 3-1030 80HV       | [04FF5A51E4B0](<Tablet/Lenovo/MIIX/MIIX 3-1030 80HV/04FF5A51E4B0>) |
+| Microsoft        | Surface Laptop 3       | [4E426AB8062D](<Tablet/Microsoft/Surface/Surface Laptop 3/4E426AB8062D>) |
+| Microsoft        | Surface Pro            | [773032238BB5](<Tablet/Microsoft/Surface/Surface Pro/773032238BB5>) |
+| Microsoft        | Surface Pro 3          | [074C5C2E091B](<Tablet/Microsoft/Surface/Surface Pro 3/074C5C2E091B>) |
 
