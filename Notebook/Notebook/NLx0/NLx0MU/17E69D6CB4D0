@@ -1,7 +1,7 @@
 
 Intel ACPI Component Architecture
-ACPI Binary Table Extraction Utility version 20180105
-Copyright (c) 2000 - 2018 Intel Corporation
+ACPI Binary Table Extraction Utility version 20220331
+Copyright (c) 2000 - 2022 Intel Corporation
 
 
  Signature  Length    Version Oem       Oem         Oem         Compiler Compiler
@@ -70,6 +70,7 @@ APIC
 [02Fh 0047   1]                Local Apic ID : 00
 [030h 0048   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [034h 0052   1]                Subtable Type : 00 [Processor Local APIC]
 [035h 0053   1]                       Length : 08
@@ -77,6 +78,7 @@ APIC
 [037h 0055   1]                Local Apic ID : 02
 [038h 0056   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [03Ch 0060   1]                Subtable Type : 00 [Processor Local APIC]
 [03Dh 0061   1]                       Length : 08
@@ -84,6 +86,7 @@ APIC
 [03Fh 0063   1]                Local Apic ID : 04
 [040h 0064   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [044h 0068   1]                Subtable Type : 00 [Processor Local APIC]
 [045h 0069   1]                       Length : 08
@@ -91,6 +94,7 @@ APIC
 [047h 0071   1]                Local Apic ID : 06
 [048h 0072   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [04Ch 0076   1]                Subtable Type : 00 [Processor Local APIC]
 [04Dh 0077   1]                       Length : 08
@@ -98,6 +102,7 @@ APIC
 [04Fh 0079   1]                Local Apic ID : 01
 [050h 0080   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [054h 0084   1]                Subtable Type : 00 [Processor Local APIC]
 [055h 0085   1]                       Length : 08
@@ -105,6 +110,7 @@ APIC
 [057h 0087   1]                Local Apic ID : 03
 [058h 0088   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [05Ch 0092   1]                Subtable Type : 00 [Processor Local APIC]
 [05Dh 0093   1]                       Length : 08
@@ -112,6 +118,7 @@ APIC
 [05Fh 0095   1]                Local Apic ID : 05
 [060h 0096   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [064h 0100   1]                Subtable Type : 00 [Processor Local APIC]
 [065h 0101   1]                       Length : 08
@@ -119,6 +126,7 @@ APIC
 [067h 0103   1]                Local Apic ID : 07
 [068h 0104   4]        Flags (decoded below) : 00000001
                            Processor Enabled : 1
+                      Runtime Online Capable : 0
 
 [06Ch 0108   1]                Subtable Type : 00 [Processor Local APIC]
 [06Dh 0109   1]                       Length : 08
@@ -126,6 +134,7 @@ APIC
 [06Fh 0111   1]                Local Apic ID : FF
 [070h 0112   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [074h 0116   1]                Subtable Type : 00 [Processor Local APIC]
 [075h 0117   1]                       Length : 08
@@ -133,6 +142,7 @@ APIC
 [077h 0119   1]                Local Apic ID : FF
 [078h 0120   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [07Ch 0124   1]                Subtable Type : 00 [Processor Local APIC]
 [07Dh 0125   1]                       Length : 08
@@ -140,6 +150,7 @@ APIC
 [07Fh 0127   1]                Local Apic ID : FF
 [080h 0128   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [084h 0132   1]                Subtable Type : 00 [Processor Local APIC]
 [085h 0133   1]                       Length : 08
@@ -147,6 +158,7 @@ APIC
 [087h 0135   1]                Local Apic ID : FF
 [088h 0136   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [08Ch 0140   1]                Subtable Type : 00 [Processor Local APIC]
 [08Dh 0141   1]                       Length : 08
@@ -154,6 +166,7 @@ APIC
 [08Fh 0143   1]                Local Apic ID : FF
 [090h 0144   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [094h 0148   1]                Subtable Type : 00 [Processor Local APIC]
 [095h 0149   1]                       Length : 08
@@ -161,6 +174,7 @@ APIC
 [097h 0151   1]                Local Apic ID : FF
 [098h 0152   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [09Ch 0156   1]                Subtable Type : 00 [Processor Local APIC]
 [09Dh 0157   1]                       Length : 08
@@ -168,6 +182,7 @@ APIC
 [09Fh 0159   1]                Local Apic ID : FF
 [0A0h 0160   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [0A4h 0164   1]                Subtable Type : 00 [Processor Local APIC]
 [0A5h 0165   1]                       Length : 08
@@ -175,6 +190,7 @@ APIC
 [0A7h 0167   1]                Local Apic ID : FF
 [0A8h 0168   4]        Flags (decoded below) : 00000000
                            Processor Enabled : 0
+                      Runtime Online Capable : 0
 
 [0ACh 0172   1]                Subtable Type : 01 [I/O APIC]
 [0ADh 0173   1]                       Length : 0C
@@ -331,25 +347,25 @@ APIC
 
 Raw Table Data: Length 300 (0x12C)
 
-  0000: 41 50 49 43 2C 01 00 00 03 3A 49 4E 53 59 44 45  // APIC,....:INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 E0 FE 01 00 00 00 00 08 00 00  // ................
-  0030: 01 00 00 00 00 08 01 02 01 00 00 00 00 08 02 04  // ................
-  0040: 01 00 00 00 00 08 03 06 01 00 00 00 00 08 04 01  // ................
-  0050: 01 00 00 00 00 08 05 03 01 00 00 00 00 08 06 05  // ................
-  0060: 01 00 00 00 00 08 07 07 01 00 00 00 00 08 08 FF  // ................
-  0070: 00 00 00 00 00 08 09 FF 00 00 00 00 00 08 0A FF  // ................
-  0080: 00 00 00 00 00 08 0B FF 00 00 00 00 00 08 0C FF  // ................
-  0090: 00 00 00 00 00 08 0D FF 00 00 00 00 00 08 0E FF  // ................
-  00A0: 00 00 00 00 00 08 0F FF 00 00 00 00 01 0C 02 00  // ................
-  00B0: 00 00 C0 FE 00 00 00 00 02 0A 00 00 02 00 00 00  // ................
-  00C0: 00 00 02 0A 00 09 09 00 00 00 0D 00 04 06 01 05  // ................
-  00D0: 00 01 04 06 02 05 00 01 04 06 03 05 00 01 04 06  // ................
-  00E0: 04 05 00 01 04 06 05 05 00 01 04 06 06 05 00 01  // ................
-  00F0: 04 06 07 05 00 01 04 06 08 05 00 01 04 06 09 05  // ................
-  0100: 00 01 04 06 0A 05 00 01 04 06 0B 05 00 01 04 06  // ................
-  0110: 0C 05 00 01 04 06 0D 05 00 01 04 06 0E 05 00 01  // ................
-  0120: 04 06 0F 05 00 01 04 06 10 05 00 01              // ............
+    0000: 41 50 49 43 2C 01 00 00 03 3A 49 4E 53 59 44 45  // APIC,....:INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 E0 FE 01 00 00 00 00 08 00 00  // ................
+    0030: 01 00 00 00 00 08 01 02 01 00 00 00 00 08 02 04  // ................
+    0040: 01 00 00 00 00 08 03 06 01 00 00 00 00 08 04 01  // ................
+    0050: 01 00 00 00 00 08 05 03 01 00 00 00 00 08 06 05  // ................
+    0060: 01 00 00 00 00 08 07 07 01 00 00 00 00 08 08 FF  // ................
+    0070: 00 00 00 00 00 08 09 FF 00 00 00 00 00 08 0A FF  // ................
+    0080: 00 00 00 00 00 08 0B FF 00 00 00 00 00 08 0C FF  // ................
+    0090: 00 00 00 00 00 08 0D FF 00 00 00 00 00 08 0E FF  // ................
+    00A0: 00 00 00 00 00 08 0F FF 00 00 00 00 01 0C 02 00  // ................
+    00B0: 00 00 C0 FE 00 00 00 00 02 0A 00 00 02 00 00 00  // ................
+    00C0: 00 00 02 0A 00 09 09 00 00 00 0D 00 04 06 01 05  // ................
+    00D0: 00 01 04 06 02 05 00 01 04 06 03 05 00 01 04 06  // ................
+    00E0: 04 05 00 01 04 06 05 05 00 01 04 06 06 05 00 01  // ................
+    00F0: 04 06 07 05 00 01 04 06 08 05 00 01 04 06 09 05  // ................
+    0100: 00 01 04 06 0A 05 00 01 04 06 0B 05 00 01 04 06  // ................
+    0110: 0C 05 00 01 04 06 0D 05 00 01 04 06 0E 05 00 01  // ................
+    0120: 04 06 0F 05 00 01 04 06 10 05 00 01              // ............
 
 
 BGRT
@@ -375,15 +391,15 @@ BGRT
 
 Raw Table Data: Length 56 (0x38)
 
-  0000: 42 47 52 54 38 00 00 00 01 B9 49 4E 53 59 44 45  // BGRT8.....INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 01 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 01 00 00 00 00 20 25 3D 00 00 00 00  // ......... %=....
-  0030: 9F 02 00 00 C4 00 00 00                          // ........
+    0000: 42 47 52 54 38 00 00 00 01 B9 49 4E 53 59 44 45  // BGRT8.....INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 01 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 01 00 00 00 00 20 25 3D 00 00 00 00  // ......... %=....
+    0030: 9F 02 00 00 C4 00 00 00                          // ........
 
 
 DBG2
 ----
-[000h 0000   4]                    Signature : "DBG2"    [Debug Port table type 2]
+[000h 0000   4]                    Signature : "DBG2"    [Debug Port Table type 2]
 [004h 0004   4]                 Table Length : 00000054
 [008h 0008   1]                     Revision : 00
 [009h 0009   1]                     Checksum : 2C
@@ -422,17 +438,17 @@ DBG2
 
 Raw Table Data: Length 84 (0x54)
 
-  0000: 44 42 47 32 54 00 00 00 00 2C 49 4E 53 59 44 45  // DBG2T....,INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 2C 00 00 00 01 00 00 00 00 28 00 01  // ....,........(..
-  0030: 02 00 26 00 00 00 00 00 00 80 01 00 00 00 16 00  // ..&.............
-  0040: 22 00 01 08 00 00 F8 03 00 00 00 00 00 00 20 00  // "............. .
-  0050: 00 00 2E 00                                      // ....
+    0000: 44 42 47 32 54 00 00 00 00 2C 49 4E 53 59 44 45  // DBG2T....,INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 2C 00 00 00 01 00 00 00 00 28 00 01  // ....,........(..
+    0030: 02 00 26 00 00 00 00 00 00 80 01 00 00 00 16 00  // ..&.............
+    0040: 22 00 01 08 00 00 F8 03 00 00 00 00 00 00 20 00  // "............. .
+    0050: 00 00 2E 00                                      // ....
 
 
 DBGP
 ----
-[000h 0000   4]                    Signature : "DBGP"    [Debug Port table]
+[000h 0000   4]                    Signature : "DBGP"    [Debug Port Table]
 [004h 0004   4]                 Table Length : 00000034
 [008h 0008   1]                     Revision : 01
 [009h 0009   1]                     Checksum : B2
@@ -455,15 +471,15 @@ DBGP
 
 Raw Table Data: Length 52 (0x34)
 
-  0000: 44 42 47 50 34 00 00 00 01 B2 49 4E 53 59 44 45  // DBGP4.....INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 00 00 01 08 00 00 F8 03 00 00  // ................
-  0030: 00 00 00 00                                      // ....
+    0000: 44 42 47 50 34 00 00 00 01 B2 49 4E 53 59 44 45  // DBGP4.....INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 00 00 01 08 00 00 F8 03 00 00  // ................
+    0030: 00 00 00 00                                      // ....
 
 
 DMAR
 ----
-[000h 0000   4]                    Signature : "DMAR"    [DMA Remapping table]
+[000h 0000   4]                    Signature : "DMAR"    [DMA Remapping Table]
 [004h 0004   4]                 Table Length : 00000088
 [008h 0008   1]                     Revision : 02
 [009h 0009   1]                     Checksum : 8A
@@ -539,59 +555,19 @@ DMAR
 
 Raw Table Data: Length 136 (0x88)
 
-  0000: 44 4D 41 52 88 00 00 00 02 8A 49 4E 53 59 44 45  // DMAR......INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 26 05 00 00 00 00 00 00 00 00 00 00  // ....&...........
-  0030: 00 00 18 00 00 00 00 00 00 00 D9 FE 00 00 00 00  // ................
-  0040: 01 08 00 00 00 00 02 00 00 00 20 00 01 00 00 00  // .......... .....
-  0050: 00 10 D9 FE 00 00 00 00 03 08 00 00 02 00 1E 07  // ................
-  0060: 04 08 00 00 00 00 1E 06 01 00 20 00 00 00 00 00  // .......... .....
-  0070: 00 00 00 4A 00 00 00 00 FF FF 7F 4E 00 00 00 00  // ...J.......N....
-  0080: 01 08 00 00 00 00 02 00                          // ........
+    0000: 44 4D 41 52 88 00 00 00 02 8A 49 4E 53 59 44 45  // DMAR......INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 26 05 00 00 00 00 00 00 00 00 00 00  // ....&...........
+    0030: 00 00 18 00 00 00 00 00 00 00 D9 FE 00 00 00 00  // ................
+    0040: 01 08 00 00 00 00 02 00 00 00 20 00 01 00 00 00  // .......... .....
+    0050: 00 10 D9 FE 00 00 00 00 03 08 00 00 02 00 1E 07  // ................
+    0060: 04 08 00 00 00 00 1E 06 01 00 20 00 00 00 00 00  // .......... .....
+    0070: 00 00 00 4A 00 00 00 00 FF FF 7F 4E 00 00 00 00  // ...J.......N....
+    0080: 01 08 00 00 00 00 02 00                          // ........
 
 
 DSDT
 ----
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI0], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI1], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI2], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI3], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI4], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI5], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI6], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI7], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI8], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI9], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIA], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIB], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIC], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGID], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIE], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIF], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI0], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI1], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI2], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI3], AE_NOT_FOUND (20180105/dswload-390)
-/*
- * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20180105 (64-bit version)
- * Copyright (c) 2000 - 2018 Intel Corporation
- * 
- * Disassembling to symbolic ASL+ operators
- *
- * Disassembly of dsdt.dat, Wed Aug 17 21:22:02 2022
- *
- * Original Table Header:
- *     Signature        "DSDT"
- *     Length           0x0002DEFD (188157)
- *     Revision         0x02
- *     Checksum         0x78
- *     OEM ID           "INSYDE"
- *     OEM Table ID     "TGL-ULT"
- *     OEM Revision     0x00000002 (2)
- *     Compiler ID      "ACPI"
- *     Compiler Version 0x00040000 (262144)
- */
 DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 {
     External (_GPE.AL6F, MethodObj)    // 0 Arguments
@@ -9202,7 +9178,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (CUID, 1, Serialized)
             {
-                If ((Arg0 == ToUUID ("7c9512a9-1705-4cb4-af7d-506a2423ab71")))
+                If ((Arg0 == ToUUID ("7c9512a9-1705-4cb4-af7d-506a2423ab71") /* Unknown UUID */))
                 {
                     Return (One)
                 }
@@ -9474,7 +9450,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
 
                 ADBG ("XDCI DSM")
-                If ((Arg0 == ToUUID ("732b85d5-b7a7-4a1b-9ba0-4bbd00ffd511")))
+                If ((Arg0 == ToUUID ("732b85d5-b7a7-4a1b-9ba0-4bbd00ffd511") /* Unknown UUID */))
                 {
                     If ((Arg1 == One))
                     {
@@ -9747,7 +9723,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                     Return (PCID (Arg0, Arg1, Arg2, Arg3))
                 }
 
-                If ((Arg0 == ToUUID ("a69f886e-6ceb-4594-a41f-7b5dce24c553")))
+                If ((Arg0 == ToUUID ("a69f886e-6ceb-4594-a41f-7b5dce24c553") /* Unknown UUID */))
                 {
                     Switch (ToInteger (Arg2))
                     {
@@ -9922,7 +9898,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                         }
                     }, 
 
-                    ToUUID ("dbb8e3e6-5886-4ba6-8795-1319f52a966b"), 
+                    ToUUID ("dbb8e3e6-5886-4ba6-8795-1319f52a966b") /* Hierarchical Data Extension */, 
                     Package (0x04)
                     {
                         Package (0x02)
@@ -10319,7 +10295,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     ADBG ("UAOL _DSM")
-                    If ((Arg0 == ToUUID ("2e60aefc-1ba8-467a-b8cc-5727b98cecb7")))
+                    If ((Arg0 == ToUUID ("2e60aefc-1ba8-467a-b8cc-5727b98cecb7") /* Unknown UUID */))
                     {
                         Switch (ToInteger (Arg2))
                         {
@@ -10356,7 +10332,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                         }
                     }, 
 
-                    ToUUID ("dbb8e3e6-5886-4ba6-8795-1319f52a966b"), 
+                    ToUUID ("dbb8e3e6-5886-4ba6-8795-1319f52a966b") /* Hierarchical Data Extension */, 
                     Package (0x02)
                     {
                         Package (0x02)
@@ -17855,7 +17831,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
             Name (_ADR, 0x00170000)  // _ADR: Address
             Name (_DSD, Package (0x02)  // _DSD: Device-Specific Data
             {
-                ToUUID ("5025030f-842f-4ab4-a561-99a5189762d0"), 
+                ToUUID ("5025030f-842f-4ab4-a561-99a5189762d0") /* Unknown UUID */, 
                 Package (0x01)
                 {
                     Package (0x02)
@@ -17872,7 +17848,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                     Return (PCID (Arg0, Arg1, Arg2, Arg3))
                 }
 
-                If ((Arg0 == ToUUID ("9cd9cddd-8845-4afd-8392-31c4eb87cabd")))
+                If ((Arg0 == ToUUID ("9cd9cddd-8845-4afd-8392-31c4eb87cabd") /* Unknown UUID */))
                 {
                     Return (D3AS (Arg1, Arg2, Arg3))
                 }
@@ -19296,7 +19272,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (RSTD, 5, Serialized)
             {
-                If ((Arg0 == ToUUID ("e03e3431-e510-4fa2-abc0-2d7e901245fe")))
+                If ((Arg0 == ToUUID ("e03e3431-e510-4fa2-abc0-2d7e901245fe") /* Unknown UUID */))
                 {
                     Switch (ToInteger (Arg2))
                     {
@@ -20614,7 +20590,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
     {
         Method (UDSM, 1, Serialized)
         {
-            If ((Arg0 == ToUUID ("f7af8347-a966-49fe-9022-7a9deeebdb27")))
+            If ((Arg0 == ToUUID ("f7af8347-a966-49fe-9022-7a9deeebdb27") /* Unknown UUID */))
             {
                 Return (One)
             }
@@ -22240,7 +22216,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("1730e71d-e5dd-4a34-be57-4d76b6a2fe37")))
+                If ((Arg0 == ToUUID ("1730e71d-e5dd-4a34-be57-4d76b6a2fe37") /* Unknown UUID */))
                 {
                     If ((ToInteger (Arg1) >= Zero))
                     {
@@ -23919,7 +23895,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q0A, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q0A, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x0A
                 If ((RINF & 0x10))
@@ -23932,19 +23908,19 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q0B, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q0B, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x0B
                 WNTY (OEM4, OEM4)
             }
 
-            Method (_Q0C, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q0C, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x0C
                 WNTY (0xFB, 0xFB)
             }
 
-            Method (_Q0D, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q0D, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x0D
                 If (^^^^LID0.LIDF)
@@ -23957,19 +23933,19 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q0E, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q0E, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x0E
                 WNTY (0xFA, 0xFA)
             }
 
-            Method (_Q0F, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q0F, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x0F
                 WNTY (0xFA, 0xFA)
             }
 
-            Method (_Q10, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q10, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x10
                 If ((OSYS == 0x03E8))
@@ -23988,7 +23964,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q11, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q11, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x11
                 If ((OSYS == 0x03E8))
@@ -24010,7 +23986,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q12, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q12, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x12
                 If ((OSYS == 0x03E8))
@@ -24032,7 +24008,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q13, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q13, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x13
                 If ((OSYS == 0x03E8))
@@ -24044,7 +24020,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 WNTY (OEM4, OEM4)
             }
 
-            Method (_Q14, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q14, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x14
                 If ((OSYS < 0x07DC))
@@ -24064,7 +24040,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q15, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q15, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x15
                 P80H = 0x0D
@@ -24078,7 +24054,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q16, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q16, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x16
                 ^^^^AC.ACFG = ADP /* \_SB_.PC00.LPCB.EC__.ADP_ */
@@ -24095,13 +24071,13 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 ^^^^AC.ADJP (Zero)
             }
 
-            Method (_Q17, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q17, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x17
                 Notify (^^^^BAT0, 0x81) // Information Change
             }
 
-            Method (_Q19, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q19, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x19
                 Notify (^^^^BAT0, 0x81) // Information Change
@@ -24119,18 +24095,18 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 WNTY (0xBA, 0xBA)
             }
 
-            Method (_Q18, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q18, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x18
             }
 
-            Method (_Q1A, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q1A, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x1A
                 Notify (PWRB, 0x02) // Device Wake
             }
 
-            Method (_Q1B, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q1B, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x1B
                 If (^^^^LID0.LIDF)
@@ -24151,7 +24127,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q1C, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q1C, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x1C
                 If (CondRefOf (\_TZ.TZ0))
@@ -24169,13 +24145,13 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q1D, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q1D, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x1D
                 Notify (PWRB, 0x80) // Status Change
             }
 
-            Method (_Q1E, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q1E, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x1E
                 If (BLOW)
@@ -24192,12 +24168,12 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 WNTY (0xBA, 0xBA)
             }
 
-            Method (_Q24, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q24, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x24
             }
 
-            Method (_Q35, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q35, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x35
                 If ((OEM3 & 0x8000))
@@ -24214,12 +24190,12 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 ^^^^AC.ADJP (Zero)
             }
 
-            Method (_Q36, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q36, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x36
             }
 
-            Method (_Q37, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q37, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x37
                 Local0 = OEM3 /* \_SB_.PC00.LPCB.EC__.OEM3 */
@@ -24235,29 +24211,29 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 ^^^^AC.ADJP (Zero)
             }
 
-            Method (_Q39, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q39, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x39
                 WNTY (OEM4, OEM4)
             }
 
-            Method (_Q40, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q40, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x40
                 WNTY (0xFE, 0xFE)
             }
 
-            Method (_Q41, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q41, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x41
             }
 
-            Method (_Q42, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q42, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x42
             }
 
-            Method (_Q43, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q43, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P8XH (Zero, 0x43)
                 If (DTSE)
@@ -24288,12 +24264,12 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q46, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q46, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x46
             }
 
-            Method (_Q4A, 0, Serialized)  // _Qxx: EC Query
+            Method (_Q4A, 0, Serialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x4A
                 Local0 = OEM4 /* \_SB_.PC00.LPCB.EC__.OEM4 */
@@ -24327,7 +24303,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q50, 0, Serialized)  // _Qxx: EC Query
+            Method (_Q50, 0, Serialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x50
                 Local0 = OEM4 /* \_SB_.PC00.LPCB.EC__.OEM4 */
@@ -24643,12 +24619,12 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q53, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q53, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x53
             }
 
-            Method (_Q54, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q54, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x54
                 If (PISX)
@@ -24697,7 +24673,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q55, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q55, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x55
                 If (PISX)
@@ -24746,7 +24722,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q56, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q56, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x56
                 FDAT = 0xFF
@@ -24763,14 +24739,14 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 FBUF = 0xFF
             }
 
-            Method (_Q57, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q57, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x57
                 NACT = One
                 WNTY (0x68, 0x68)
             }
 
-            Method (_Q58, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q58, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x58
                 NACT = Zero
@@ -24779,19 +24755,19 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 ^^^^AC.ADJP (Zero)
             }
 
-            Method (_Q59, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q59, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x59
                 WNTY (0x6D, 0x6D)
             }
 
-            Method (_Q5A, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q5A, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x5A
                 WNTY (0x6E, 0x6E)
             }
 
-            Method (_Q5D, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q5D, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x5D
                 If (^^^^DCHU.HKDR)
@@ -24827,11 +24803,11 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 }
             }
 
-            Method (_Q5E, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q5E, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
             }
 
-            Method (_Q62, 0, NotSerialized)  // _Qxx: EC Query
+            Method (_Q62, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
             {
                 P80H = 0x62
                 If ((UCMS == One))
@@ -25532,7 +25508,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("eeec56b3-4442-408f-a792-4edd4d758054")))
+                If ((Arg0 == ToUUID ("eeec56b3-4442-408f-a792-4edd4d758054") /* Unknown UUID */))
                 {
                     If ((One == ToInteger (Arg1)))
                     {
@@ -25757,7 +25733,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("93f224e4-fbdc-4bbf-add6-db71bdc0afad")))
+                If ((Arg0 == ToUUID ("93f224e4-fbdc-4bbf-add6-db71bdc0afad") /* Unknown UUID */))
                 {
                     Local1 = Acquire (^^PC00.LPCB.EC.PATM, 0x0064)
                     If ((Local1 == Zero))
@@ -29234,11 +29210,11 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
     Scope (_GPE)
     {
-        Method (_L73, 0, Serialized)  // _Lxx: Level-Triggered GPE
+        Method (_L73, 0, Serialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
         }
 
-        Method (_L69, 0, Serialized)  // _Lxx: Level-Triggered GPE
+        Method (_L69, 0, Serialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If (CondRefOf (\_SB.PC00.TXHC))
             {
@@ -29349,7 +29325,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
             }
         }
 
-        Method (_L61, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L61, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             L01C += One
             P8XH (Zero, One)
@@ -29850,12 +29826,12 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
             }
         }
 
-        Method (_L62, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L62, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             GPEC = Zero
         }
 
-        Method (_L66, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L66, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If ((\_SB.PC00.GFX0.GSSE && !GSMI))
             {
@@ -29864,7 +29840,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
         }
 
         Name (PRES, One)
-        Method (_L6F, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L6F, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If (CondRefOf (\_GPE.AL6F))
             {
@@ -29907,7 +29883,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
             }
         }
 
-        Method (_L72, 0, Serialized)  // _Lxx: Level-Triggered GPE
+        Method (_L72, 0, Serialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If (CondRefOf (\_SB.AWAC))
             {
@@ -29916,7 +29892,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
             }
         }
 
-        Method (_L02, 0, Serialized)  // _Lxx: Level-Triggered GPE
+        Method (_L02, 0, Serialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If ((\_SB.PC00.LPCB.EC.WFNO == One))
             {
@@ -29949,7 +29925,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
         ThermalZone (TZ0)
         {
             Name (PPFG, Zero)
-            Method (_AC0, 0, Serialized)  // _ACx: Active Cooling
+            Method (_AC0, 0, Serialized)  // _ACx: Active Cooling, x=0-9
             {
                 Return (0x0EF8)
             }
@@ -30017,7 +29993,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 Return ((0x0AAC + (PSVT * 0x0A)))
             }
 
-            Method (_AL0, 0, Serialized)  // _ALx: Active List
+            Method (_AL0, 0, Serialized)  // _ALx: Active List, x=0-9
             {
                 Return (Package (0x01)
                 {
@@ -30766,7 +30742,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 Return (Zero)
             }
 
-            Method (_WED, 1, NotSerialized)  // _Wxx: Wake Event
+            Method (_WED, 1, NotSerialized)  // _Wxx: Wake Event, xx=0x00-0xFF
             {
                 If ((Arg0 == 0xD0))
                 {
@@ -34569,7 +34545,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("c4eb40a0-6cd2-11e2-bcfd-0800200c9a66")))
+                If ((Arg0 == ToUUID ("c4eb40a0-6cd2-11e2-bcfd-0800200c9a66") /* Unknown UUID */))
                 {
                     If ((Arg2 == Zero))
                     {
@@ -35165,7 +35141,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                     }
                 }
 
-                If ((Arg0 == ToUUID ("57a6512e-3979-4e9d-9708-ff13b2508972")))
+                If ((Arg0 == ToUUID ("57a6512e-3979-4e9d-9708-ff13b2508972") /* Unknown UUID */))
                 {
                     If ((Arg2 == Zero))
                     {
@@ -35745,7 +35721,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("f21202bf-8f78-4dc6-a5b3-1f738e285ade")))
+                If ((Arg0 == ToUUID ("f21202bf-8f78-4dc6-a5b3-1f738e285ade") /* Unknown UUID */))
                 {
                     If ((Arg2 == Zero))
                     {
@@ -35859,7 +35835,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 Name (RDLY, 0x69)
                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
-                    If ((Arg0 == ToUUID ("aa10f4e0-81ac-4233-abf6-3b2ac50e28d9")))
+                    If ((Arg0 == ToUUID ("aa10f4e0-81ac-4233-abf6-3b2ac50e28d9") /* Unknown UUID */))
                     {
                         If ((Arg2 == Zero))
                         {
@@ -36035,7 +36011,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 Name (RDLY, 0x69)
                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
-                    If ((Arg0 == ToUUID ("aa10f4e0-81ac-4233-abf6-3b2ac50e28d9")))
+                    If ((Arg0 == ToUUID ("aa10f4e0-81ac-4233-abf6-3b2ac50e28d9") /* Unknown UUID */))
                     {
                         If ((Arg2 == Zero))
                         {
@@ -36145,7 +36121,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
     Scope (_SB.PC00)
     {
         Name (HIDG, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */)
-        Name (TP7G, ToUUID ("ef87eb82-f951-46da-84ec-14871ac6f84b"))
+        Name (TP7G, ToUUID ("ef87eb82-f951-46da-84ec-14871ac6f84b") /* Unknown UUID */)
         Method (HIDD, 5, Serialized)
         {
             If ((Arg0 == HIDG))
@@ -36783,12 +36759,12 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
     {
         Method (PPMS, 1, Serialized)
         {
-            If ((Arg0 == ToUUID ("7c708106-3aff-40fe-88be-8c999b3f7445")))
+            If ((Arg0 == ToUUID ("7c708106-3aff-40fe-88be-8c999b3f7445") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x04))
             }
 
-            If ((Arg0 == ToUUID ("ec774fa9-28d3-424a-90e4-69f984f1eeb7")))
+            If ((Arg0 == ToUUID ("ec774fa9-28d3-424a-90e4-69f984f1eeb7") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x0100))
             }
@@ -36808,82 +36784,82 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                 Return ((ADPM & 0x80000000))
             }
 
-            If ((Arg0 == ToUUID ("b489c2de-0f96-42e1-8a2d-c25b5091ee49")))
+            If ((Arg0 == ToUUID ("b489c2de-0f96-42e1-8a2d-c25b5091ee49") /* Unknown UUID */))
             {
                 Return ((ADPM & One))
             }
 
-            If ((Arg0 == ToUUID ("e1284052-8664-4fe4-a353-3878f72704c3")))
+            If ((Arg0 == ToUUID ("e1284052-8664-4fe4-a353-3878f72704c3") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x02))
             }
 
-            If ((Arg0 == ToUUID ("849f0d73-1678-4d57-8c78-61c548253993")))
+            If ((Arg0 == ToUUID ("849f0d73-1678-4d57-8c78-61c548253993") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x08))
             }
 
-            If ((Arg0 == ToUUID ("347297c3-a6d5-40db-8120-ace66babf491")))
+            If ((Arg0 == ToUUID ("347297c3-a6d5-40db-8120-ace66babf491") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x10))
             }
 
-            If ((Arg0 == ToUUID ("bd70ce66-7cee-4277-a91a-d6368feaf83d")))
+            If ((Arg0 == ToUUID ("bd70ce66-7cee-4277-a91a-d6368feaf83d") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x20))
             }
 
-            If ((Arg0 == ToUUID ("c75061f3-f2b2-4dcc-8f9f-82abb4131e66")))
+            If ((Arg0 == ToUUID ("c75061f3-f2b2-4dcc-8f9f-82abb4131e66") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x40))
             }
 
-            If ((Arg0 == ToUUID ("b3573eff-6441-4a75-91f7-4281eec4597d")))
+            If ((Arg0 == ToUUID ("b3573eff-6441-4a75-91f7-4281eec4597d") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x80))
             }
 
-            If ((Arg0 == ToUUID ("d46f9d72-81a4-47fd-b301-8e39d17c0981")))
+            If ((Arg0 == ToUUID ("d46f9d72-81a4-47fd-b301-8e39d17c0981") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x0200))
             }
 
-            If ((Arg0 == ToUUID ("f3578986-4400-4adf-ae7e-cd433cd3f26e")))
+            If ((Arg0 == ToUUID ("f3578986-4400-4adf-ae7e-cd433cd3f26e") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x0400))
             }
 
-            If ((Arg0 == ToUUID ("2c093145-5895-4699-9ddb-6fefdc77e85d")))
+            If ((Arg0 == ToUUID ("2c093145-5895-4699-9ddb-6fefdc77e85d") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x0800))
             }
 
-            If ((Arg0 == ToUUID ("b55eba24-8349-4dad-afc7-8489d23c93ef")))
+            If ((Arg0 == ToUUID ("b55eba24-8349-4dad-afc7-8489d23c93ef") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x1000))
             }
 
-            If ((Arg0 == ToUUID ("7111001f-d35f-44d9-81d2-7ac685bed3d7")))
+            If ((Arg0 == ToUUID ("7111001f-d35f-44d9-81d2-7ac685bed3d7") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x2000))
             }
 
-            If ((Arg0 == ToUUID ("88373a01-16a5-469d-a39a-bdeb594178b8")))
+            If ((Arg0 == ToUUID ("88373a01-16a5-469d-a39a-bdeb594178b8") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x4000))
             }
 
-            If ((Arg0 == ToUUID ("54cab206-82cb-4b67-a1ee-fcd45c126dc8")))
+            If ((Arg0 == ToUUID ("54cab206-82cb-4b67-a1ee-fcd45c126dc8") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x8000))
             }
 
-            If ((Arg0 == ToUUID ("70002307-da3e-4e0b-ba03-4c72314b2aaa")))
+            If ((Arg0 == ToUUID ("70002307-da3e-4e0b-ba03-4c72314b2aaa") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x00010000))
             }
 
-            If ((Arg0 == ToUUID ("7aea5e24-e5e9-4d6d-b88f-b505c1acab11")))
+            If ((Arg0 == ToUUID ("7aea5e24-e5e9-4d6d-b88f-b505c1acab11") /* Unknown UUID */))
             {
                 Return ((ADPM & 0x00020000))
             }
@@ -36956,7 +36932,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
                     {
                         Name (_DSD, Package (0x02)  // _DSD: Device-Specific Data
                         {
-                            ToUUID ("5025030f-842f-4ab4-a561-99a5189762d0"), 
+                            ToUUID ("5025030f-842f-4ab4-a561-99a5189762d0") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -37009,7 +36985,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
                     Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
                     {
-                        If ((Arg0 == ToUUID ("a3316317-e8b6-4adf-96e8-94d94a51a38e")))
+                        If ((Arg0 == ToUUID ("a3316317-e8b6-4adf-96e8-94d94a51a38e") /* Unknown UUID */))
                         {
                             Switch (ToInteger (Arg2))
                             {
@@ -41023,7 +40999,7 @@ DefinitionBlock ("", "DSDT", 2, "INSYDE", "TGL-ULT", 0x00000002)
 
                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
-                    If ((Arg0 == ToUUID ("9cd9cddd-8845-4afd-8392-31c4eb87cabd")))
+                    If ((Arg0 == ToUUID ("9cd9cddd-8845-4afd-8392-31c4eb87cabd") /* Unknown UUID */))
                     {
                         Switch (ToInteger (Arg2))
                         {
@@ -43086,23 +43062,23 @@ FACP
 
 Raw Table Data: Length 268 (0x10C)
 
-  0000: 46 41 43 50 0C 01 00 00 05 B1 49 4E 53 59 44 45  // FACP......INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 20 AA 43 00 40 BA 43 00 02 09 00  // ..... .C.@.C....
-  0030: B2 00 00 00 A0 A1 00 00 00 00 00 00 00 00 00 00  // ................
-  0040: 00 00 00 00 00 00 00 00 00 00 00 00 08 18 00 00  // ................
-  0050: 60 18 00 00 00 00 00 00 04 02 01 04 20 00 10 00  // `........... ...
-  0060: 65 00 E9 03 00 00 00 00 01 03 0D 00 32 03 00 00  // e...........2...
-  0070: B5 C4 20 00 01 08 00 01 B2 00 00 00 00 00 00 00  // .. .............
-  0080: FB 00 00 01 00 00 00 00 00 00 00 00 00 40 BA 43  // .............@.C
-  0090: 00 00 00 00 01 20 00 02 00 18 00 00 00 00 00 00  // ..... ..........
-  00A0: 00 00 00 02 00 00 00 00 00 00 00 00 01 10 00 02  // ................
-  00B0: 04 18 00 00 00 00 00 00 00 00 00 02 00 00 00 00  // ................
-  00C0: 00 00 00 00 01 08 00 01 50 18 00 00 00 00 00 00  // ........P.......
-  00D0: 01 20 00 03 08 18 00 00 00 00 00 00 01 00 00 01  // . ..............
-  00E0: 60 18 00 00 00 00 00 00 00 00 00 01 00 00 00 00  // `...............
-  00F0: 00 00 00 00 01 08 00 03 04 18 00 00 00 00 00 00  // ................
-  0100: 01 08 00 03 00 18 00 00 00 00 00 00              // ............
+    0000: 46 41 43 50 0C 01 00 00 05 B1 49 4E 53 59 44 45  // FACP......INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 20 AA 43 00 40 BA 43 00 02 09 00  // ..... .C.@.C....
+    0030: B2 00 00 00 A0 A1 00 00 00 00 00 00 00 00 00 00  // ................
+    0040: 00 00 00 00 00 00 00 00 00 00 00 00 08 18 00 00  // ................
+    0050: 60 18 00 00 00 00 00 00 04 02 01 04 20 00 10 00  // `........... ...
+    0060: 65 00 E9 03 00 00 00 00 01 03 0D 00 32 03 00 00  // e...........2...
+    0070: B5 C4 20 00 01 08 00 01 B2 00 00 00 00 00 00 00  // .. .............
+    0080: FB 00 00 01 00 00 00 00 00 00 00 00 00 40 BA 43  // .............@.C
+    0090: 00 00 00 00 01 20 00 02 00 18 00 00 00 00 00 00  // ..... ..........
+    00A0: 00 00 00 02 00 00 00 00 00 00 00 00 01 10 00 02  // ................
+    00B0: 04 18 00 00 00 00 00 00 00 00 00 02 00 00 00 00  // ................
+    00C0: 00 00 00 00 01 08 00 01 50 18 00 00 00 00 00 00  // ........P.......
+    00D0: 01 20 00 03 08 18 00 00 00 00 00 00 01 00 00 01  // . ..............
+    00E0: 60 18 00 00 00 00 00 00 00 00 00 01 00 00 00 00  // `...............
+    00F0: 00 00 00 00 01 08 00 03 04 18 00 00 00 00 00 00  // ................
+    0100: 01 08 00 03 00 18 00 00 00 00 00 00              // ............
 
 
 FACS
@@ -43123,10 +43099,10 @@ FACS
 
 Raw Table Data: Length 64 (0x40)
 
-  0000: 46 41 43 53 40 00 00 00 E4 CF AE 40 00 00 00 00  // FACS@......@....
-  0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0020: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0000: 46 41 43 53 40 00 00 00 E4 CF AE 40 00 00 00 00  // FACS@......@....
+    0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0020: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
 
 
 FPDT
@@ -43156,16 +43132,16 @@ FPDT
 
 Raw Table Data: Length 68 (0x44)
 
-  0000: 46 50 44 54 44 00 00 00 01 9F 49 4E 53 59 44 45  // FPDTD.....INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 10 01 00 00 00 00 00 00 30 42  // ..............0B
-  0030: 00 00 00 00 01 00 10 01 00 00 00 00 00 F0 2F 42  // ............../B
-  0040: 00 00 00 00                                      // ....
+    0000: 46 50 44 54 44 00 00 00 01 9F 49 4E 53 59 44 45  // FPDTD.....INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 10 01 00 00 00 00 00 00 30 42  // ..............0B
+    0030: 00 00 00 00 01 00 10 01 00 00 00 00 00 F0 2F 42  // ............../B
+    0040: 00 00 00 00                                      // ....
 
 
 HPET
 ----
-[000h 0000   4]                    Signature : "HPET"    [High Precision Event Timer table]
+[000h 0000   4]                    Signature : "HPET"    [High Precision Event Timer Table]
 [004h 0004   4]                 Table Length : 00000038
 [008h 0008   1]                     Revision : 01
 [009h 0009   1]                     Checksum : 67
@@ -43192,10 +43168,10 @@ HPET
 
 Raw Table Data: Length 56 (0x38)
 
-  0000: 48 50 45 54 38 00 00 00 01 67 49 4E 53 59 44 45  // HPET8....gINSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 01 A2 86 80 00 40 00 00 00 00 D0 FE  // .........@......
-  0030: 00 00 00 00 00 80 00 00                          // ........
+    0000: 48 50 45 54 38 00 00 00 01 67 49 4E 53 59 44 45  // HPET8....gINSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 01 A2 86 80 00 40 00 00 00 00 D0 FE  // .........@......
+    0030: 00 00 00 00 00 80 00 00                          // ........
 
 
 LPIT
@@ -43291,24 +43267,24 @@ LPIT
 
 Raw Table Data: Length 204 (0xCC)
 
-  0000: 4C 50 49 54 CC 00 00 00 01 C4 49 4E 53 59 44 45  // LPIT......INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 00 00 38 00 00 00 00 00 00 00  // ........8.......
-  0030: 00 00 00 00 7F 01 02 00 60 00 00 00 00 00 00 00  // ........`.......
-  0040: 30 75 00 00 B8 0B 00 00 7F 40 00 00 32 06 00 00  // 0u.......@..2...
-  0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0060: 38 00 00 00 01 00 00 00 00 00 00 00 7F 01 02 00  // 8...............
-  0070: 60 00 00 00 00 00 00 00 30 75 00 00 B8 0B 00 00  // `.......0u......
-  0080: 00 20 00 03 3C 19 00 FE 00 00 00 00 05 20 00 00  // . ..<........ ..
-  0090: 00 00 00 00 00 00 00 00 38 00 00 00 02 00 00 00  // ........8.......
-  00A0: 01 00 00 00 7F 01 02 00 60 00 00 00 00 00 00 00  // ........`.......
-  00B0: 30 75 00 00 B8 0B 00 00 00 20 00 03 FF 00 00 00  // 0u....... ......
-  00C0: 00 00 00 00 00 00 00 00 00 00 00 00              // ............
+    0000: 4C 50 49 54 CC 00 00 00 01 C4 49 4E 53 59 44 45  // LPIT......INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 00 00 38 00 00 00 00 00 00 00  // ........8.......
+    0030: 00 00 00 00 7F 01 02 00 60 00 00 00 00 00 00 00  // ........`.......
+    0040: 30 75 00 00 B8 0B 00 00 7F 40 00 00 32 06 00 00  // 0u.......@..2...
+    0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0060: 38 00 00 00 01 00 00 00 00 00 00 00 7F 01 02 00  // 8...............
+    0070: 60 00 00 00 00 00 00 00 30 75 00 00 B8 0B 00 00  // `.......0u......
+    0080: 00 20 00 03 3C 19 00 FE 00 00 00 00 05 20 00 00  // . ..<........ ..
+    0090: 00 00 00 00 00 00 00 00 38 00 00 00 02 00 00 00  // ........8.......
+    00A0: 01 00 00 00 7F 01 02 00 60 00 00 00 00 00 00 00  // ........`.......
+    00B0: 30 75 00 00 B8 0B 00 00 00 20 00 03 FF 00 00 00  // 0u....... ......
+    00C0: 00 00 00 00 00 00 00 00 00 00 00 00              // ............
 
 
 MCFG
 ----
-[000h 0000   4]                    Signature : "MCFG"    [Memory Mapped Configuration table]
+[000h 0000   4]                    Signature : "MCFG"    [Memory Mapped Configuration Table]
 [004h 0004   4]                 Table Length : 0000003C
 [008h 0008   1]                     Revision : 01
 [009h 0009   1]                     Checksum : EF
@@ -43328,15 +43304,15 @@ MCFG
 
 Raw Table Data: Length 60 (0x3C)
 
-  0000: 4D 43 46 47 3C 00 00 00 01 EF 49 4E 53 59 44 45  // MCFG<.....INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 C0  // ................
-  0030: 00 00 00 00 00 00 00 FF 00 00 00 00              // ............
+    0000: 4D 43 46 47 3C 00 00 00 01 EF 49 4E 53 59 44 45  // MCFG<.....INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 C0  // ................
+    0030: 00 00 00 00 00 00 00 FF 00 00 00 00              // ............
 
 
 NHLT
 ----
-[000h 0000   4]                    Signature : "NHLT"    
+[000h 0000   4]                    Signature : "NHLT"    [Non HD Audio Link Table]
 [004h 0004   4]                 Table Length : 000002E1
 [008h 0008   1]                     Revision : 00
 [009h 0009   1]                     Checksum : CE
@@ -43346,59 +43322,211 @@ NHLT
 [01Ch 0028   4]              Asl Compiler ID : "ACPI"
 [020h 0032   4]        Asl Compiler Revision : 00040000
 
+    /* Main table */
+[024h 0036   1]               Endpoint Count : 02
 
-**** Unknown ACPI table signature [NHLT]
+    /* Endpoint Descriptor #1 */
+[025h 0037   4]            Descriptor Length : 0000019A
+[029h 0041   1]                    Link Type : 03 [Type SSP]
+[02Ah 0042   1]                  Instance Id : 00
+[02Bh 0043   2]                    Vendor Id : 8086
+[02Dh 0045   2]                    Device Id : AE30 [BT Sideband]
+[02Fh 0047   2]                  Revision Id : 0001
+[031h 0049   4]                 Subsystem Id : 00000001
+[035h 0053   1]                  Device Type : 00
+[036h 0054   1]                    Direction : 00 [Render]
+[037h 0055   1]               Virtual Bus Id : 02
 
+    /* Endpoint Device_Specific_Config table */
+[038h 0056   4]            Capabilities Size : 00000001
+[03Ch 0060   1]                 Virtual Slot : 00
+
+    /* Formats_Config table */
+[03Dh 0061   1]                Formats Count : 03
+
+    /* Wave_Format_Extensible table #1 */
+[03Eh 0062   2]                   Format Tag : FFFE
+[040h 0064   2]                Channel Count : 0001
+[042h 0066   4]           Samples Per Second : 00001F40
+[046h 0070   4]     Average Bytes Per Second : 00003E80
+[04Ah 0074   2]              Block Alignment : 0002
+[04Ch 0076   2]              Bits Per Sample : 0010
+[04Eh 0078   2]            Extra Format Size : 0016
+[050h 0080   2]        Valid Bits Per Sample : 0010
+[052h 0082   4]                 Channel Mask : 00000004
+[056h 0086  16]               SubFormat GUID : 00000001-0000-0010-8000-00AA00389B71
+[066h 0102   4]          Capabilities Length : 00000054
+
+    /* Specific_Config table #1 */
+[06Ah 0106  84]                 Capabilities : 00 00 00 00 F0 FF FF FF 00 00 00 00 00 00 00 00 /* ................ */\
+/* 07Ah 0122  16 */                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 /* ................ */\
+/* 08Ah 0138  16 */                            00 00 00 00 3F 00 C0 80 00 00 40 D3 00 00 00 00 /* ....?.....@..... */\
+/* 09Ah 0154  16 */                            05 00 00 02 01 00 00 00 01 00 00 00 02 40 00 00 /* .............@.. */\
+/* 0AAh 0170  16 */                            00 00 00 00 00 00 02 07 00 00 00 00 01 00 00 00 /* ................ */\
+/* 0BAh 0186   4 */                            00 00 00 00                                     /* .... */\
+
+    /* Wave_Format_Extensible table #2 */
+[0BEh 0190   2]                   Format Tag : FFFE
+[0C0h 0192   2]                Channel Count : 0001
+[0C2h 0194   4]           Samples Per Second : 00003E80
+[0C6h 0198   4]     Average Bytes Per Second : 00007D00
+[0CAh 0202   2]              Block Alignment : 0002
+[0CCh 0204   2]              Bits Per Sample : 0010
+[0CEh 0206   2]            Extra Format Size : 0016
+[0D0h 0208   2]        Valid Bits Per Sample : 0010
+[0D2h 0210   4]                 Channel Mask : 00000004
+[0D6h 0214  16]               SubFormat GUID : 00000001-0000-0010-8000-00AA00389B71
+[0E6h 0230   4]          Capabilities Length : 00000054
+
+    /* Specific_Config table #2 */
+[0EAh 0234  84]                 Capabilities : 00 00 00 00 F0 FF FF FF 00 00 00 00 00 00 00 00 /* ................ */\
+/* 0FAh 0250  16 */                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 /* ................ */\
+/* 10Ah 0266  16 */                            00 00 00 00 3F 00 C0 80 00 00 40 D3 00 00 00 00 /* ....?.....@..... */\
+/* 11Ah 0282  16 */                            05 00 00 02 01 00 00 00 01 00 00 00 02 40 00 00 /* .............@.. */\
+/* 12Ah 0298  16 */                            00 00 00 00 00 00 02 07 00 00 00 00 01 00 00 00 /* ................ */\
+/* 13Ah 0314   4 */                            00 00 00 00                                     /* .... */\
+
+    /* Wave_Format_Extensible table #3 */
+[13Eh 0318   2]                   Format Tag : FFFE
+[140h 0320   2]                Channel Count : 0002
+[142h 0322   4]           Samples Per Second : 0000BB80
+[146h 0326   4]     Average Bytes Per Second : 0005DC00
+[14Ah 0330   2]              Block Alignment : 0008
+[14Ch 0332   2]              Bits Per Sample : 0020
+[14Eh 0334   2]            Extra Format Size : 0016
+[150h 0336   2]        Valid Bits Per Sample : 0018
+[152h 0338   4]                 Channel Mask : 00000003
+[156h 0342  16]               SubFormat GUID : 00000001-0000-0010-8000-00AA00389B71
+[166h 0358   4]          Capabilities Length : 00000054
+
+    /* Specific_Config table #3 */
+[16Ah 0362  84]                 Capabilities : 00 00 00 00 F0 FF FF FF 00 00 00 00 00 00 00 00 /* ................ */\
+/* 17Ah 0378  16 */                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 /* ................ */\
+/* 18Ah 0394  16 */                            00 00 00 00 3F 00 C0 80 00 00 40 D3 00 00 00 00 /* ....?.....@..... */\
+/* 19Ah 0410  16 */                            05 00 00 02 01 00 00 00 01 00 00 00 02 40 00 00 /* .............@.. */\
+/* 1AAh 0426  16 */                            00 00 00 00 00 00 02 07 00 00 00 00 01 00 00 00 /* ................ */\
+/* 1BAh 0442   4 */                            00 00 00 00                                     /* .... */\
+
+    /* Structures that are not part of NHLT spec */
+[1BEh 0446   1]     Device Info struct count : 00
+
+    /* Endpoint Descriptor #2 */
+[1BFh 0447   4]            Descriptor Length : 0000011A
+[1C3h 0451   1]                    Link Type : 03 [Type SSP]
+[1C4h 0452   1]                  Instance Id : 00
+[1C5h 0453   2]                    Vendor Id : 8086
+[1C7h 0455   2]                    Device Id : AE30 [BT Sideband]
+[1C9h 0457   2]                  Revision Id : 0001
+[1CBh 0459   4]                 Subsystem Id : 00000001
+[1CFh 0463   1]                  Device Type : 00
+[1D0h 0464   1]                    Direction : 01 [Capture]
+[1D1h 0465   1]               Virtual Bus Id : 02
+
+    /* Endpoint Device_Specific_Config table */
+[1D2h 0466   4]            Capabilities Size : 00000001
+[1D6h 0470   1]                 Virtual Slot : 00
+
+    /* Formats_Config table */
+[1D7h 0471   1]                Formats Count : 02
+
+    /* Wave_Format_Extensible table #1 */
+[1D8h 0472   2]                   Format Tag : FFFE
+[1DAh 0474   2]                Channel Count : 0001
+[1DCh 0476   4]           Samples Per Second : 00001F40
+[1E0h 0480   4]     Average Bytes Per Second : 00003E80
+[1E4h 0484   2]              Block Alignment : 0002
+[1E6h 0486   2]              Bits Per Sample : 0010
+[1E8h 0488   2]            Extra Format Size : 0016
+[1EAh 0490   2]        Valid Bits Per Sample : 0010
+[1ECh 0492   4]                 Channel Mask : 00000004
+[1F0h 0496  16]               SubFormat GUID : 00000001-0000-0010-8000-00AA00389B71
+[200h 0512   4]          Capabilities Length : 00000054
+
+    /* Specific_Config table #1 */
+[204h 0516  84]                 Capabilities : 00 00 00 00 F0 FF FF FF 00 00 00 00 00 00 00 00 /* ................ */\
+/* 214h 0532  16 */                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 /* ................ */\
+/* 224h 0548  16 */                            00 00 00 00 3F 00 C0 80 00 00 40 D3 00 00 00 00 /* ....?.....@..... */\
+/* 234h 0564  16 */                            05 00 00 02 01 00 00 00 01 00 00 00 02 40 00 00 /* .............@.. */\
+/* 244h 0580  16 */                            00 00 00 00 00 00 02 07 00 00 00 00 01 00 00 00 /* ................ */\
+/* 254h 0596   4 */                            00 00 00 00                                     /* .... */\
+
+    /* Wave_Format_Extensible table #2 */
+[258h 0600   2]                   Format Tag : FFFE
+[25Ah 0602   2]                Channel Count : 0001
+[25Ch 0604   4]           Samples Per Second : 00003E80
+[260h 0608   4]     Average Bytes Per Second : 00007D00
+[264h 0612   2]              Block Alignment : 0002
+[266h 0614   2]              Bits Per Sample : 0010
+[268h 0616   2]            Extra Format Size : 0016
+[26Ah 0618   2]        Valid Bits Per Sample : 0010
+[26Ch 0620   4]                 Channel Mask : 00000004
+[270h 0624  16]               SubFormat GUID : 00000001-0000-0010-8000-00AA00389B71
+[280h 0640   4]          Capabilities Length : 00000054
+
+    /* Specific_Config table #2 */
+[284h 0644  84]                 Capabilities : 00 00 00 00 F0 FF FF FF 00 00 00 00 00 00 00 00 /* ................ */\
+/* 294h 0660  16 */                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 /* ................ */\
+/* 2A4h 0676  16 */                            00 00 00 00 3F 00 C0 80 00 00 40 D3 00 00 00 00 /* ....?.....@..... */\
+/* 2B4h 0692  16 */                            05 00 00 02 01 00 00 00 01 00 00 00 02 40 00 00 /* .............@.. */\
+/* 2C4h 0708  16 */                            00 00 00 00 00 00 02 07 00 00 00 00 01 00 00 00 /* ................ */\
+/* 2D4h 0724   4 */                            00 00 00 00                                     /* .... */\
+
+    /* Structures that are not part of NHLT spec */
+[2D8h 0728   1]     Device Info struct count : 00
+
+/* Terminating specific config (not part of NHLT spec) */
+[2D9h 0729   4]            Capabilities Size : 00000004
+[2DDh 0733   4]                 Capabilities : DE AD BE EF                                     /* .... */\
 
 Raw Table Data: Length 737 (0x2E1)
 
-  0000: 4E 48 4C 54 E1 02 00 00 00 CE 49 4E 53 59 44 45  // NHLT......INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 02 9A 01 00 00 03 00 86 80 30 AE 01  // .............0..
-  0030: 00 01 00 00 00 00 00 02 01 00 00 00 00 03 FE FF  // ................
-  0040: 01 00 40 1F 00 00 80 3E 00 00 02 00 10 00 16 00  // ..@....>........
-  0050: 10 00 04 00 00 00 01 00 00 00 00 00 10 00 80 00  // ................
-  0060: 00 AA 00 38 9B 71 54 00 00 00 00 00 00 00 F0 FF  // ...8.qT.........
-  0070: FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3F 00  // ..............?.
-  0090: C0 80 00 00 40 D3 00 00 00 00 05 00 00 02 01 00  // ....@...........
-  00A0: 00 00 01 00 00 00 02 40 00 00 00 00 00 00 00 00  // .......@........
-  00B0: 02 07 00 00 00 00 01 00 00 00 00 00 00 00 FE FF  // ................
-  00C0: 01 00 80 3E 00 00 00 7D 00 00 02 00 10 00 16 00  // ...>...}........
-  00D0: 10 00 04 00 00 00 01 00 00 00 00 00 10 00 80 00  // ................
-  00E0: 00 AA 00 38 9B 71 54 00 00 00 00 00 00 00 F0 FF  // ...8.qT.........
-  00F0: FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3F 00  // ..............?.
-  0110: C0 80 00 00 40 D3 00 00 00 00 05 00 00 02 01 00  // ....@...........
-  0120: 00 00 01 00 00 00 02 40 00 00 00 00 00 00 00 00  // .......@........
-  0130: 02 07 00 00 00 00 01 00 00 00 00 00 00 00 FE FF  // ................
-  0140: 02 00 80 BB 00 00 00 DC 05 00 08 00 20 00 16 00  // ............ ...
-  0150: 18 00 03 00 00 00 01 00 00 00 00 00 10 00 80 00  // ................
-  0160: 00 AA 00 38 9B 71 54 00 00 00 00 00 00 00 F0 FF  // ...8.qT.........
-  0170: FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3F 00  // ..............?.
-  0190: C0 80 00 00 40 D3 00 00 00 00 05 00 00 02 01 00  // ....@...........
-  01A0: 00 00 01 00 00 00 02 40 00 00 00 00 00 00 00 00  // .......@........
-  01B0: 02 07 00 00 00 00 01 00 00 00 00 00 00 00 00 1A  // ................
-  01C0: 01 00 00 03 00 86 80 30 AE 01 00 01 00 00 00 00  // .......0........
-  01D0: 01 02 01 00 00 00 00 02 FE FF 01 00 40 1F 00 00  // ............@...
-  01E0: 80 3E 00 00 02 00 10 00 16 00 10 00 04 00 00 00  // .>..............
-  01F0: 01 00 00 00 00 00 10 00 80 00 00 AA 00 38 9B 71  // .............8.q
-  0200: 54 00 00 00 00 00 00 00 F0 FF FF FF 00 00 00 00  // T...............
-  0210: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0220: 00 00 00 00 00 00 00 00 3F 00 C0 80 00 00 40 D3  // ........?.....@.
-  0230: 00 00 00 00 05 00 00 02 01 00 00 00 01 00 00 00  // ................
-  0240: 02 40 00 00 00 00 00 00 00 00 02 07 00 00 00 00  // .@..............
-  0250: 01 00 00 00 00 00 00 00 FE FF 01 00 80 3E 00 00  // .............>..
-  0260: 00 7D 00 00 02 00 10 00 16 00 10 00 04 00 00 00  // .}..............
-  0270: 01 00 00 00 00 00 10 00 80 00 00 AA 00 38 9B 71  // .............8.q
-  0280: 54 00 00 00 00 00 00 00 F0 FF FF FF 00 00 00 00  // T...............
-  0290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  02A0: 00 00 00 00 00 00 00 00 3F 00 C0 80 00 00 40 D3  // ........?.....@.
-  02B0: 00 00 00 00 05 00 00 02 01 00 00 00 01 00 00 00  // ................
-  02C0: 02 40 00 00 00 00 00 00 00 00 02 07 00 00 00 00  // .@..............
-  02D0: 01 00 00 00 00 00 00 00 00 04 00 00 00 DE AD BE  // ................
-  02E0: EF                                               // .
+    0000: 4E 48 4C 54 E1 02 00 00 00 CE 49 4E 53 59 44 45  // NHLT......INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 02 9A 01 00 00 03 00 86 80 30 AE 01  // .............0..
+    0030: 00 01 00 00 00 00 00 02 01 00 00 00 00 03 FE FF  // ................
+    0040: 01 00 40 1F 00 00 80 3E 00 00 02 00 10 00 16 00  // ..@....>........
+    0050: 10 00 04 00 00 00 01 00 00 00 00 00 10 00 80 00  // ................
+    0060: 00 AA 00 38 9B 71 54 00 00 00 00 00 00 00 F0 FF  // ...8.qT.........
+    0070: FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3F 00  // ..............?.
+    0090: C0 80 00 00 40 D3 00 00 00 00 05 00 00 02 01 00  // ....@...........
+    00A0: 00 00 01 00 00 00 02 40 00 00 00 00 00 00 00 00  // .......@........
+    00B0: 02 07 00 00 00 00 01 00 00 00 00 00 00 00 FE FF  // ................
+    00C0: 01 00 80 3E 00 00 00 7D 00 00 02 00 10 00 16 00  // ...>...}........
+    00D0: 10 00 04 00 00 00 01 00 00 00 00 00 10 00 80 00  // ................
+    00E0: 00 AA 00 38 9B 71 54 00 00 00 00 00 00 00 F0 FF  // ...8.qT.........
+    00F0: FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3F 00  // ..............?.
+    0110: C0 80 00 00 40 D3 00 00 00 00 05 00 00 02 01 00  // ....@...........
+    0120: 00 00 01 00 00 00 02 40 00 00 00 00 00 00 00 00  // .......@........
+    0130: 02 07 00 00 00 00 01 00 00 00 00 00 00 00 FE FF  // ................
+    0140: 02 00 80 BB 00 00 00 DC 05 00 08 00 20 00 16 00  // ............ ...
+    0150: 18 00 03 00 00 00 01 00 00 00 00 00 10 00 80 00  // ................
+    0160: 00 AA 00 38 9B 71 54 00 00 00 00 00 00 00 F0 FF  // ...8.qT.........
+    0170: FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3F 00  // ..............?.
+    0190: C0 80 00 00 40 D3 00 00 00 00 05 00 00 02 01 00  // ....@...........
+    01A0: 00 00 01 00 00 00 02 40 00 00 00 00 00 00 00 00  // .......@........
+    01B0: 02 07 00 00 00 00 01 00 00 00 00 00 00 00 00 1A  // ................
+    01C0: 01 00 00 03 00 86 80 30 AE 01 00 01 00 00 00 00  // .......0........
+    01D0: 01 02 01 00 00 00 00 02 FE FF 01 00 40 1F 00 00  // ............@...
+    01E0: 80 3E 00 00 02 00 10 00 16 00 10 00 04 00 00 00  // .>..............
+    01F0: 01 00 00 00 00 00 10 00 80 00 00 AA 00 38 9B 71  // .............8.q
+    0200: 54 00 00 00 00 00 00 00 F0 FF FF FF 00 00 00 00  // T...............
+    0210: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0220: 00 00 00 00 00 00 00 00 3F 00 C0 80 00 00 40 D3  // ........?.....@.
+    0230: 00 00 00 00 05 00 00 02 01 00 00 00 01 00 00 00  // ................
+    0240: 02 40 00 00 00 00 00 00 00 00 02 07 00 00 00 00  // .@..............
+    0250: 01 00 00 00 00 00 00 00 FE FF 01 00 80 3E 00 00  // .............>..
+    0260: 00 7D 00 00 02 00 10 00 16 00 10 00 04 00 00 00  // .}..............
+    0270: 01 00 00 00 00 00 10 00 80 00 00 AA 00 38 9B 71  // .............8.q
+    0280: 54 00 00 00 00 00 00 00 F0 FF FF FF 00 00 00 00  // T...............
+    0290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    02A0: 00 00 00 00 00 00 00 00 3F 00 C0 80 00 00 40 D3  // ........?.....@.
+    02B0: 00 00 00 00 05 00 00 02 01 00 00 00 01 00 00 00  // ................
+    02C0: 02 40 00 00 00 00 00 00 00 00 02 07 00 00 00 00  // .@..............
+    02D0: 01 00 00 00 00 00 00 00 00 04 00 00 00 DE AD BE  // ................
+    02E0: EF                                               // .
 
 
 PTDT
@@ -43419,214 +43547,214 @@ PTDT
 
 Raw Table Data: Length 3326 (0xCFE)
 
-  0000: 50 54 44 54 FE 0C 00 00 00 94 49 4E 53 59 44 45  // PTDT......INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 05 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 56 00 01 00 00 00 50 00 4B 00  // ......V.....P.K.
-  0030: 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0040: 00 00 00 00 FD 7C 09 27 E5 46 39 4E B8 E4 33 E4  // .....|.'.F9N..3.
-  0050: 39 A1 3E AF 46 00 53 00 50 00 20 00 42 00 69 00  // 9.>.F.S.P. .B.i.
-  0060: 6E 00 61 00 72 00 79 00 20 00 56 00 65 00 72 00  // n.a.r.y. .V.e.r.
-  0070: 73 00 69 00 6F 00 6E 00 00 00 00 00 48 00 01 00  // s.i.o.n.....H...
-  0080: 00 00 70 10 00 17 00 00 00 00 00 00 00 00 00 00  // ..p.............
-  0090: 00 00 00 00 00 00 00 00 00 00 6E 97 23 E8 BA 63  // ..........n.#..c
-  00A0: 14 41 B6 4B 81 12 72 8D 4E 03 47 00 4F 00 50 00  // .A.K..r.N.G.O.P.
-  00B0: 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00  //  .V.e.r.s.i.o.n.
-  00C0: 00 00 00 00 62 00 01 00 00 00 20 00 26 00 08 00  // ....b..... .&...
-  00D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  00E0: 00 00 3E A6 C1 64 2D BA DE 41 96 55 2F 70 FE 61  // ..>..d-..A.U/p.a
-  00F0: 8F 00 52 00 65 00 66 00 65 00 72 00 65 00 6E 00  // ..R.e.f.e.r.e.n.
-  0100: 63 00 65 00 20 00 43 00 6F 00 64 00 65 00 20 00  // c.e. .C.o.d.e. .
-  0110: 2D 00 20 00 49 00 43 00 4C 00 20 00 50 00 43 00  // -. .I.C.L. .P.C.
-  0120: 48 00 00 00 00 00 50 00 01 00 00 00 FF FF FF FF  // H.....P.........
-  0130: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0140: 00 00 00 00 ED CB 99 21 3E 4D EF 45 85 D1 E1 BA  // .......!>M.E....
-  0150: D5 A3 70 A9 50 00 43 00 48 00 2D 00 43 00 52 00  // ..p.P.C.H.-.C.R.
-  0160: 49 00 44 00 20 00 53 00 74 00 61 00 74 00 75 00  // I.D. .S.t.a.t.u.
-  0170: 73 00 00 00 00 00 60 00 01 00 00 00 20 00 FF FF  // s.....`..... ...
-  0180: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0190: 00 00 00 00 61 73 3F A8 FA FE D6 42 8B 32 95 F2  // ....as?....B.2..
-  01A0: 98 9B F6 D4 50 00 43 00 48 00 2D 00 43 00 52 00  // ....P.C.H.-.C.R.
-  01B0: 49 00 44 00 20 00 4F 00 72 00 69 00 67 00 69 00  // I.D. .O.r.i.g.i.
-  01C0: 6E 00 61 00 6C 00 20 00 56 00 61 00 6C 00 75 00  // n.a.l. .V.a.l.u.
-  01D0: 65 00 00 00 00 00 56 00 01 00 00 00 20 00 FF FF  // e.....V..... ...
-  01E0: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  01F0: 00 00 00 00 16 A7 4C D8 D3 7E 4B 4C B1 D5 2B 8C  // ......L..~KL..+.
-  0200: 27 4A 19 F1 50 00 43 00 48 00 2D 00 43 00 52 00  // 'J..P.C.H.-.C.R.
-  0210: 49 00 44 00 20 00 4E 00 65 00 77 00 20 00 56 00  // I.D. .N.e.w. .V.
-  0220: 61 00 6C 00 75 00 65 00 00 00 00 00 56 00 01 00  // a.l.u.e.....V...
-  0230: 00 00 00 00 00 46 02 00 00 00 00 00 00 00 00 00  // .....F..........
-  0240: 00 00 00 00 00 00 00 00 00 00 BF 95 B0 E9 E2 DE  // ................
-  0250: C9 4A 87 78 9E 41 FB 86 C4 36 4F 00 50 00 52 00  // .J.x.A...6O.P.R.
-  0260: 4F 00 4D 00 20 00 2D 00 20 00 52 00 53 00 54 00  // O.M. .-. .R.S.T.
-  0270: 20 00 2D 00 20 00 52 00 41 00 49 00 44 00 00 00  //  .-. .R.A.I.D...
-  0280: 00 00 66 00 01 00 00 00 00 00 00 00 06 00 00 00  // ..f.............
-  0290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  02A0: 67 DD 85 E3 03 8F 72 48 AB 47 3C A1 14 BE 1E 52  // g.....rH.G<....R
-  02B0: 49 00 43 00 4C 00 20 00 50 00 43 00 48 00 20 00  // I.C.L. .P.C.H. .
-  02C0: 4C 00 50 00 20 00 41 00 78 00 20 00 48 00 73 00  // L.P. .A.x. .H.s.
-  02D0: 69 00 6F 00 20 00 56 00 65 00 72 00 73 00 69 00  // i.o. .V.e.r.s.i.
-  02E0: 6F 00 6E 00 00 00 00 00 66 00 01 00 00 00 00 00  // o.n.....f.......
-  02F0: 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0300: 00 00 00 00 00 00 98 49 65 CD CA 2C C5 45 AD 5D  // .......Ie..,.E.]
-  0310: 78 EB 6E F4 FE D0 49 00 43 00 4C 00 20 00 50 00  // x.n...I.C.L. .P.
-  0320: 43 00 48 00 20 00 4C 00 50 00 20 00 42 00 78 00  // C.H. .L.P. .B.x.
-  0330: 20 00 48 00 73 00 69 00 6F 00 20 00 56 00 65 00  //  .H.s.i.o. .V.e.
-  0340: 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00 66 00  // r.s.i.o.n.....f.
-  0350: 01 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00  // ................
-  0360: 00 00 00 00 00 00 00 00 00 00 00 00 C5 B4 01 37  // ...............7
-  0370: 75 50 BB 4F 94 F1 4C A1 C4 B1 1A 7E 49 00 43 00  // uP.O..L....~I.C.
-  0380: 4C 00 20 00 50 00 43 00 48 00 20 00 4C 00 50 00  // L. .P.C.H. .L.P.
-  0390: 20 00 43 00 78 00 20 00 48 00 73 00 69 00 6F 00  //  .C.x. .H.s.i.o.
-  03A0: 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00  //  .V.e.r.s.i.o.n.
-  03B0: 00 00 00 00 66 00 01 00 00 00 00 00 00 00 01 00  // ....f...........
-  03C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  03D0: 00 00 08 9D 95 1E 39 B9 F7 40 BC DD 91 E9 1E 50  // ......9..@.....P
-  03E0: 60 47 49 00 43 00 4C 00 20 00 50 00 43 00 48 00  // `GI.C.L. .P.C.H.
-  03F0: 20 00 4C 00 50 00 20 00 44 00 78 00 20 00 48 00  //  .L.P. .D.x. .H.
-  0400: 73 00 69 00 6F 00 20 00 56 00 65 00 72 00 73 00  // s.i.o. .V.e.r.s.
-  0410: 69 00 6F 00 6E 00 00 00 00 00 64 00 01 00 00 00  // i.o.n.....d.....
-  0420: 00 00 00 00 05 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0430: 00 00 00 00 00 00 00 00 CC A2 93 D2 DA F0 75 49  // ..............uI
-  0440: AD F6 32 65 C5 9A 22 BD 49 00 43 00 4C 00 20 00  // ..2e..".I.C.L. .
-  0450: 50 00 43 00 48 00 20 00 4E 00 20 00 41 00 78 00  // P.C.H. .N. .A.x.
-  0460: 20 00 48 00 73 00 69 00 6F 00 20 00 56 00 65 00  //  .H.s.i.o. .V.e.
-  0470: 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00 64 00  // r.s.i.o.n.....d.
-  0480: 01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  // ................
-  0490: 00 00 00 00 00 00 00 00 00 00 00 00 74 23 BB 4A  // ............t#.J
-  04A0: 7E 76 7A 41 A3 65 78 99 4B D0 F6 37 49 00 43 00  // ~vzA.ex.K..7I.C.
-  04B0: 4C 00 20 00 50 00 43 00 48 00 20 00 4E 00 20 00  // L. .P.C.H. .N. .
-  04C0: 42 00 78 00 20 00 48 00 73 00 69 00 6F 00 20 00  // B.x. .H.s.i.o. .
-  04D0: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
-  04E0: 00 00 76 00 01 00 00 00 20 00 26 00 08 00 00 00  // ..v..... .&.....
-  04F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0500: 9D AF D8 38 3D 0F 48 4E A3 6B FA FD 68 61 48 A0  // ...8=.HN.k..haH.
-  0510: 52 00 65 00 66 00 65 00 72 00 65 00 6E 00 63 00  // R.e.f.e.r.e.n.c.
-  0520: 65 00 20 00 43 00 6F 00 64 00 65 00 20 00 2D 00  // e. .C.o.d.e. .-.
-  0530: 20 00 53 00 41 00 20 00 2D 00 20 00 53 00 79 00  //  .S.A. .-. .S.y.
-  0540: 73 00 74 00 65 00 6D 00 20 00 41 00 67 00 65 00  // s.t.e.m. .A.g.e.
-  0550: 6E 00 74 00 00 00 00 00 5A 00 01 00 00 00 01 00  // n.t.....Z.......
-  0560: 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0570: 00 00 00 00 00 00 E6 6E 25 73 90 A9 13 4B 8A BA  // .......n%s...K..
-  0580: 76 E2 2C 3E 99 3C 52 00 65 00 66 00 65 00 72 00  // v.,>.<R.e.f.e.r.
-  0590: 65 00 6E 00 63 00 65 00 20 00 43 00 6F 00 64 00  // e.n.c.e. .C.o.d.
-  05A0: 65 00 20 00 2D 00 20 00 4D 00 52 00 43 00 00 00  // e. .-. .M.R.C...
-  05B0: 00 00 54 00 01 00 00 00 20 00 26 00 08 00 00 00  // ..T..... .&.....
-  05C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  05D0: 12 5B 2B FA 24 31 DE 43 84 E6 C4 11 4E 88 1F 43  // .[+.$1.C....N..C
-  05E0: 53 00 41 00 20 00 2D 00 20 00 50 00 43 00 49 00  // S.A. .-. .P.C.I.
-  05F0: 65 00 20 00 56 00 65 00 72 00 73 00 69 00 6F 00  // e. .V.e.r.s.i.o.
-  0600: 6E 00 00 00 00 00 4E 00 01 00 00 00 FF FF FF FF  // n.....N.........
-  0610: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0620: 00 00 00 00 E7 63 A4 47 6D 19 77 45 B5 36 3B 9A  // .....c.Gm.wE.6;.
-  0630: 85 B7 38 4B 53 00 41 00 2D 00 43 00 52 00 49 00  // ..8KS.A.-.C.R.I.
-  0640: 44 00 20 00 53 00 74 00 61 00 74 00 75 00 73 00  // D. .S.t.a.t.u.s.
-  0650: 00 00 00 00 5E 00 01 00 00 00 01 00 00 00 00 00  // ....^...........
-  0660: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0670: 00 00 21 E0 3C 3D 65 CE F5 A2 A2 F5 00 8B 2B BB  // ..!.<=e.......+.
-  0680: 0C A2 53 00 41 00 2D 00 43 00 52 00 49 00 44 00  // ..S.A.-.C.R.I.D.
-  0690: 20 00 4F 00 72 00 69 00 67 00 69 00 6E 00 61 00  //  .O.r.i.g.i.n.a.
-  06A0: 6C 00 20 00 56 00 61 00 6C 00 75 00 65 00 00 00  // l. .V.a.l.u.e...
-  06B0: 00 00 54 00 01 00 00 00 01 00 00 00 00 00 00 00  // ..T.............
-  06C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  06D0: 3C FF A3 84 65 CE 8D 44 81 C4 1A 62 A8 A9 C3 6E  // <...e..D...b...n
-  06E0: 53 00 41 00 2D 00 43 00 52 00 49 00 44 00 20 00  // S.A.-.C.R.I.D. .
-  06F0: 4E 00 65 00 77 00 20 00 56 00 61 00 6C 00 75 00  // N.e.w. .V.a.l.u.
-  0700: 65 00 00 00 00 00 4C 00 01 00 00 00 FF FF FF FF  // e.....L.........
-  0710: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0720: 00 00 00 00 3E 15 50 FA 27 66 14 47 92 20 B8 C7  // ....>.P.'f.G. ..
-  0730: 1D AB 42 9A 4F 00 50 00 52 00 4F 00 4D 00 20 00  // ..B.O.P.R.O.M. .
-  0740: 2D 00 20 00 56 00 42 00 49 00 4F 00 53 00 00 00  // -. .V.B.I.O.S...
-  0750: 00 00 5A 00 01 00 00 00 20 00 26 00 08 00 00 00  // ..Z..... .&.....
-  0760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0770: B9 78 77 87 22 CF 6A 47 97 A1 27 53 0D 9A FE 42  // .xw.".jG..'S...B
-  0780: 52 00 65 00 66 00 65 00 72 00 65 00 6E 00 63 00  // R.e.f.e.r.e.n.c.
-  0790: 65 00 20 00 43 00 6F 00 64 00 65 00 20 00 2D 00  // e. .C.o.d.e. .-.
-  07A0: 20 00 43 00 50 00 55 00 00 00 00 00 4C 00 01 00  //  .C.P.U.....L...
-  07B0: 00 00 9A 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  07C0: 00 00 00 00 00 00 00 00 00 00 F3 FE 72 DA 2B 78  // ............r.+x
-  07D0: 38 4C 85 40 2C 90 21 7C 16 73 75 00 43 00 6F 00  // 8L.@,.!|.su.C.o.
-  07E0: 64 00 65 00 20 00 56 00 65 00 72 00 73 00 69 00  // d.e. .V.e.r.s.i.
-  07F0: 6F 00 6E 00 00 00 00 00 50 00 01 00 00 00 FF FF  // o.n.....P.......
-  0800: FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0810: 00 00 00 00 00 00 AC 3D 64 EC B9 AB 5F 46 83 A6  // .......=d..._F..
-  0820: A8 57 E1 D0 3B A2 54 00 58 00 54 00 20 00 41 00  // .W..;.T.X.T. .A.
-  0830: 43 00 4D 00 20 00 76 00 65 00 72 00 73 00 69 00  // C.M. .v.e.r.s.i.
-  0840: 6F 00 6E 00 00 00 00 00 58 00 01 00 00 00 20 00  // o.n.....X..... .
-  0850: 26 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00  // &...............
-  0860: 00 00 00 00 00 00 60 C4 58 68 BA 15 AB 4E B6 7C  // ......`.Xh...N.|
-  0870: 00 53 FF CD ED 54 52 00 65 00 66 00 65 00 72 00  // .S...TR.e.f.e.r.
-  0880: 65 00 6E 00 63 00 65 00 20 00 43 00 6F 00 64 00  // e.n.c.e. .C.o.d.
-  0890: 65 00 20 00 2D 00 20 00 4D 00 45 00 00 00 00 00  // e. .-. .M.E.....
-  08A0: 4A 00 01 00 00 00 FF FF FF FF FF 00 00 00 00 00  // J...............
-  08B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5D 2D  // ..............]-
-  08C0: 9A D3 1E 17 A1 4D B8 4D F0 FC DE 7C C4 31 4D 00  // .....M.M...|.1M.
-  08D0: 45 00 42 00 78 00 20 00 76 00 65 00 72 00 73 00  // E.B.x. .v.e.r.s.
-  08E0: 69 00 6F 00 6E 00 00 00 00 00 58 00 01 00 00 00  // i.o.n.....X.....
-  08F0: 9F 07 23 00 0F 00 00 00 00 00 00 00 00 00 00 00  // ..#.............
-  0900: 00 00 00 00 00 00 00 00 5D A2 2B A6 FC FF C6 4A  // ........].+....J
-  0910: A9 0E 24 57 AC 0E 47 7E 4D 00 45 00 20 00 46 00  // ..$W..G~M.E. .F.
-  0920: 69 00 72 00 6D 00 77 00 61 00 72 00 65 00 20 00  // i.r.m.w.a.r.e. .
-  0930: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
-  0940: 00 00 50 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..P.............
-  0950: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0960: D6 3F 8C 98 B2 92 A0 41 B5 C3 78 A5 CD 47 12 F7  // .?.....A..x..G..
-  0970: 4C 00 61 00 6E 00 20 00 50 00 68 00 79 00 20 00  // L.a.n. .P.h.y. .
-  0980: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
-  0990: 00 00 60 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..`.............
-  09A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  09B0: EB A3 19 C5 2A 6D D0 47 AA D3 5E B0 06 B6 31 21  // ....*m.G..^...1!
-  09C0: 53 00 65 00 6E 00 73 00 6F 00 72 00 20 00 46 00  // S.e.n.s.o.r. .F.
-  09D0: 69 00 72 00 6D 00 77 00 61 00 72 00 65 00 20 00  // i.r.m.w.a.r.e. .
-  09E0: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
-  09F0: 00 00 54 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..T.............
-  0A00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0A10: 7D 25 EC E1 D4 43 5B 41 95 03 9E C0 4A C5 61 58  // }%...C[A....J.aX
-  0A20: 44 00 65 00 62 00 75 00 67 00 20 00 4D 00 6F 00  // D.e.b.u.g. .M.o.
-  0A30: 64 00 65 00 20 00 53 00 74 00 61 00 74 00 75 00  // d.e. .S.t.a.t.u.
-  0A40: 73 00 00 00 00 00 60 00 01 00 00 00 FF FF FF FF  // s.....`.........
-  0A50: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0A60: 00 00 00 00 1F 12 23 E3 0C E6 D8 43 8E 0F 69 D9  // ......#....C..i.
-  0A70: D7 DA B3 A0 50 00 65 00 72 00 66 00 6F 00 72 00  // ....P.e.r.f.o.r.
-  0A80: 6D 00 61 00 6E 00 63 00 65 00 20 00 4D 00 6F 00  // m.a.n.c.e. .M.o.
-  0A90: 64 00 65 00 20 00 53 00 74 00 61 00 74 00 75 00  // d.e. .S.t.a.t.u.
-  0AA0: 73 00 00 00 00 00 4C 00 01 00 00 00 FF FF FF FF  // s.....L.........
-  0AB0: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0AC0: 00 00 00 00 EF DE 0C AB 27 0B 2B 4C B6 B7 9B 73  // ........'.+L...s
-  0AD0: 40 43 E3 DE 44 00 65 00 62 00 75 00 67 00 20 00  // @C..D.e.b.u.g. .
-  0AE0: 55 00 73 00 65 00 20 00 55 00 53 00 42 00 00 00  // U.s.e. .U.S.B...
-  0AF0: 00 00 62 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..b.............
-  0B00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0B10: EA C4 11 BB 28 69 6C 4F B3 48 72 C0 CF C9 D0 4D  // ....(ilO.Hr....M
-  0B20: 49 00 43 00 43 00 20 00 4F 00 76 00 65 00 72 00  // I.C.C. .O.v.e.r.
-  0B30: 63 00 6C 00 6F 00 63 00 6B 00 69 00 6E 00 67 00  // c.l.o.c.k.i.n.g.
-  0B40: 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00  //  .V.e.r.s.i.o.n.
-  0B50: 00 00 00 00 4C 00 01 00 00 00 00 00 00 05 07 00  // ....L...........
-  0B60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0B70: 00 00 89 55 28 03 37 1E 72 4B A5 F9 70 D1 AD AE  // ...U(.7.rK..p...
-  0B80: 5D 34 45 00 43 00 20 00 46 00 57 00 20 00 56 00  // ]4E.C. .F.W. .V.
-  0B90: 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00  // e.r.s.i.o.n.....
-  0BA0: 56 00 01 00 00 00 FF FF FF FF FF 00 00 00 00 00  // V...............
-  0BB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF F3  // ................
-  0BC0: 9A DD 6E E2 91 41 BE 2C 4B 9F 43 ED C9 D9 52 00  // ..n..A.,K.C...R.
-  0BD0: 6F 00 79 00 61 00 6C 00 20 00 50 00 61 00 72 00  // o.y.a.l. .P.a.r.
-  0BE0: 6B 00 20 00 56 00 65 00 72 00 73 00 69 00 6F 00  // k. .V.e.r.s.i.o.
-  0BF0: 6E 00 00 00 00 00 5A 00 01 00 00 00 00 00 02 05  // n.....Z.........
-  0C00: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0C10: 00 00 00 00 E3 C8 81 33 2C B9 AC 4B B6 C6 43 90  // .......3,..K..C.
-  0C20: 91 1E 93 4D 45 00 44 00 4B 00 49 00 49 00 20 00  // ...ME.D.K.I.I. .
-  0C30: 53 00 74 00 61 00 62 00 6C 00 65 00 20 00 56 00  // S.t.a.b.l.e. .V.
-  0C40: 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00  // e.r.s.i.o.n.....
-  0C50: 52 00 01 00 00 00 00 00 03 07 00 00 00 00 00 00  // R...............
-  0C60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B4 CD  // ................
-  0C70: 7D 42 33 1C 2B 4F B7 36 F8 DA BE 9E 9A CD 50 00  // }B3.+O.6......P.
-  0C80: 6C 00 61 00 74 00 66 00 6F 00 72 00 6D 00 20 00  // l.a.t.f.o.r.m. .
-  0C90: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
-  0CA0: 00 00 5E 00 01 00 00 00 0F 00 00 02 00 00 00 00  // ..^.............
-  0CB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0CC0: 86 BC B0 CC CD 1B 6F 47 AA BE E1 91 59 24 4B FD  // ......oG....Y$K.
-  0CD0: 43 00 6C 00 69 00 65 00 6E 00 74 00 20 00 53 00  // C.l.i.e.n.t. .S.
-  0CE0: 69 00 6C 00 69 00 63 00 6F 00 6E 00 20 00 56 00  // i.l.i.c.o.n. .V.
-  0CF0: 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00        // e.r.s.i.o.n...
+    0000: 50 54 44 54 FE 0C 00 00 00 94 49 4E 53 59 44 45  // PTDT......INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 05 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 56 00 01 00 00 00 50 00 4B 00  // ......V.....P.K.
+    0030: 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0040: 00 00 00 00 FD 7C 09 27 E5 46 39 4E B8 E4 33 E4  // .....|.'.F9N..3.
+    0050: 39 A1 3E AF 46 00 53 00 50 00 20 00 42 00 69 00  // 9.>.F.S.P. .B.i.
+    0060: 6E 00 61 00 72 00 79 00 20 00 56 00 65 00 72 00  // n.a.r.y. .V.e.r.
+    0070: 73 00 69 00 6F 00 6E 00 00 00 00 00 48 00 01 00  // s.i.o.n.....H...
+    0080: 00 00 70 10 00 17 00 00 00 00 00 00 00 00 00 00  // ..p.............
+    0090: 00 00 00 00 00 00 00 00 00 00 6E 97 23 E8 BA 63  // ..........n.#..c
+    00A0: 14 41 B6 4B 81 12 72 8D 4E 03 47 00 4F 00 50 00  // .A.K..r.N.G.O.P.
+    00B0: 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00  //  .V.e.r.s.i.o.n.
+    00C0: 00 00 00 00 62 00 01 00 00 00 20 00 26 00 08 00  // ....b..... .&...
+    00D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    00E0: 00 00 3E A6 C1 64 2D BA DE 41 96 55 2F 70 FE 61  // ..>..d-..A.U/p.a
+    00F0: 8F 00 52 00 65 00 66 00 65 00 72 00 65 00 6E 00  // ..R.e.f.e.r.e.n.
+    0100: 63 00 65 00 20 00 43 00 6F 00 64 00 65 00 20 00  // c.e. .C.o.d.e. .
+    0110: 2D 00 20 00 49 00 43 00 4C 00 20 00 50 00 43 00  // -. .I.C.L. .P.C.
+    0120: 48 00 00 00 00 00 50 00 01 00 00 00 FF FF FF FF  // H.....P.........
+    0130: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0140: 00 00 00 00 ED CB 99 21 3E 4D EF 45 85 D1 E1 BA  // .......!>M.E....
+    0150: D5 A3 70 A9 50 00 43 00 48 00 2D 00 43 00 52 00  // ..p.P.C.H.-.C.R.
+    0160: 49 00 44 00 20 00 53 00 74 00 61 00 74 00 75 00  // I.D. .S.t.a.t.u.
+    0170: 73 00 00 00 00 00 60 00 01 00 00 00 20 00 FF FF  // s.....`..... ...
+    0180: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0190: 00 00 00 00 61 73 3F A8 FA FE D6 42 8B 32 95 F2  // ....as?....B.2..
+    01A0: 98 9B F6 D4 50 00 43 00 48 00 2D 00 43 00 52 00  // ....P.C.H.-.C.R.
+    01B0: 49 00 44 00 20 00 4F 00 72 00 69 00 67 00 69 00  // I.D. .O.r.i.g.i.
+    01C0: 6E 00 61 00 6C 00 20 00 56 00 61 00 6C 00 75 00  // n.a.l. .V.a.l.u.
+    01D0: 65 00 00 00 00 00 56 00 01 00 00 00 20 00 FF FF  // e.....V..... ...
+    01E0: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    01F0: 00 00 00 00 16 A7 4C D8 D3 7E 4B 4C B1 D5 2B 8C  // ......L..~KL..+.
+    0200: 27 4A 19 F1 50 00 43 00 48 00 2D 00 43 00 52 00  // 'J..P.C.H.-.C.R.
+    0210: 49 00 44 00 20 00 4E 00 65 00 77 00 20 00 56 00  // I.D. .N.e.w. .V.
+    0220: 61 00 6C 00 75 00 65 00 00 00 00 00 56 00 01 00  // a.l.u.e.....V...
+    0230: 00 00 00 00 00 46 02 00 00 00 00 00 00 00 00 00  // .....F..........
+    0240: 00 00 00 00 00 00 00 00 00 00 BF 95 B0 E9 E2 DE  // ................
+    0250: C9 4A 87 78 9E 41 FB 86 C4 36 4F 00 50 00 52 00  // .J.x.A...6O.P.R.
+    0260: 4F 00 4D 00 20 00 2D 00 20 00 52 00 53 00 54 00  // O.M. .-. .R.S.T.
+    0270: 20 00 2D 00 20 00 52 00 41 00 49 00 44 00 00 00  //  .-. .R.A.I.D...
+    0280: 00 00 66 00 01 00 00 00 00 00 00 00 06 00 00 00  // ..f.............
+    0290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    02A0: 67 DD 85 E3 03 8F 72 48 AB 47 3C A1 14 BE 1E 52  // g.....rH.G<....R
+    02B0: 49 00 43 00 4C 00 20 00 50 00 43 00 48 00 20 00  // I.C.L. .P.C.H. .
+    02C0: 4C 00 50 00 20 00 41 00 78 00 20 00 48 00 73 00  // L.P. .A.x. .H.s.
+    02D0: 69 00 6F 00 20 00 56 00 65 00 72 00 73 00 69 00  // i.o. .V.e.r.s.i.
+    02E0: 6F 00 6E 00 00 00 00 00 66 00 01 00 00 00 00 00  // o.n.....f.......
+    02F0: 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0300: 00 00 00 00 00 00 98 49 65 CD CA 2C C5 45 AD 5D  // .......Ie..,.E.]
+    0310: 78 EB 6E F4 FE D0 49 00 43 00 4C 00 20 00 50 00  // x.n...I.C.L. .P.
+    0320: 43 00 48 00 20 00 4C 00 50 00 20 00 42 00 78 00  // C.H. .L.P. .B.x.
+    0330: 20 00 48 00 73 00 69 00 6F 00 20 00 56 00 65 00  //  .H.s.i.o. .V.e.
+    0340: 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00 66 00  // r.s.i.o.n.....f.
+    0350: 01 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00  // ................
+    0360: 00 00 00 00 00 00 00 00 00 00 00 00 C5 B4 01 37  // ...............7
+    0370: 75 50 BB 4F 94 F1 4C A1 C4 B1 1A 7E 49 00 43 00  // uP.O..L....~I.C.
+    0380: 4C 00 20 00 50 00 43 00 48 00 20 00 4C 00 50 00  // L. .P.C.H. .L.P.
+    0390: 20 00 43 00 78 00 20 00 48 00 73 00 69 00 6F 00  //  .C.x. .H.s.i.o.
+    03A0: 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00  //  .V.e.r.s.i.o.n.
+    03B0: 00 00 00 00 66 00 01 00 00 00 00 00 00 00 01 00  // ....f...........
+    03C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    03D0: 00 00 08 9D 95 1E 39 B9 F7 40 BC DD 91 E9 1E 50  // ......9..@.....P
+    03E0: 60 47 49 00 43 00 4C 00 20 00 50 00 43 00 48 00  // `GI.C.L. .P.C.H.
+    03F0: 20 00 4C 00 50 00 20 00 44 00 78 00 20 00 48 00  //  .L.P. .D.x. .H.
+    0400: 73 00 69 00 6F 00 20 00 56 00 65 00 72 00 73 00  // s.i.o. .V.e.r.s.
+    0410: 69 00 6F 00 6E 00 00 00 00 00 64 00 01 00 00 00  // i.o.n.....d.....
+    0420: 00 00 00 00 05 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0430: 00 00 00 00 00 00 00 00 CC A2 93 D2 DA F0 75 49  // ..............uI
+    0440: AD F6 32 65 C5 9A 22 BD 49 00 43 00 4C 00 20 00  // ..2e..".I.C.L. .
+    0450: 50 00 43 00 48 00 20 00 4E 00 20 00 41 00 78 00  // P.C.H. .N. .A.x.
+    0460: 20 00 48 00 73 00 69 00 6F 00 20 00 56 00 65 00  //  .H.s.i.o. .V.e.
+    0470: 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00 64 00  // r.s.i.o.n.....d.
+    0480: 01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  // ................
+    0490: 00 00 00 00 00 00 00 00 00 00 00 00 74 23 BB 4A  // ............t#.J
+    04A0: 7E 76 7A 41 A3 65 78 99 4B D0 F6 37 49 00 43 00  // ~vzA.ex.K..7I.C.
+    04B0: 4C 00 20 00 50 00 43 00 48 00 20 00 4E 00 20 00  // L. .P.C.H. .N. .
+    04C0: 42 00 78 00 20 00 48 00 73 00 69 00 6F 00 20 00  // B.x. .H.s.i.o. .
+    04D0: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
+    04E0: 00 00 76 00 01 00 00 00 20 00 26 00 08 00 00 00  // ..v..... .&.....
+    04F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0500: 9D AF D8 38 3D 0F 48 4E A3 6B FA FD 68 61 48 A0  // ...8=.HN.k..haH.
+    0510: 52 00 65 00 66 00 65 00 72 00 65 00 6E 00 63 00  // R.e.f.e.r.e.n.c.
+    0520: 65 00 20 00 43 00 6F 00 64 00 65 00 20 00 2D 00  // e. .C.o.d.e. .-.
+    0530: 20 00 53 00 41 00 20 00 2D 00 20 00 53 00 79 00  //  .S.A. .-. .S.y.
+    0540: 73 00 74 00 65 00 6D 00 20 00 41 00 67 00 65 00  // s.t.e.m. .A.g.e.
+    0550: 6E 00 74 00 00 00 00 00 5A 00 01 00 00 00 01 00  // n.t.....Z.......
+    0560: 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0570: 00 00 00 00 00 00 E6 6E 25 73 90 A9 13 4B 8A BA  // .......n%s...K..
+    0580: 76 E2 2C 3E 99 3C 52 00 65 00 66 00 65 00 72 00  // v.,>.<R.e.f.e.r.
+    0590: 65 00 6E 00 63 00 65 00 20 00 43 00 6F 00 64 00  // e.n.c.e. .C.o.d.
+    05A0: 65 00 20 00 2D 00 20 00 4D 00 52 00 43 00 00 00  // e. .-. .M.R.C...
+    05B0: 00 00 54 00 01 00 00 00 20 00 26 00 08 00 00 00  // ..T..... .&.....
+    05C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    05D0: 12 5B 2B FA 24 31 DE 43 84 E6 C4 11 4E 88 1F 43  // .[+.$1.C....N..C
+    05E0: 53 00 41 00 20 00 2D 00 20 00 50 00 43 00 49 00  // S.A. .-. .P.C.I.
+    05F0: 65 00 20 00 56 00 65 00 72 00 73 00 69 00 6F 00  // e. .V.e.r.s.i.o.
+    0600: 6E 00 00 00 00 00 4E 00 01 00 00 00 FF FF FF FF  // n.....N.........
+    0610: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0620: 00 00 00 00 E7 63 A4 47 6D 19 77 45 B5 36 3B 9A  // .....c.Gm.wE.6;.
+    0630: 85 B7 38 4B 53 00 41 00 2D 00 43 00 52 00 49 00  // ..8KS.A.-.C.R.I.
+    0640: 44 00 20 00 53 00 74 00 61 00 74 00 75 00 73 00  // D. .S.t.a.t.u.s.
+    0650: 00 00 00 00 5E 00 01 00 00 00 01 00 00 00 00 00  // ....^...........
+    0660: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0670: 00 00 21 E0 3C 3D 65 CE F5 A2 A2 F5 00 8B 2B BB  // ..!.<=e.......+.
+    0680: 0C A2 53 00 41 00 2D 00 43 00 52 00 49 00 44 00  // ..S.A.-.C.R.I.D.
+    0690: 20 00 4F 00 72 00 69 00 67 00 69 00 6E 00 61 00  //  .O.r.i.g.i.n.a.
+    06A0: 6C 00 20 00 56 00 61 00 6C 00 75 00 65 00 00 00  // l. .V.a.l.u.e...
+    06B0: 00 00 54 00 01 00 00 00 01 00 00 00 00 00 00 00  // ..T.............
+    06C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    06D0: 3C FF A3 84 65 CE 8D 44 81 C4 1A 62 A8 A9 C3 6E  // <...e..D...b...n
+    06E0: 53 00 41 00 2D 00 43 00 52 00 49 00 44 00 20 00  // S.A.-.C.R.I.D. .
+    06F0: 4E 00 65 00 77 00 20 00 56 00 61 00 6C 00 75 00  // N.e.w. .V.a.l.u.
+    0700: 65 00 00 00 00 00 4C 00 01 00 00 00 FF FF FF FF  // e.....L.........
+    0710: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0720: 00 00 00 00 3E 15 50 FA 27 66 14 47 92 20 B8 C7  // ....>.P.'f.G. ..
+    0730: 1D AB 42 9A 4F 00 50 00 52 00 4F 00 4D 00 20 00  // ..B.O.P.R.O.M. .
+    0740: 2D 00 20 00 56 00 42 00 49 00 4F 00 53 00 00 00  // -. .V.B.I.O.S...
+    0750: 00 00 5A 00 01 00 00 00 20 00 26 00 08 00 00 00  // ..Z..... .&.....
+    0760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0770: B9 78 77 87 22 CF 6A 47 97 A1 27 53 0D 9A FE 42  // .xw.".jG..'S...B
+    0780: 52 00 65 00 66 00 65 00 72 00 65 00 6E 00 63 00  // R.e.f.e.r.e.n.c.
+    0790: 65 00 20 00 43 00 6F 00 64 00 65 00 20 00 2D 00  // e. .C.o.d.e. .-.
+    07A0: 20 00 43 00 50 00 55 00 00 00 00 00 4C 00 01 00  //  .C.P.U.....L...
+    07B0: 00 00 9A 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    07C0: 00 00 00 00 00 00 00 00 00 00 F3 FE 72 DA 2B 78  // ............r.+x
+    07D0: 38 4C 85 40 2C 90 21 7C 16 73 75 00 43 00 6F 00  // 8L.@,.!|.su.C.o.
+    07E0: 64 00 65 00 20 00 56 00 65 00 72 00 73 00 69 00  // d.e. .V.e.r.s.i.
+    07F0: 6F 00 6E 00 00 00 00 00 50 00 01 00 00 00 FF FF  // o.n.....P.......
+    0800: FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0810: 00 00 00 00 00 00 AC 3D 64 EC B9 AB 5F 46 83 A6  // .......=d..._F..
+    0820: A8 57 E1 D0 3B A2 54 00 58 00 54 00 20 00 41 00  // .W..;.T.X.T. .A.
+    0830: 43 00 4D 00 20 00 76 00 65 00 72 00 73 00 69 00  // C.M. .v.e.r.s.i.
+    0840: 6F 00 6E 00 00 00 00 00 58 00 01 00 00 00 20 00  // o.n.....X..... .
+    0850: 26 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00  // &...............
+    0860: 00 00 00 00 00 00 60 C4 58 68 BA 15 AB 4E B6 7C  // ......`.Xh...N.|
+    0870: 00 53 FF CD ED 54 52 00 65 00 66 00 65 00 72 00  // .S...TR.e.f.e.r.
+    0880: 65 00 6E 00 63 00 65 00 20 00 43 00 6F 00 64 00  // e.n.c.e. .C.o.d.
+    0890: 65 00 20 00 2D 00 20 00 4D 00 45 00 00 00 00 00  // e. .-. .M.E.....
+    08A0: 4A 00 01 00 00 00 FF FF FF FF FF 00 00 00 00 00  // J...............
+    08B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5D 2D  // ..............]-
+    08C0: 9A D3 1E 17 A1 4D B8 4D F0 FC DE 7C C4 31 4D 00  // .....M.M...|.1M.
+    08D0: 45 00 42 00 78 00 20 00 76 00 65 00 72 00 73 00  // E.B.x. .v.e.r.s.
+    08E0: 69 00 6F 00 6E 00 00 00 00 00 58 00 01 00 00 00  // i.o.n.....X.....
+    08F0: 9F 07 23 00 0F 00 00 00 00 00 00 00 00 00 00 00  // ..#.............
+    0900: 00 00 00 00 00 00 00 00 5D A2 2B A6 FC FF C6 4A  // ........].+....J
+    0910: A9 0E 24 57 AC 0E 47 7E 4D 00 45 00 20 00 46 00  // ..$W..G~M.E. .F.
+    0920: 69 00 72 00 6D 00 77 00 61 00 72 00 65 00 20 00  // i.r.m.w.a.r.e. .
+    0930: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
+    0940: 00 00 50 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..P.............
+    0950: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0960: D6 3F 8C 98 B2 92 A0 41 B5 C3 78 A5 CD 47 12 F7  // .?.....A..x..G..
+    0970: 4C 00 61 00 6E 00 20 00 50 00 68 00 79 00 20 00  // L.a.n. .P.h.y. .
+    0980: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
+    0990: 00 00 60 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..`.............
+    09A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    09B0: EB A3 19 C5 2A 6D D0 47 AA D3 5E B0 06 B6 31 21  // ....*m.G..^...1!
+    09C0: 53 00 65 00 6E 00 73 00 6F 00 72 00 20 00 46 00  // S.e.n.s.o.r. .F.
+    09D0: 69 00 72 00 6D 00 77 00 61 00 72 00 65 00 20 00  // i.r.m.w.a.r.e. .
+    09E0: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
+    09F0: 00 00 54 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..T.............
+    0A00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0A10: 7D 25 EC E1 D4 43 5B 41 95 03 9E C0 4A C5 61 58  // }%...C[A....J.aX
+    0A20: 44 00 65 00 62 00 75 00 67 00 20 00 4D 00 6F 00  // D.e.b.u.g. .M.o.
+    0A30: 64 00 65 00 20 00 53 00 74 00 61 00 74 00 75 00  // d.e. .S.t.a.t.u.
+    0A40: 73 00 00 00 00 00 60 00 01 00 00 00 FF FF FF FF  // s.....`.........
+    0A50: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0A60: 00 00 00 00 1F 12 23 E3 0C E6 D8 43 8E 0F 69 D9  // ......#....C..i.
+    0A70: D7 DA B3 A0 50 00 65 00 72 00 66 00 6F 00 72 00  // ....P.e.r.f.o.r.
+    0A80: 6D 00 61 00 6E 00 63 00 65 00 20 00 4D 00 6F 00  // m.a.n.c.e. .M.o.
+    0A90: 64 00 65 00 20 00 53 00 74 00 61 00 74 00 75 00  // d.e. .S.t.a.t.u.
+    0AA0: 73 00 00 00 00 00 4C 00 01 00 00 00 FF FF FF FF  // s.....L.........
+    0AB0: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0AC0: 00 00 00 00 EF DE 0C AB 27 0B 2B 4C B6 B7 9B 73  // ........'.+L...s
+    0AD0: 40 43 E3 DE 44 00 65 00 62 00 75 00 67 00 20 00  // @C..D.e.b.u.g. .
+    0AE0: 55 00 73 00 65 00 20 00 55 00 53 00 42 00 00 00  // U.s.e. .U.S.B...
+    0AF0: 00 00 62 00 01 00 00 00 FF FF FF FF FF 00 00 00  // ..b.............
+    0B00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0B10: EA C4 11 BB 28 69 6C 4F B3 48 72 C0 CF C9 D0 4D  // ....(ilO.Hr....M
+    0B20: 49 00 43 00 43 00 20 00 4F 00 76 00 65 00 72 00  // I.C.C. .O.v.e.r.
+    0B30: 63 00 6C 00 6F 00 63 00 6B 00 69 00 6E 00 67 00  // c.l.o.c.k.i.n.g.
+    0B40: 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00  //  .V.e.r.s.i.o.n.
+    0B50: 00 00 00 00 4C 00 01 00 00 00 00 00 00 05 07 00  // ....L...........
+    0B60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0B70: 00 00 89 55 28 03 37 1E 72 4B A5 F9 70 D1 AD AE  // ...U(.7.rK..p...
+    0B80: 5D 34 45 00 43 00 20 00 46 00 57 00 20 00 56 00  // ]4E.C. .F.W. .V.
+    0B90: 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00  // e.r.s.i.o.n.....
+    0BA0: 56 00 01 00 00 00 FF FF FF FF FF 00 00 00 00 00  // V...............
+    0BB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF F3  // ................
+    0BC0: 9A DD 6E E2 91 41 BE 2C 4B 9F 43 ED C9 D9 52 00  // ..n..A.,K.C...R.
+    0BD0: 6F 00 79 00 61 00 6C 00 20 00 50 00 61 00 72 00  // o.y.a.l. .P.a.r.
+    0BE0: 6B 00 20 00 56 00 65 00 72 00 73 00 69 00 6F 00  // k. .V.e.r.s.i.o.
+    0BF0: 6E 00 00 00 00 00 5A 00 01 00 00 00 00 00 02 05  // n.....Z.........
+    0C00: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0C10: 00 00 00 00 E3 C8 81 33 2C B9 AC 4B B6 C6 43 90  // .......3,..K..C.
+    0C20: 91 1E 93 4D 45 00 44 00 4B 00 49 00 49 00 20 00  // ...ME.D.K.I.I. .
+    0C30: 53 00 74 00 61 00 62 00 6C 00 65 00 20 00 56 00  // S.t.a.b.l.e. .V.
+    0C40: 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00 00 00  // e.r.s.i.o.n.....
+    0C50: 52 00 01 00 00 00 00 00 03 07 00 00 00 00 00 00  // R...............
+    0C60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B4 CD  // ................
+    0C70: 7D 42 33 1C 2B 4F B7 36 F8 DA BE 9E 9A CD 50 00  // }B3.+O.6......P.
+    0C80: 6C 00 61 00 74 00 66 00 6F 00 72 00 6D 00 20 00  // l.a.t.f.o.r.m. .
+    0C90: 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00  // V.e.r.s.i.o.n...
+    0CA0: 00 00 5E 00 01 00 00 00 0F 00 00 02 00 00 00 00  // ..^.............
+    0CB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0CC0: 86 BC B0 CC CD 1B 6F 47 AA BE E1 91 59 24 4B FD  // ......oG....Y$K.
+    0CD0: 43 00 6C 00 69 00 65 00 6E 00 74 00 20 00 53 00  // C.l.i.e.n.t. .S.
+    0CE0: 69 00 6C 00 69 00 63 00 6F 00 6E 00 20 00 56 00  // i.l.i.c.o.n. .V.
+    0CF0: 65 00 72 00 73 00 69 00 6F 00 6E 00 00 00        // e.r.s.i.o.n...
 
 
 SSDT1
@@ -46338,7 +46466,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "IgfxSsdt", 0x00003000)
 
         Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
-            If ((Arg0 == ToUUID ("3e5b41c6-eb1d-4260-9d15-c71fbadae414")))
+            If ((Arg0 == ToUUID ("3e5b41c6-eb1d-4260-9d15-c71fbadae414") /* Unknown UUID */))
             {
                 Switch (ToInteger (Arg2))
                 {
@@ -47064,7 +47192,7 @@ DefinitionBlock ("", "SSDT", 2, "INSYDE", "UsbCTabl", 0x00001000)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("6f8398c2-7ca4-11e4-ad36-631042b5008f")))
+                If ((Arg0 == ToUUID ("6f8398c2-7ca4-11e4-ad36-631042b5008f") /* Unknown UUID */))
                 {
                     Switch (ToInteger (Arg2))
                     {
@@ -47763,7 +47891,7 @@ DefinitionBlock ("", "SSDT", 2, "INSYDE", "Tpm2Tabl", 0x00001000)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("cf8e16a5-c1e8-4e25-b712-4f54a96702c8")))
+                If ((Arg0 == ToUUID ("cf8e16a5-c1e8-4e25-b712-4f54a96702c8") /* Unknown UUID */))
                 {
                     Return (HINF (Arg2))
                 }
@@ -47773,12 +47901,12 @@ DefinitionBlock ("", "SSDT", 2, "INSYDE", "Tpm2Tabl", 0x00001000)
                     Return (TPPI (Arg2, Arg3))
                 }
 
-                If ((Arg0 == ToUUID ("376054ed-cc13-4675-901c-4756d7f2d45d")))
+                If ((Arg0 == ToUUID ("376054ed-cc13-4675-901c-4756d7f2d45d") /* Unknown UUID */))
                 {
                     Return (TMCI (Arg2, Arg3))
                 }
 
-                If ((Arg0 == ToUUID ("6bbf6cab-5463-4714-b7cd-f0203c0368d4")))
+                If ((Arg0 == ToUUID ("6bbf6cab-5463-4714-b7cd-f0203c0368d4") /* Unknown UUID */))
                 {
                     Return (OASM (Arg2))
                 }
@@ -52491,17 +52619,17 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
             Name (YSEM, Zero)
             Name (IDTP, Package (0x0C)
             {
-                ToUUID ("9e04115a-ae87-4d1c-9500-0f3e340bfe75"), 
-                ToUUID ("42a441d6-ae6a-462b-a84b-4a8ce79027d3"), 
-                ToUUID ("3a95c389-e4b8-4629-a526-c52c88626bae"), 
-                ToUUID ("0e56fab6-bdfc-4e8c-8246-40ecfd4d74ea"), 
-                ToUUID ("97c68ae7-15fa-499c-b8c9-5da81d606e0a"), 
-                ToUUID ("c4ce1849-243a-49f3-b8d5-f97002f38e6a"), 
-                ToUUID ("e145970a-e4c1-4d73-900e-c9c5a69dd067"), 
-                ToUUID ("f5a35014-c209-46a4-993a-eb56de7530a1"), 
-                ToUUID ("63be270f-1c11-48fd-a6f7-3af253ff3e2d"), 
-                ToUUID ("6ed722a7-9240-48a5-b479-31eef723d7cf"), 
-                ToUUID ("42496e14-bc1b-46e8-a798-ca915464426f"), 
+                ToUUID ("9e04115a-ae87-4d1c-9500-0f3e340bfe75") /* Unknown UUID */, 
+                ToUUID ("42a441d6-ae6a-462b-a84b-4a8ce79027d3") /* Unknown UUID */, 
+                ToUUID ("3a95c389-e4b8-4629-a526-c52c88626bae") /* Unknown UUID */, 
+                ToUUID ("0e56fab6-bdfc-4e8c-8246-40ecfd4d74ea") /* Unknown UUID */, 
+                ToUUID ("97c68ae7-15fa-499c-b8c9-5da81d606e0a") /* Unknown UUID */, 
+                ToUUID ("c4ce1849-243a-49f3-b8d5-f97002f38e6a") /* Unknown UUID */, 
+                ToUUID ("e145970a-e4c1-4d73-900e-c9c5a69dd067") /* Unknown UUID */, 
+                ToUUID ("f5a35014-c209-46a4-993a-eb56de7530a1") /* Unknown UUID */, 
+                ToUUID ("63be270f-1c11-48fd-a6f7-3af253ff3e2d") /* Unknown UUID */, 
+                ToUUID ("6ed722a7-9240-48a5-b479-31eef723d7cf") /* Unknown UUID */, 
+                ToUUID ("42496e14-bc1b-46e8-a798-ca915464426f") /* Unknown UUID */, 
                 Buffer (0x10)
                 {
                     /* 0000 */  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,  // ........
@@ -52700,7 +52828,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
                     }
                 }
 
-                If ((Arg0 == ToUUID ("b23ba85d-c8b7-3542-88de-8de2ffcfd698")))
+                If ((Arg0 == ToUUID ("b23ba85d-c8b7-3542-88de-8de2ffcfd698") /* Unknown UUID */))
                 {
                     If (~(STS1 & One))
                     {
@@ -52779,7 +52907,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
 
     Scope (\_SB.PC00.LPCB.EC)
     {
-        Method (_Q61, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q61, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x61
             Notify (\_SB.PC00.LPCB.EC.SEN2, 0x90) // Device-Specific
@@ -52938,7 +53066,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
                 Return (SSP2) /* \_SB_.PC00.LPCB.EC__.SEN2.SSP2 */
             }
 
-            Method (_AC0, 0, Serialized)  // _ACx: Active Cooling
+            Method (_AC0, 0, Serialized)  // _ACx: Active Cooling, x=0-9
             {
                 Local1 = \_SB.IETM.CTOK (S2AC)
                 If ((LSTM >= Local1))
@@ -52951,12 +53079,12 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
                 }
             }
 
-            Method (_AC1, 0, Serialized)  // _ACx: Active Cooling
+            Method (_AC1, 0, Serialized)  // _ACx: Active Cooling, x=0-9
             {
                 Return (\_SB.IETM.CTOK (S2A1))
             }
 
-            Method (_AC2, 0, Serialized)  // _ACx: Active Cooling
+            Method (_AC2, 0, Serialized)  // _ACx: Active Cooling, x=0-9
             {
                 Return (\_SB.IETM.CTOK (S2A2))
             }
@@ -54077,7 +54205,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
             Return (Zero)
         }
 
-        Method (_AC0, 0, Serialized)  // _ACx: Active Cooling
+        Method (_AC0, 0, Serialized)  // _ACx: Active Cooling, x=0-9
         {
             Local1 = \_SB.IETM.CTOK (TJMX)
             Local1 -= 0x0A
@@ -54091,7 +54219,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
             }
         }
 
-        Method (_AC1, 0, Serialized)  // _ACx: Active Cooling
+        Method (_AC1, 0, Serialized)  // _ACx: Active Cooling, x=0-9
         {
             Local1 = \_SB.IETM.CTOK (TJMX)
             Local1 -= 0x1E
@@ -54105,7 +54233,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
             }
         }
 
-        Method (_AC2, 0, Serialized)  // _ACx: Active Cooling
+        Method (_AC2, 0, Serialized)  // _ACx: Active Cooling, x=0-9
         {
             Local1 = \_SB.IETM.CTOK (TJMX)
             Local1 -= 0x28
@@ -54119,7 +54247,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
             }
         }
 
-        Method (_AC3, 0, Serialized)  // _ACx: Active Cooling
+        Method (_AC3, 0, Serialized)  // _ACx: Active Cooling, x=0-9
         {
             Local1 = \_SB.IETM.CTOK (TJMX)
             Local1 -= 0x37
@@ -54133,7 +54261,7 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
             }
         }
 
-        Method (_AC4, 0, Serialized)  // _ACx: Active Cooling
+        Method (_AC4, 0, Serialized)  // _ACx: Active Cooling, x=0-9
         {
             Local1 = \_SB.IETM.CTOK (TJMX)
             Local1 -= 0x46
@@ -54272,43 +54400,43 @@ DefinitionBlock ("", "SSDT", 2, "DptfTb", "DptfTabl", 0x00001000)
     {
         Name (DP2P, Package (0x01)
         {
-            ToUUID ("9e04115a-ae87-4d1c-9500-0f3e340bfe75")
+            ToUUID ("9e04115a-ae87-4d1c-9500-0f3e340bfe75") /* Unknown UUID */
         })
         Name (DPSP, Package (0x01)
         {
-            ToUUID ("42a441d6-ae6a-462b-a84b-4a8ce79027d3")
+            ToUUID ("42a441d6-ae6a-462b-a84b-4a8ce79027d3") /* Unknown UUID */
         })
         Name (DASP, Package (0x01)
         {
-            ToUUID ("3a95c389-e4b8-4629-a526-c52c88626bae")
+            ToUUID ("3a95c389-e4b8-4629-a526-c52c88626bae") /* Unknown UUID */
         })
         Name (DA2P, Package (0x01)
         {
-            ToUUID ("0e56fab6-bdfc-4e8c-8246-40ecfd4d74ea")
+            ToUUID ("0e56fab6-bdfc-4e8c-8246-40ecfd4d74ea") /* Unknown UUID */
         })
         Name (DCSP, Package (0x01)
         {
-            ToUUID ("97c68ae7-15fa-499c-b8c9-5da81d606e0a")
+            ToUUID ("97c68ae7-15fa-499c-b8c9-5da81d606e0a") /* Unknown UUID */
         })
         Name (RFIP, Package (0x01)
         {
-            ToUUID ("c4ce1849-243a-49f3-b8d5-f97002f38e6a")
+            ToUUID ("c4ce1849-243a-49f3-b8d5-f97002f38e6a") /* Unknown UUID */
         })
         Name (POBP, Package (0x01)
         {
-            ToUUID ("f5a35014-c209-46a4-993a-eb56de7530a1")
+            ToUUID ("f5a35014-c209-46a4-993a-eb56de7530a1") /* Unknown UUID */
         })
         Name (DAPP, Package (0x01)
         {
-            ToUUID ("63be270f-1c11-48fd-a6f7-3af253ff3e2d")
+            ToUUID ("63be270f-1c11-48fd-a6f7-3af253ff3e2d") /* Unknown UUID */
         })
         Name (DVSP, Package (0x01)
         {
-            ToUUID ("6ed722a7-9240-48a5-b479-31eef723d7cf")
+            ToUUID ("6ed722a7-9240-48a5-b479-31eef723d7cf") /* Unknown UUID */
         })
         Name (DPID, Package (0x01)
         {
-            ToUUID ("42496e14-bc1b-46e8-a798-ca915464426f")
+            ToUUID ("42496e14-bc1b-46e8-a798-ca915464426f") /* Unknown UUID */
         })
     }
 
@@ -57262,7 +57390,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     }
 
                     ADBG ("TXDC DSM")
-                    If ((Arg0 == ToUUID ("732b85d5-b7a7-4a1b-9ba0-4bbd00ffd511")))
+                    If ((Arg0 == ToUUID ("732b85d5-b7a7-4a1b-9ba0-4bbd00ffd511") /* Unknown UUID */))
                     {
                         If ((Arg1 == One))
                         {
@@ -57666,7 +57794,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     {
                         Return (Package (0x04)
                         {
-                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -57676,7 +57804,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                                 }
                             }, 
 
-                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -57691,7 +57819,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     {
                         Return (Package (0x04)
                         {
-                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -57701,7 +57829,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                                 }
                             }, 
 
-                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -57717,7 +57845,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                 {
                     Return (Package (0x04)
                     {
-                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -57727,7 +57855,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -57742,7 +57870,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                 {
                     Return (Package (0x04)
                     {
-                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -57752,7 +57880,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -57767,7 +57895,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("197db5e0-f095-4f33-b915-71dd70833e55")))
+                If ((Arg0 == ToUUID ("197db5e0-f095-4f33-b915-71dd70833e55") /* Unknown UUID */))
                 {
                     If ((Arg2 == Zero))
                     {
@@ -58189,7 +58317,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     {
                         Return (Package (0x04)
                         {
-                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -58199,7 +58327,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                                 }
                             }, 
 
-                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -58214,7 +58342,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     {
                         Return (Package (0x04)
                         {
-                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                            ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -58224,7 +58352,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                                 }
                             }, 
 
-                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                            ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                             Package (0x01)
                             {
                                 Package (0x02)
@@ -58240,7 +58368,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                 {
                     Return (Package (0x04)
                     {
-                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -58250,7 +58378,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -58265,7 +58393,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                 {
                     Return (Package (0x04)
                     {
-                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7"), 
+                        ToUUID ("c44d002f-69f9-4e7d-a904-a7baabdf43f7") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -58275,7 +58403,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d"), 
+                        ToUUID ("6c501103-c189-4296-ba72-9bf5a26ebe5d") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -58290,7 +58418,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
 
             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                If ((Arg0 == ToUUID ("197db5e0-f095-4f33-b915-71dd70833e55")))
+                If ((Arg0 == ToUUID ("197db5e0-f095-4f33-b915-71dd70833e55") /* Unknown UUID */))
                 {
                     If ((Arg2 == Zero))
                     {
@@ -58963,7 +59091,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -58973,7 +59101,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -59633,7 +59761,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -59643,7 +59771,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -60303,7 +60431,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -60313,7 +60441,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -60973,7 +61101,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -60983,7 +61111,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -61648,7 +61776,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -61658,7 +61786,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -62318,7 +62446,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -62328,7 +62456,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -62988,7 +63116,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -62998,7 +63126,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -63658,7 +63786,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                     ADBG ("TBT RP _DSD")
                     Return (Package (0x04)
                     {
-                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4"), 
+                        ToUUID ("6211e2c0-58a3-4af3-90e1-927a4e0c55a4") /* Unknown UUID */, 
                         Package (0x01)
                         {
                             Package (0x02)
@@ -63668,7 +63796,7 @@ DefinitionBlock ("", "SSDT", 2, "INTEL ", "TcssSsdt", 0x00001000)
                             }
                         }, 
 
-                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389"), 
+                        ToUUID ("efcc06cc-73ac-4bc3-bff0-76143807c389") /* Unknown UUID */, 
                         Package (0x02)
                         {
                             Package (0x02)
@@ -64360,7 +64488,7 @@ DefinitionBlock ("", "SSDT", 2, "SaSsdt", "SaSsdt ", 0x00003000)
         {
             Return (Package (0x02)
             {
-                ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10"), 
+                ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10") /* Unknown UUID */, 
                 Package (0x01)
                 {
                     Package (0x02)
@@ -64687,7 +64815,7 @@ DefinitionBlock ("", "SSDT", 2, "SaSsdt", "SaSsdt ", 0x00003000)
         {
             Return (Package (0x02)
             {
-                ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10"), 
+                ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10") /* Unknown UUID */, 
                 Package (0x01)
                 {
                     Package (0x02)
@@ -65014,7 +65142,7 @@ DefinitionBlock ("", "SSDT", 2, "SaSsdt", "SaSsdt ", 0x00003000)
         {
             Return (Package (0x02)
             {
-                ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10"), 
+                ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10") /* Unknown UUID */, 
                 Package (0x01)
                 {
                     Package (0x02)
@@ -65343,7 +65471,7 @@ DefinitionBlock ("", "SSDT", 2, "SaSsdt", "SaSsdt ", 0x00003000)
             {
                 Return (Package (0x02)
                 {
-                    ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10"), 
+                    ToUUID ("fdf06fad-f744-4451-bb64-ecd792215b10") /* Unknown UUID */, 
                     Package (0x01)
                     {
                         Package (0x02)
@@ -66931,7 +67059,7 @@ DefinitionBlock ("", "SSDT", 2, "CpuRef", "CpuSsdt", 0x00003000)
                      0x00, 0x00, 0x00, 0x00                           // ....
                 }
             Concatenate (Local3, TEMP, Local2)
-            Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+            Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953") /* Unknown UUID */, REVS, SIZE, Local2))
         }
 
         Method (COSC, 4, NotSerialized)
@@ -66941,7 +67069,7 @@ DefinitionBlock ("", "SSDT", 2, "CpuRef", "CpuSsdt", 0x00003000)
             CreateDWordField (Arg0, 0x04, IID1)
             CreateDWordField (Arg0, 0x08, IID2)
             CreateDWordField (Arg0, 0x0C, IID3)
-            Local0 = ToUUID ("4077a616-290c-47be-9ebd-d87058713953")
+            Local0 = ToUUID ("4077a616-290c-47be-9ebd-d87058713953") /* Unknown UUID */
             CreateDWordField (Local0, Zero, EID0)
             CreateDWordField (Local0, 0x04, EID1)
             CreateDWordField (Local0, 0x08, EID2)
@@ -68404,7 +68532,7 @@ DefinitionBlock ("", "SSDT", 2, "CpuRef", "CpuSsdt", 0x00003000)
 
 TPM2
 ----
-[000h 0000   4]                    Signature : "TPM2"    [Trusted Platform Module hardware interface table]
+[000h 0000   4]                    Signature : "TPM2"    [Trusted Platform Module hardware interface Table]
 [004h 0004   4]                 Table Length : 0000004C
 [008h 0008   1]                     Revision : 04
 [009h 0009   1]                     Checksum : FE
@@ -68425,11 +68553,11 @@ TPM2
 
 Raw Table Data: Length 76 (0x4C)
 
-  0000: 54 50 4D 32 4C 00 00 00 04 FE 49 4E 53 59 44 45  // TPM2L.....INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0030: 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0040: 00 00 01 00 00 60 F3 3D 00 00 00 00              // .....`.=....
+    0000: 54 50 4D 32 4C 00 00 00 04 FE 49 4E 53 59 44 45  // TPM2L.....INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0030: 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0040: 00 00 01 00 00 60 F3 3D 00 00 00 00              // .....`.=....
 
 
 UEFI
@@ -68449,47 +68577,47 @@ UEFI
 
 Raw Table Data: Length 566 (0x236)
 
-  0000: 55 45 46 49 36 02 00 00 01 26 49 4E 53 59 44 45  // UEFI6....&INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 01 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 35 F9 4B 9D 74 A6 10 47 BA 02 BF 0A  // ....5.K.t..G....
-  0030: A1 75 8C 7B 36 00 24 42 56 44 54 24 00 00 00 24  // .u.{6.$BVDT$...$
-  0040: 00 00 00 24 31 2E 30 37 2E 30 38 4E 43 00 00 00  // ...$1.07.08NC...
-  0050: 00 00 00 00 00 00 00 00 00 00 00 00 24 4E 4C 78  // ............$NLx
-  0060: 30 4D 55 00 00 00 00 00 00 00 00 00 00 00 00 00  // 0MU.............
-  0070: 00 00 00 00 00 00 24 30 35 2E 34 33 2E 31 30 00  // ......$05.43.10.
-  0080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
-  0090: 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF  // ................
-  00A0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  00B0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  00C0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  00D0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  00E0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  00F0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0100: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0110: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0120: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0130: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0140: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0150: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0160: FF FF FF FF FF 24 42 4D 45 24 00 40 08 00 00 10  // .....$BME$.@....
-  0170: 00 00 24 00 00 78 00 00 00 08 00 24 00 FF FF FF  // ..$..x.....$....
-  0180: FF FF FF FF FF 24 5F 4D 53 43 5F 56 45 52 3D 40  // .....$_MSC_VER=@
-  0190: 06 24 52 44 41 54 45 22 03 08 24 45 53 52 54 07  // .$RDATE"..$ESRT.
-  01A0: 40 10 70 5D 4A 65 F4 15 85 6D 55 97 C9 BA 1B D5  // @.p]Je...mU.....
-  01B0: 4E 9D 0E 8B 01 00 00 24 45 4E 44 4F 46 42 56 44  // N......$ENDOFBVD
-  01C0: 54 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // T...............
-  01D0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  01E0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  01F0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0200: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0210: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0220: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
-  0230: FF FF FF FF FF FF                                // ......
+    0000: 55 45 46 49 36 02 00 00 01 26 49 4E 53 59 44 45  // UEFI6....&INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 01 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 35 F9 4B 9D 74 A6 10 47 BA 02 BF 0A  // ....5.K.t..G....
+    0030: A1 75 8C 7B 36 00 24 42 56 44 54 24 00 00 00 24  // .u.{6.$BVDT$...$
+    0040: 00 00 00 24 31 2E 30 37 2E 30 38 4E 43 00 00 00  // ...$1.07.08NC...
+    0050: 00 00 00 00 00 00 00 00 00 00 00 00 24 4E 4C 78  // ............$NLx
+    0060: 30 4D 55 00 00 00 00 00 00 00 00 00 00 00 00 00  // 0MU.............
+    0070: 00 00 00 00 00 00 24 30 35 2E 34 33 2E 31 30 00  // ......$05.43.10.
+    0080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  // ................
+    0090: 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF  // ................
+    00A0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    00B0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    00C0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    00D0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    00E0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    00F0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0100: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0110: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0120: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0130: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0140: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0150: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0160: FF FF FF FF FF 24 42 4D 45 24 00 40 08 00 00 10  // .....$BME$.@....
+    0170: 00 00 24 00 00 78 00 00 00 08 00 24 00 FF FF FF  // ..$..x.....$....
+    0180: FF FF FF FF FF 24 5F 4D 53 43 5F 56 45 52 3D 40  // .....$_MSC_VER=@
+    0190: 06 24 52 44 41 54 45 22 03 08 24 45 53 52 54 07  // .$RDATE"..$ESRT.
+    01A0: 40 10 70 5D 4A 65 F4 15 85 6D 55 97 C9 BA 1B D5  // @.p]Je...mU.....
+    01B0: 4E 9D 0E 8B 01 00 00 24 45 4E 44 4F 46 42 56 44  // N......$ENDOFBVD
+    01C0: 54 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // T...............
+    01D0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    01E0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    01F0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0200: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0210: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0220: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  // ................
+    0230: FF FF FF FF FF FF                                // ......
 
 
 WSMT
 ----
-[000h 0000   4]                    Signature : "WSMT"    [Windows SMM Security Migrations Table]
+[000h 0000   4]                    Signature : "WSMT"    [Windows SMM Security Mitigations Table]
 [004h 0004   4]                 Table Length : 00000028
 [008h 0008   1]                     Revision : 01
 [009h 0009   1]                     Checksum : 8D
@@ -68506,8 +68634,8 @@ WSMT
 
 Raw Table Data: Length 40 (0x28)
 
-  0000: 57 53 4D 54 28 00 00 00 01 8D 49 4E 53 59 44 45  // WSMT(.....INSYDE
-  0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
-  0020: 00 00 04 00 07 00 00 00                          // ........
+    0000: 57 53 4D 54 28 00 00 00 01 8D 49 4E 53 59 44 45  // WSMT(.....INSYDE
+    0010: 54 47 4C 2D 55 4C 54 00 02 00 00 00 41 43 50 49  // TGL-ULT.....ACPI
+    0020: 00 00 04 00 07 00 00 00                          // ........
 
 
